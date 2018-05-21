@@ -1,2 +1,2 @@
-# load_moji_spiders
+#for web_spiders learning 
 just learning python spiders for  myself
