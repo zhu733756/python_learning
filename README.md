@@ -1,2 +1,1 @@
-#for web_spiders learning 
-just learning python spiders for  myself
+#just learning python spiders for  myself
