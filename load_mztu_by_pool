@@ -76,7 +76,8 @@ class get_mzitu(object):
             for a in p:
                 title=a.xpath("./text()")[0]
                 for tr in ["/", ":", "<", ">", "→", "*","?"]:
-                    title= title.replace(tr, "")
+                    if tr in title:
+                        title= title.replace(tr, "")
                 fpath = self.mkdir(dir,title,month)
                 page_url = a.xpath(".//@href")[0]
                 yield  fpath,page_url
