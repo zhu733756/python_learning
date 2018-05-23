@@ -1,0 +1,167 @@
+# -*- coding: utf-8 -*-
+# !/usr/bin/env python
+"""
+-------------------------------------------------
+    File Name：    mzitu_load_2018_by_pool_thread.py
+    Description：  love_mzitu
+-------------------------------------------------
+__author__ = 'ZH'
+"""
+import requests
+from lxml import etree
+import os,re,time
+from multiprocessing import Pool,freeze_support
+from threading import Thread
+import time
+from random import random,choice
+class get_mzitu(object):
+
+
+    UserAgent_List = [
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
+            "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6",
+            "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6",
+            "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5",
+            "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5",
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
+            "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
+            "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24"
+        ]
+
+    headers={
+             "User-Agent":choice(UserAgent_List)
+            }
+    validlist=[]
+
+    def html_response(self,url,path=None,headers=None):
+        if headers is None:
+            headers=self.headers
+        html_page = requests.get(url, headers=headers)
+        if path is None:
+            return html_page.content
+        return  etree.HTML(html_page.text).xpath(path)
+
+    def get_modeurl(self,base_url,dir):
+
+        modeurl=self.html_response(base_url,path='/html/body/div[2]/div[1]/div[2]/ul[1]/li')
+        for li in modeurl:
+            month=li.xpath("./p[1]/em/text()")[0]
+            p=li.xpath("./p[2]/a")
+            for a in p:
+                title=a.xpath("./text()")[0]
+                page_url = a.xpath(".//@href")[0]
+                for tr in ["/", ":", "<", ">", "→", "*", "?"]:
+                    if tr in title:
+                        title = title.replace(tr, "")
+                fpath = self.mkdir(dir,title,month)
+                yield  fpath,page_url
+
+    def mkdir(self,dir,title,month):
+
+        filename=title
+        path = os.path.join(dir, month)
+        if not os.path.exists(path):
+            os.mkdir(path)
+            print(month, "has made a dir!")
+
+        if filename not in os.listdir(path):
+            os.mkdir(os.path.join(path,filename))
+            print(filename, "of current loadpage make a dir!")
+
+        return "/".join([path,filename])
+
+    def get_son_url(self,page_url):
+
+        try:
+            a_list = self.html_response(page_url, '//div[@class="pagenavi"]')[0]
+            max_number = a_list[-2].xpath("./span/text()")[0]
+            print("max:", max_number)
+            for x in range(1, int(max_number) + 1):
+                son_url = "/".join([page_url, str(x)])
+                yield son_url
+        except:
+            #抓取长图页面
+            try:
+                p_list = self.html_response(page_url, '//div[@class="main-image"]')[0]
+                for p in p_list:
+                    son_url = p.xpath("./a/img//@src")[0]
+                    yield son_url
+            except Exception as e:
+                print("page_url:",page_url,"is valid! Because",e)
+
+    def write_imgs(self,son_dirpath,content):
+
+        try:
+            with open(son_dirpath, "wb") as f:
+                f.write(content)
+
+        except Exception as e:
+
+            print("current imgurl:",item, "is valid! Because", e)
+
+        print("A picture of dirpath(",son_dirpath,") successful downloaded!")
+
+    def save_file(self,fpath, page_url):
+
+        threads=[]
+
+        for son_url in self.get_son_url(page_url):
+
+            print("load url:%s" % son_url)
+            try:
+                item = self.html_response(url=son_url, path="/html/body/div[2]/div[1]/div[3]/p/a/img//@src")[0]
+            except:
+                item=son_url
+
+            dirsonname = item.split("/")[-1]
+
+            headers = {
+                "Host": "i.meizitu.net",
+                "Referer": item,
+                "User-Agent": self.headers["User-Agent"]
+            }
+
+            try:
+                content=self.html_response(url=item, headers=headers)
+            except Exception as e:
+                print("current imgsurl:", item, "is valid! Because", e)
+
+            son_dirpath=os.path.join(fpath, dirsonname)
+
+            t = Thread(target=self.write_imgs,args=(son_dirpath,content))
+            threads.append(t)
+
+        [x.start() for x in threads]
+        [x.join() for x in threads]
+
+
+
+    def main(self,dir=r"E:/dataformztu_2/"):
+
+        base_url = "http://www.mzitu.com/all/"
+        pool=Pool(4)
+        for fpath, page_url in self.get_modeurl(base_url,dir):
+            pool.apply_async(func=self.save_file,args=(fpath,page_url,))
+            time.sleep(random()*choice(range(1,3)))
+        pool.close()
+        pool.join()
+        print("all urls are downloaded!")
+
+if __name__ == '__main__':
+    t = time.time()
+    freeze_support()
+    get_mzitu().main()
+    print("takes:", time.time() - t)
+
+
+
