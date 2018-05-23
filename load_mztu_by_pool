@@ -116,21 +116,30 @@ class get_mzitu(object):
             for x in range(1, int(max_number) + 1):
                 son_url = "/".join([page_url, str(x)])
                 yield son_url
-        except Exception as e:
-            print(page_url,"is valid! Because",e)
+        except:
+            # 抓取长图页面，并不是所有的页面都是翻页页面
+            try:
+                p_list = self.html_response(page_url, '//div[@class="main-image"]')[0]
+                for p in p_list:
+                    son_url = p.xpath("./a/img//@src")[0]
+                    yield son_url
+            except Exception as e:
+                print("page_url:", page_url, "is valid! Because", e)
 
     def save_file(self,fpath, page_url):
         '''
         重构headers，访问图片链接地址，并保存在指定文件路径
-        :param fpath: 
-        :param page_url: 
-        :return: 
+        :param fpath:
+        :param page_url:
+        :return:
         '''
         for son_url in self.get_son_url(page_url):
 
             print("load url:%s" % son_url)
-
-            item = self.html_response(url=son_url, path="/html/body/div[2]/div[1]/div[3]/p/a/img//@src")[0]
+            try:
+                item = self.html_response(url=son_url, path="/html/body/div[2]/div[1]/div[3]/p/a/img//@src")[0]
+            except:
+                item=son_url
             dirsonname = item.split("/")[-1]
 
             headers = {
@@ -150,8 +159,8 @@ class get_mzitu(object):
     def main(self,dir=r"E:/dataformztu/"):
         '''
         启动函数，获取第一级页面的发path和page_url,加入进程池
-        :param dir: 
-        :return: 
+        :param dir:
+        :return:
         '''
         base_url = "http://www.mzitu.com/all/"
         pool=Pool(4)
