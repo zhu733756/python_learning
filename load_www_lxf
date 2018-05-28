@@ -1,16 +1,22 @@
 # -*- coding: utf-8 -*-
+# !/usr/bin/env python
 """
-@author: zh
+-------------------------------------------------
+   File Name：     load_www_lxf.py
+   Description：
+-------------------------------------------------
+__author__ = 'ZH'
 """
 
 import requests
 from bs4 import BeautifulSoup
 import re
-from multiprocessing import Pool,freeze_support
+from multiprocessing import Pool, freeze_support
 from multiprocessing.dummy import Pool
 import random
 import os
 
+# 用户代理列表
 agents = [
     "Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; Nexus S Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
     "Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)",
@@ -41,106 +47,95 @@ agents = [
     "Mozilla/2.02E (Win95; U)",
     "Mozilla/3.01Gold (Win95; I)",
     "Mozilla/4.8 [en] (Windows NT 5.1; U)",
-    "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4) Gecko Netscape/7.1 (ax)",
-    "HTC_Dream Mozilla/5.0 (Linux; U; Android 1.5; en-ca; Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; de-DE) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0",
-    "Mozilla/5.0 (Linux; U; Android 1.5; en-us; sdk Build/CUPCAKE) AppleWebkit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 2.1; en-us; Nexus One Build/ERD62) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 1.5; en-us; htc_bahamas Build/CRB17) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 2.1-update1; de-de; HTC Desire 1.19.161.5 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-us; Sprint APA9292KT Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 1.5; de-ch; HTC Hero Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-us; ADR6300 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 2.1; en-us; HTC Legend Build/cupcake) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 1.5; de-de; HTC Magic Build/PLAT-RC33) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 FirePHP/0.3",
-    "Mozilla/5.0 (Linux; U; Android 1.6; en-us; HTC_TATTOO_A3288 Build/DRC79) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 1.0; en-us; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
-    "Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile G1 Build/CRB43) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari 525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 1.5; en-gb; T-Mobile_G2_Touch Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 2.0; en-us; Milestone Build/ SHOLS_U2_01.03.1) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 2.0.1; de-de; Milestone Build/SHOLS_U2_01.14.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
-    "Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522  (KHTML, like Gecko) Safari/419.3",
-    "Mozilla/5.0 (Linux; U; Android 1.1; en-gb; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
-    "Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 2.1; en-us; Nexus One Build/ERD62) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-us; Sprint APA9292KT Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-us; ADR6300 Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 2.2; en-ca; GT-P1000M Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1",
-    "Mozilla/5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13",
-    "Mozilla/5.0 (Linux; U; Android 3.0; en-us; Xoom Build/HRI39) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2",
-    "Mozilla/5.0 (Linux; U; Android 1.6; es-es; SonyEricssonX10i Build/R1FA016) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
-    "Mozilla/5.0 (Linux; U; Android 1.6; en-us; SonyEricssonX10i Build/R1AA056) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1",
+    "Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4) Gecko Netscape/7.1 (ax)"
 ]
 
+
 def html_response(url):
+    '''
+    给定url，返回网页数据，如果ip被禁止，则返回一个状态码
+    :param url:
+    :return:
+    '''
     headers = {
         "User-Agent": random.choice(agents)
     }
-    page_content= requests.get(url=url,headers=headers)
+    page_content = requests.get(url=url, headers=headers)
     if page_content:
-        return BeautifulSoup(page_content.text,"html.parser")
+        return BeautifulSoup(page_content.text, "html.parser")
     else:
         return page_content.raise_for_status()
 
 
 def get_text(son_url):
+    '''
+    返回一个网页文件的列表text
+    :param son_url:
+    :return:
+    '''
+    print("load son_url:", son_url)
 
-    print("son_url:",son_url)
-
-    div_list=html_response(son_url).find("div","x-content")
-
+    div_list = html_response(son_url).find("div", "x-content")
     parent = div_list.find("div", "x-wiki-content")
 
-    text=[]
+    text = []
 
     for child in parent:
-
-        if isinstance(child.string,str):
-            text.append(child.string)
+        try:
+            free_text = "".join(child.strings)
+        except:
+            free_text = ""
+        try:
+            try:
+                string = child.find(src=True).get("src")
+            except:
+                string = child.find(href=True).get("href")
+        except:
+            pass
         else:
-            str_list = []
-            for children in child:
-                if isinstance(children.string, str):
-                   str_list.append(children.string.strip())
-                try:
-                      string = children.get("src")
-                      if  not string:
-                            string = children.get("href")
-                      if string:
-                            str_list.append(string.strip())
-                except:
-                    pass
-            else:
-                text.append("".join(str_list))
+            if string:
+                free_text = "\n".join([free_text, string])
+        finally:
+            text.append(free_text)
     else:
         return text
 
 
-def save_file(content,title,dir):
+def save_file(content, title, dir):
+    '''
+    保存网页数据到指定路径
+    :param content:
+    :param title:
+    :param dir:
+    :return:
+    '''
 
-     with open(dir+title+".txt","w") as f:
+    with open(dir + title + ".txt", "w") as f:
         f.write(content)
-        print("a title(%s) was done!"%title)
+        print("a title(%s) was done!" % title)
 
 
-def main(number,dir):
+def main(number, dir):
+    '''
+    启动函数，用多进程爬取网页
+    :param number:
+    :param dir:
+    :return:
+    '''
 
     base_url = "https://www.liaoxuefeng.com"
     mother_url = "".join([base_url, "/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000"])
+
     try:
         mode_html = html_response(mother_url)
         mode_content = mode_html.find("ul", id="x-wiki-index")
-        a_list=mode_content.find_all("a")
+        a_list = mode_content.find_all("a")
     except Exception as e:
         print(e)
 
     with Pool(4) as pool:
         try:
-            for num,a in enumerate(a_list):
+            for num, a in enumerate(a_list):
                 if num < number:
                     continue
                 son_url = base_url + a.get("href")
@@ -152,21 +147,15 @@ def main(number,dir):
     pool.close()
     pool.join()
 
+
 if __name__ == '__main__':
     freeze_support()
-    maxnumber=[]
-    dir="./data/"
+    maxnumber = []
+    dir = "./data/"
     if not os.path.exists(dir):
         os.mkdir(dir)
     for filename in os.listdir(dir):
-        maxnumber.append(int(re.search(r"\d+",filename).group()))
+        maxnumber.append(int(re.search(r"\d+", filename).group()))
     else:
         number = max(maxnumber)
-        main(number,dir)
-
-
-
-
-
-
-
+        main(number, dir)
