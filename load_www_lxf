@@ -82,14 +82,14 @@ def get_text(son_url):
 
     for child in parent:
         try:
-            free_text = "".join(child.strings)
+            free_text = "".join(child.strings)#获取文本
         except:
             free_text = ""
         try:
             try:
-                string = child.find(src=True).get("src")
+                string = child.find(src=True).get("src")#获取图片
             except:
-                string = child.find(href=True).get("href")
+                string = child.find(href=True).get("href")#如果没有图片，就获取链接
         except:
             pass
         else:
@@ -146,6 +146,7 @@ def main(number, dir):
             print("pool err:", e)
     pool.close()
     pool.join()
+    print("all done!")
 
 
 if __name__ == '__main__':
@@ -154,8 +155,13 @@ if __name__ == '__main__':
     dir = "./data/"
     if not os.path.exists(dir):
         os.mkdir(dir)
-    for filename in os.listdir(dir):
-        maxnumber.append(int(re.search(r"\d+", filename).group()))
-    else:
-        number = max(maxnumber)
-        main(number, dir)
+    try:
+        for filename in os.listdir(dir):
+            maxnumber.append(int(re.search(r"\d+", filename).group()))
+        else:
+            number = max(maxnumber)
+            main(number, dir)
+    except:
+        main(0,dir)
+
+    
