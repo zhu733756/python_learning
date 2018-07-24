@@ -1,0 +1,516 @@
+{"name": "veryverycold", "champions": ["Taliyah", "Gragas", "Camille"], "kda": ["3.4", "4.16", "7.2"], "win_rate": ["67%", "100%", "100%"], "Win": ["4", "3", "2"], "lose": ["2", "0", "0"]}
+{"name": "knight8", "champions": ["Irelia", "Zoe", "LeBlanc"], "kda": ["3.14", "4.15", "9.5"], "win_rate": ["86%", "75%", "100%"], "Win": ["6", "3", "2"], "lose": ["1", "1", "0"]}
+{"name": "cr7god", "champions": ["Pyke", "Rakan", "Gragas"], "kda": ["5.44", "1.88", "1.25"], "win_rate": ["60%", "50%", "50%"], "Win": ["3", "1", "1"], "lose": ["2", "1", "1"]}
+{"name": "%EC%84%9D%EC%9B%90%EB%A6%BC", "champions": ["Syndra", "Zoe", "Morgana"], "kda": ["1.98", "3.78", "10.5"], "win_rate": ["22%", "57%", "100%"], "Win": ["2", "4", "1"], "lose": ["7", "3", "0"]}
+{"name": "%EC%98%88%EB%A6%AC%EC%82%B4%EB%A0%98", "champions": ["Miss Fortune", "Lucian", "Soraka"], "kda": ["2.73", "2.23", "9"], "win_rate": ["75%", "33%", "100%"], "Win": ["3", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "sktt1bang", "champions": ["Ezreal", "Swain", "Vladimir"], "kda": ["3.89", "3.88", "2.13"], "win_rate": ["83%", "40%", "33%"], "Win": ["5", "2", "1"], "lose": ["1", "3", "2"]}
+{"name": "lukam0dric", "champions": ["Morgana", "Shen", "Rakan"], "kda": ["3.75", "3.62", "9.2"], "win_rate": ["75%", "50%", "50%"], "Win": ["3", "2", "1"], "lose": ["1", "2", "1"]}
+{"name": "%EB%B0%94%EC%9C%84%EA%B2%8C%EB%82%B4%EA%BA%BC%EC%95%BC", "champions": ["Taliyah", "Xin Zhao", "Trundle"], "kda": ["4.28", "2.48", "Perfect"], "win_rate": ["86%", "75%", "100%"], "Win": ["6", "3", "1"], "lose": ["1", "1", "0"]}
+{"name": "ktucal", "champions": ["Aatrox", "Talon", "Ekko"], "kda": ["3.06", "1.32", "2.25"], "win_rate": ["75%", "25%", "33%"], "Win": ["3", "1", "1"], "lose": ["1", "3", "2"]}
+{"name": "%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%8E%80", "champions": ["Ezreal", "Taliyah", "Xayah"], "kda": ["2.3", "3.21", "2.31"], "win_rate": ["60%", "75%", "67%"], "Win": ["6", "3", "2"], "lose": ["4", "1", "1"]}
+{"name": "dwgshowmaker", "champions": ["LeBlanc", "Yasuo", "Jayce"], "kda": ["7.11", "2.19", "7.6"], "win_rate": ["75%", "33%", "100%"], "Win": ["3", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "apktoland", "champions": ["LeBlanc", "Ryze", "Orianna"], "kda": ["3.46", "2.16", "2.11"], "win_rate": ["67%", "33%", "33%"], "Win": ["2", "1", "1"], "lose": ["1", "2", "2"]}
+{"name": "babyhang", "champions": ["Shen", "Morgana", "Alistar"], "kda": ["3.83", "3.73", "2.29"], "win_rate": ["50%", "25%", "50%"], "Win": ["2", "1", "2"], "lose": ["2", "3", "2"]}
+{"name": "beterthannothing", "champions": ["Camille", "Xin Zhao", "Gragas"], "kda": ["3.19", "2.07", "2.56"], "win_rate": ["60%", "33%", "50%"], "Win": ["3", "1", "1"], "lose": ["2", "2", "1"]}
+{"name": "%EC%B9%BC%EA%B3%BC%EC%B0%BD%EB%B0%A9%ED%8C%A8", "champions": ["Poppy", "Renekton", ""], "kda": ["3.7", "1.25", "2.12"], "win_rate": ["74%", "0%", "70%"], "Win": ["14", "0", "2"], "lose": ["5", "1", "2"]}
+{"name": "ask%EC%84%AC%EC%A7%91%EC%95%84%EA%B8%B0%EA%B3%B0", "champions": ["Kennen", "Renekton", "Ornn"], "kda": ["2.23", "3.13", "1.67"], "win_rate": ["63%", "71%", "0%"], "Win": ["5", "5", "0"], "lose": ["3", "2", "1"]}
+{"name": "lwandy", "champions": ["Janna", "Rakan", "Braum"], "kda": ["4.38", "3.67", "12.33"], "win_rate": ["50%", "50%", "100%"], "Win": ["2", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "huyacaiqikate", "champions": ["Katarina", "Yasuo", "Morgana"], "kda": ["3.65", "1.5", "1.86"], "win_rate": ["62%", "0%", "0%"], "Win": ["8", "0", "0"], "lose": ["5", "3", "1"]}
+{"name": "mvpadd", "champions": ["Kled", "Rumble", "Poppy"], "kda": ["1.81", "14", "3"], "win_rate": ["25%", "100%", "50%"], "Win": ["1", "2", "1"], "lose": ["3", "0", "1"]}
+{"name": "zz1zz1mm", "champions": ["Xin Zhao", "Camille", "Darius"], "kda": ["4.5", "1.92", "1.25"], "win_rate": ["100%", "75%", "33%"], "Win": ["6", "3", "1"], "lose": ["0", "1", "2"]}
+{"name": "%ED%94%84%EB%9D%BC%EC%97%98", "champions": ["Ziggs", "Taliyah", "Malzahar"], "kda": ["6.39", "5.22", "1.2"], "win_rate": ["63%", "88%", "50%"], "Win": ["5", "7", "1"], "lose": ["3", "1", "1"]}
+{"name": "gipsydanger", "champions": ["Illaoi", "Nocturne", "Morgana"], "kda": ["2.41", "4.33", "1.67"], "win_rate": ["92%", "100%", "0%"], "Win": ["12", "1", "0"], "lose": ["1", "0", "1"]}
+{"name": "quaddd", "champions": ["Orianna", "Lucian", "Zoe"], "kda": ["4.08", "4", "4.36"], "win_rate": ["100%", "80%", "100%"], "Win": ["5", "4", "4"], "lose": ["0", "1", "0"]}
+{"name": "leesrael", "champions": ["Pyke", "Gragas", "Morgana"], "kda": ["4.88", "3.8", "2.2"], "win_rate": ["60%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%ED%97%A4%EB%8F%88", "champions": ["Twisted Fate", "LeBlanc", "Zoe"], "kda": ["4.56", "3.67", "2"], "win_rate": ["80%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["1", "1", "2"]}
+{"name": "asdojaiosjdo", "champions": ["Ezreal", "Orianna", "Pyke"], "kda": ["4.52", "5.1", "11"], "win_rate": ["60%", "33%", "50%"], "Win": ["6", "1", "1"], "lose": ["4", "2", "1"]}
+{"name": "%EC%9D%B4%EB%8F%84%EB%A5%98", "champions": ["Camille", "Jayce", "Aatrox"], "kda": ["2.08", "5.5", "5"], "win_rate": ["67%", "100%", "50%"], "Win": ["4", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "%EC%9E%98%ED%95%A0%EC%88%98%EC%9E%88%EC%96%B4%ED%9E%98%EB%82%B4%EC%9E%90", "champions": ["Taliyah", "Camille", "LeBlanc"], "kda": ["4.41", "2.44", "2.26"], "win_rate": ["80%", "33%", "33%"], "Win": ["4", "1", "1"], "lose": ["1", "2", "2"]}
+{"name": "tjudlsawqz", "champions": ["Swain", "Draven", "Shen"], "kda": ["4.58", "3.16", "2.78"], "win_rate": ["86%", "71%", "50%"], "Win": ["6", "5", "1"], "lose": ["1", "2", "1"]}
+{"name": "%EC%98%A8%EC%8B%A4%EC%86%8D%EC%9D%98%EA%B0%90%EC%9E%90", "champions": ["Xin Zhao", "Gragas", "Taliyah"], "kda": ["2.62", "2.62", "2.52"], "win_rate": ["50%", "50%", "50%"], "Win": ["3", "2", "2"], "lose": ["3", "2", "2"]}
+{"name": "aoligei", "champions": ["LeBlanc", "Zoe", "Graves"], "kda": ["4.6", "3.58", "5.5"], "win_rate": ["80%", "75%", "100%"], "Win": ["4", "3", "3"], "lose": ["1", "1", "0"]}
+{"name": "%EC%A0%88%EB%8C%80%EC%A7%9C%EC%A6%9D%EB%82%B4%EC%A7%80%EC%95%8A%EA%B8%B0", "champions": ["Shen", "Morgana", "Tahm Kench"], "kda": ["5.71", "2.48", "4.13"], "win_rate": ["75%", "50%", "100%"], "Win": ["3", "2", "2"], "lose": ["1", "2", "0"]}
+{"name": "zlpgj", "champions": ["Nocturne", "Nidalee", "Kindred"], "kda": ["2.76", "10.5", "3"], "win_rate": ["50%", "100%", "50%"], "Win": ["3", "2", "1"], "lose": ["3", "0", "1"]}
+{"name": "%EB%84%88%EB%AC%B4%EC%A0%88%EC%8B%A4%ED%95%9C%EC%82%AC%EB%9E%8C", "champions": ["Morgana", "Pyke", "Fiddlesticks"], "kda": ["5.7", "2.61", "2.45"], "win_rate": ["75%", "50%", "33%"], "Win": ["3", "2", "1"], "lose": ["1", "2", "2"]}
+{"name": "6%ED%95%99%EB%85%844%EB%B0%98%EC%9E%A5%EC%9A%A9%EC%A4%80", "champions": ["Vladimir", "Swain", "Ezreal"], "kda": ["1.78", "4.75", "3.23"], "win_rate": ["17%", "75%", "67%"], "Win": ["1", "3", "2"], "lose": ["5", "1", "1"]}
+{"name": "%ED%95%98%EB%8A%98%EB%B6%80%ED%84%B0%EB%95%85%EA%B9%8C%EC%A7%80", "champions": ["Swain", "Ekko", "Irelia"], "kda": ["2.68", "1.69", "3.25"], "win_rate": ["57%", "25%", "50%"], "Win": ["4", "1", "1"], "lose": ["3", "3", "1"]}
+{"name": "%EB%A1%A4%EC%8A%A4%ED%84%B0%EB%8B%A8%ED%95%A9kt", "champions": ["Swain", "Jayce", "Gangplank"], "kda": ["2.24", "1.52", "3.63"], "win_rate": ["67%", "33%", "50%"], "Win": ["2", "1", "1"], "lose": ["1", "2", "1"]}
+{"name": "dontremakeaatrox", "champions": ["Camille", "Dr. Mundo", "Vladimir"], "kda": ["1.74", "1.68", "4"], "win_rate": ["50%", "0%", "0%"], "Win": ["4", "0", "0"], "lose": ["4", "4", "2"]}
+{"name": "findteamsup", "champions": ["Rakan", "Alistar", "Braum"], "kda": ["3.85", "2.38", "3.54"], "win_rate": ["83%", "40%", "50%"], "Win": ["5", "2", "2"], "lose": ["1", "3", "2"]}
+{"name": "%EC%83%88%EC%96%B4%EC%95%85", "champions": ["Nidalee", "Camille", "Elise"], "kda": ["4.09", "2.91", "2.88"], "win_rate": ["33%", "67%", "33%"], "Win": ["1", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%EC%88%A0%ED%86%B5%EB%B3%BC%EB%A7%81", "champions": ["Kindred", "Taliyah", "Xin Zhao"], "kda": ["2.76", "3.17", "4"], "win_rate": ["42%", "50%", "100%"], "Win": ["5", "1", "1"], "lose": ["7", "1", "0"]}
+{"name": "%EC%95%84%EC%9D%B4%EB%9F%AC%EB%8B%88", "champions": ["Swain", "Karthus", "Orianna"], "kda": ["4.65", "3.88", "3"], "win_rate": ["63%", "100%", "50%"], "Win": ["5", "2", "1"], "lose": ["3", "0", "1"]}
+{"name": "%EB%AD%90%EB%9D%BC%EA%B3%A0%EB%B2%88%EC%97%AD%ED%95%98%EC%A7%80", "champions": ["Kennen", "Lucian", "Gangplank"], "kda": ["1.71", "5.13", "4.2"], "win_rate": ["50%", "67%", "67%"], "Win": ["2", "2", "2"], "lose": ["2", "1", "1"]}
+{"name": "victorique", "champions": ["Darius", "Jayce", "Gragas"], "kda": ["1.58", "2.57", "1.67"], "win_rate": ["60%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["2", "0", "2"]}
+{"name": "btcdolaon", "champions": ["Rakan", "Shen", "Morgana"], "kda": ["4.85", "3.17", "2.67"], "win_rate": ["43%", "50%", "67%"], "Win": ["3", "2", "2"], "lose": ["4", "2", "1"]}
+{"name": "4386509348", "champions": ["Camille", "Nocturne", "Evelynn"], "kda": ["3.57", "9.17", "3.38"], "win_rate": ["60%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["2", "0", "2"]}
+{"name": "zibisup", "champions": ["Shen", "Pyke", "Rakan"], "kda": ["2.42", "3", "8.33"], "win_rate": ["50%", "33%", "50%"], "Win": ["3", "1", "1"], "lose": ["3", "2", "1"]}
+{"name": "%EB%8C%95%EC%B2%B4", "champions": ["Yasuo", "LeBlanc", "Galio"], "kda": ["1.57", "1.96", "2.42"], "win_rate": ["40%", "25%", "100%"], "Win": ["2", "1", "2"], "lose": ["3", "3", "0"]}
+{"name": "18501159717", "champions": ["Jayce", "Swain", "Renekton"], "kda": ["2.21", "1.83", "6"], "win_rate": ["67%", "50%", "100%"], "Win": ["6", "1", "1"], "lose": ["3", "1", "0"]}
+{"name": "madklng", "champions": ["Rakan", "Ezreal", "Gragas"], "kda": ["9.25", "6.33", "3.25"], "win_rate": ["50%", "100%", "50%"], "Win": ["1", "2", "1"], "lose": ["1", "0", "1"]}
+{"name": "%EC%B8%A0%EC%BD%94%ED%8C%8C%EC%9D%B4", "champions": ["Xin Zhao", "Trundle", "Kindred"], "kda": ["3", "12", "6.6"], "win_rate": ["67%", "100%", "100%"], "Win": ["2", "2", "2"], "lose": ["1", "0", "0"]}
+{"name": "%ED%95%AD%EC%83%81%EC%97%B4%EC%8B%AC%ED%9E%88", "champions": ["Kled", "Darius", "Camille"], "kda": ["2.33", "3.75", "2.39"], "win_rate": ["20%", "50%", "75%"], "Win": ["1", "2", "3"], "lose": ["4", "2", "1"]}
+{"name": "%EC%84%B8%EB%A9%94%EB%A1%A0", "champions": ["Ryze", "Singed", "Yasuo"], "kda": ["2.31", "8.33", "2.5"], "win_rate": ["73%", "50%", "100%"], "Win": ["8", "1", "2"], "lose": ["3", "1", "0"]}
+{"name": "%EC%9C%A0%EB%85%B8%EC%9C%A0%ED%82%A4", "champions": ["Talon", "Vladimir", "Swain"], "kda": ["0.76", "2.9", "7"], "win_rate": ["33%", "50%", "100%"], "Win": ["1", "1", "1"], "lose": ["2", "1", "0"]}
+{"name": "nu99et", "champions": ["Shen", "Alistar", "Rakan"], "kda": ["5.84", "4.1", "8"], "win_rate": ["92%", "50%", "100%"], "Win": ["11", "2", "1"], "lose": ["1", "2", "0"]}
+{"name": "%ED%82%A4%EB%84%A4%EC%B9%B4", "champions": ["Evelynn", "Nunu", ""], "kda": ["3.27", "10", "2.12"], "win_rate": ["61%", "100%", "70%"], "Win": ["11", "1", "2"], "lose": ["7", "0", "2"]}
+{"name": "irugun", "champions": ["Camille", "Fiora", "Kennen"], "kda": ["1.92", "3.14", "1.64"], "win_rate": ["67%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "lakhesis", "champions": ["Ryze", "Gragas", "Fiora"], "kda": ["1.43", "1.79", "3.4"], "win_rate": ["60%", "50%", "100%"], "Win": ["3", "2", "3"], "lose": ["2", "2", "0"]}
+{"name": "%EC%97%B0%EB%A3%8C%EB%B3%B4%EA%B8%89", "champions": ["Renekton", "Darius", "Aatrox"], "kda": ["2.04", "1.33", "1.38"], "win_rate": ["57%", "40%", "100%"], "Win": ["4", "2", "2"], "lose": ["3", "3", "0"]}
+{"name": "dwgberyl", "champions": ["Pyke", "Taliyah", "Gragas"], "kda": ["2", "3.29", "2.8"], "win_rate": ["60%", "100%", "33%"], "Win": ["3", "4", "1"], "lose": ["2", "0", "2"]}
+{"name": "%EC%98%A4%EB%9A%9C%EA%B8%B03%EB%B6%84%EB%AF%B8%ED%8A%B8%EB%B3%BC", "champions": ["Kled", "Ryze", "Jarvan IV"], "kda": ["3.43", "2.6", "2.53"], "win_rate": ["71%", "100%", "100%"], "Win": ["5", "2", "2"], "lose": ["2", "0", "0"]}
+{"name": "afreecagankzero", "champions": ["Jinx", "Lucian", "Ezreal"], "kda": ["3.44", "3.23", "7.33"], "win_rate": ["71%", "67%", "100%"], "Win": ["10", "2", "2"], "lose": ["4", "1", "0"]}
+{"name": "%EA%B1%B0%EB%8C%80%ED%98%84", "champions": ["Camille", "Fiora", "Singed"], "kda": ["2.38", "1.61", "1.3"], "win_rate": ["63%", "25%", "50%"], "Win": ["5", "1", "2"], "lose": ["3", "3", "2"]}
+{"name": "%EC%B4%88%EC%B4%88%EC%B4%88%EC%B4%88%EC%B4%88%EC%B4%88", "champions": ["Pyke", "Rakan", "Tahm Kench"], "kda": ["4", "4.27", "7.75"], "win_rate": ["50%", "100%", "100%"], "Win": ["3", "3", "2"], "lose": ["3", "0", "0"]}
+{"name": "hichaeldackson", "champions": ["Tahm Kench", "Shen", "Alistar"], "kda": ["3.72", "3.24", "3.13"], "win_rate": ["75%", "25%", "33%"], "Win": ["6", "1", "1"], "lose": ["2", "3", "2"]}
+{"name": "wldrcdqyuwnkvqmw", "champions": ["Shen", "Pyke", "Tahm Kench"], "kda": ["3.38", "2.54", "5.25"], "win_rate": ["80%", "20%", "100%"], "Win": ["4", "1", "4"], "lose": ["1", "4", "0"]}
+{"name": "doraon", "champions": ["Shen", "Alistar", "Rakan"], "kda": ["3.69", "2.67", "4.08"], "win_rate": ["78%", "40%", "100%"], "Win": ["7", "2", "3"], "lose": ["2", "3", "0"]}
+{"name": "burgerdragon", "champions": ["Wukong", "Jayce", "Twisted Fate"], "kda": ["2.56", "2.13", "1.14"], "win_rate": ["75%", "75%", "33%"], "Win": ["3", "3", "1"], "lose": ["1", "1", "2"]}
+{"name": "ktdeft", "champions": ["Karma", "Heimerdinger", "Kai'Sa"], "kda": ["2.48", "2.08", "3.57"], "win_rate": ["25%", "25%", "50%"], "Win": ["1", "1", "1"], "lose": ["3", "3", "1"]}
+{"name": "%ED%97%88%EC%B0%8C%ED%82%AC", "champions": ["Kai'Sa", "Katarina", "Xayah"], "kda": ["3.07", "1.57", "2.33"], "win_rate": ["64%", "20%", "0%"], "Win": ["7", "1", "0"], "lose": ["4", "4", "2"]}
+{"name": "%EB%8C%95%EC%B2%AD%EC%9E%87", "champions": ["Zilean", "Morgana", "Poppy"], "kda": ["4.12", "2.72", "2"], "win_rate": ["50%", "40%", "33%"], "Win": ["3", "2", "1"], "lose": ["3", "3", "2"]}
+{"name": "%EA%B5%AC%EB%A7%88%EC%9C%A0%EC%8B%9C", "champions": ["Swain", "Yasuo", "Vladimir"], "kda": ["4", "2.63", "13.5"], "win_rate": ["60%", "75%", "100%"], "Win": ["3", "3", "3"], "lose": ["2", "1", "0"]}
+{"name": "%EB%8B%A4%ED%91%9C%EC%9D%8C%EC%8B%9D%EC%9D%80%EB%84%88%EC%95%BC", "champions": ["Graves", "Evelynn", "Kindred"], "kda": ["2.32", "2.67", "2.27"], "win_rate": ["67%", "40%", "25%"], "Win": ["4", "2", "1"], "lose": ["2", "3", "3"]}
+{"name": "%EC%9C%BC%EB%9D%BC%EC%95%84%EC%95%84%EC%B0%A8%EC%B0%A8", "champions": ["Ryze", "Camille", "Gangplank"], "kda": ["1.89", "3.67", "2.11"], "win_rate": ["25%", "67%", "67%"], "Win": ["1", "2", "2"], "lose": ["3", "1", "1"]}
+{"name": "%EC%95%84%EC%9D%B4%EA%B1%B0%EB%98%90%EC%96%B4%EC%9A%B0", "champions": ["Shen", "Rakan", "Pyke"], "kda": ["2.9", "2.03", "4.1"], "win_rate": ["60%", "40%", "75%"], "Win": ["3", "2", "3"], "lose": ["2", "3", "1"]}
+{"name": "%EB%AC%B4%EC%84%9C%EC%9A%B4%EB%B1%80%EB%8F%85", "champions": ["Kled", "Aatrox", "Dr. Mundo"], "kda": ["2.43", "5.5", "2.71"], "win_rate": ["60%", "100%", "50%"], "Win": ["3", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "%EC%82%AC%EC%9A%A9%EC%88%98", "champions": ["Rumble", "Gangplank", "Kennen"], "kda": ["4.91", "3.14", "4"], "win_rate": ["83%", "33%", "100%"], "Win": ["5", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "jungsanghyun1", "champions": ["Tahm Kench", "Pyke", "Shen"], "kda": ["3.83", "4.42", "5"], "win_rate": ["67%", "50%", "100%"], "Win": ["4", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "crazzycat", "champions": ["Draven", "Lucian", "Ezreal"], "kda": ["1.9", "3.94", "2.45"], "win_rate": ["58%", "75%", "0%"], "Win": ["7", "3", "0"], "lose": ["5", "1", "2"]}
+{"name": "%EC%A7%80%ED%98%84%EC%9D%B4%EC%9D%98%EB%B9%97%EC%9E%90%EB%A3%A8", "champions": ["Camille", "Gangplank", "Shen"], "kda": ["1.62", "1.53", "3.14"], "win_rate": ["100%", "0%", "100%"], "Win": ["3", "0", "2"], "lose": ["0", "3", "0"]}
+{"name": "0813%EC%9E%85%EB%8C%80%EC%95%BC%EC%A2%80%EC%A0%80%EC%A4%98", "champions": ["Ahri", "Soraka", ""], "kda": ["2.72", "1.71", "2.12"], "win_rate": ["53%", "0%", "70%"], "Win": ["10", "0", "2"], "lose": ["9", "1", "2"]}
+{"name": "%EB%95%85%ED%98%B8%EB%9D%BC%EA%B5%AC", "champions": ["Rakan", "Morgana", "Thresh"], "kda": ["4", "2.92", "4.5"], "win_rate": ["57%", "80%", "100%"], "Win": ["4", "4", "3"], "lose": ["3", "1", "0"]}
+{"name": "%EB%A7%88%EC%82%B0%EA%B0%80%EC%9E%90", "champions": ["Yasuo", "Irelia", "LeBlanc"], "kda": ["2.74", "3.55", "12"], "win_rate": ["40%", "100%", "100%"], "Win": ["2", "3", "2"], "lose": ["3", "0", "0"]}
+{"name": "genglife", "champions": ["Gragas", "Rakan", "Shen"], "kda": ["2.96", "4.06", "2.43"], "win_rate": ["63%", "75%", "50%"], "Win": ["5", "3", "1"], "lose": ["3", "1", "1"]}
+{"name": "swi3e", "champions": ["Irelia", "Yasuo", "LeBlanc"], "kda": ["2.45", "2.35", "4.3"], "win_rate": ["50%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["2", "2", "0"]}
+{"name": "bymyself", "champions": ["Kassadin", "Aatrox", "Vladimir"], "kda": ["2.31", "5.67", "2.83"], "win_rate": ["80%", "100%", "50%"], "Win": ["8", "3", "1"], "lose": ["2", "0", "1"]}
+{"name": "%EB%8F%99%EA%B4%80%EC%A7%B1123", "champions": ["Gnar", "Nautilus", "Braum"], "kda": ["2.65", "2.33", "1.86"], "win_rate": ["63%", "33%", "0%"], "Win": ["5", "1", "0"], "lose": ["3", "2", "2"]}
+{"name": "%EB%B3%80%EC%B6%98%EC%88%98", "champions": ["Poppy", "Lulu", "Singed"], "kda": ["3.41", "7.33", "18"], "win_rate": ["71%", "100%", "100%"], "Win": ["10", "3", "1"], "lose": ["4", "0", "0"]}
+{"name": "eewssun", "champions": ["Fizz", "Lissandra", "Anivia"], "kda": ["3.21", "2.19", "1.25"], "win_rate": ["67%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%EC%9D%B4%EC%95%BC%EA%B3%B5", "champions": ["Diana", "", ""], "kda": ["2.48", "2.12", "2.12"], "win_rate": ["47%", "70%", "70%"], "Win": ["9", "2", "2"], "lose": ["10", "2", "2"]}
+{"name": "%ED%8F%AC%EC%93%B0%EC%BB%A8%EB%93%9C", "champions": ["Garen", "Dr. Mundo", "Shen"], "kda": ["3.26", "3.4", "3.25"], "win_rate": ["71%", "33%", "100%"], "Win": ["10", "1", "1"], "lose": ["4", "2", "0"]}
+{"name": "%EC%82%AC%EC%8A%A4%EA%B0%93%EC%A7%80%EC%A7%80", "champions": ["Galio", "Janna", "Talon"], "kda": ["2.45", "2.73", "2.71"], "win_rate": ["50%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["3", "1", "2"]}
+{"name": "hanguoxiaodaye", "champions": ["Kindred", "Camille", "Nocturne"], "kda": ["3.1", "3", "2.5"], "win_rate": ["80%", "50%", "50%"], "Win": ["4", "1", "1"], "lose": ["1", "1", "1"]}
+{"name": "%EC%97%89%EB%8D%A9%EA%B5%AD%EA%B0%B1%EC%8A%B9%EC%A0%9C%EB%A1%9C", "champions": ["Jinx", "Ezreal", "Lucian"], "kda": ["4", "4.6", "1.71"], "win_rate": ["82%", "80%", "33%"], "Win": ["9", "4", "1"], "lose": ["2", "1", "2"]}
+{"name": "%EB%95%8C%EB%A6%B0%EB%8C%80%EB%98%90%EB%95%8C%EB%A6%BC", "champions": ["Taliyah", "Jayce", "Xin Zhao"], "kda": ["4", "3.91", "5.63"], "win_rate": ["80%", "67%", "100%"], "Win": ["4", "2", "2"], "lose": ["1", "1", "0"]}
+{"name": "irmaking", "champions": ["Zoe", "Ekko", "Ryze"], "kda": ["3.2", "4.2", "3"], "win_rate": ["67%", "100%", "100%"], "Win": ["2", "2", "2"], "lose": ["1", "0", "0"]}
+{"name": "qppq1z2x", "champions": ["Talon", "Zoe", "LeBlanc"], "kda": ["2.81", "2.42", "5"], "win_rate": ["60%", "0%", "50%"], "Win": ["3", "0", "1"], "lose": ["2", "3", "1"]}
+{"name": "gimgoon", "champions": ["Singed", "Darius", "Irelia"], "kda": ["3.96", "1.88", "4.83"], "win_rate": ["83%", "40%", "100%"], "Win": ["5", "2", "2"], "lose": ["1", "3", "0"]}
+{"name": "buterfly", "champions": ["Pyke", "Shen", "Gragas"], "kda": ["4.85", "4.13", "2.33"], "win_rate": ["60%", "100%", "50%"], "Win": ["3", "4", "2"], "lose": ["2", "0", "2"]}
+{"name": "kzcuzz", "champions": ["Taliyah", "Camille", "Evelynn"], "kda": ["3.1", "5.5", "2.94"], "win_rate": ["33%", "67%", "67%"], "Win": ["2", "2", "2"], "lose": ["4", "1", "1"]}
+{"name": "%ED%95%98%EB%A3%A8%EA%B7%B8%EB%A6%BC%EC%9E%90", "champions": ["Graves", "Taliyah", "Vladimir"], "kda": ["3.22", "3", "2.08"], "win_rate": ["75%", "50%", "100%"], "Win": ["3", "1", "2"], "lose": ["1", "1", "0"]}
+{"name": "douyu1097151", "champions": ["Tryndamere", "", ""], "kda": ["1.63", "2.12", "2.12"], "win_rate": ["60%", "70%", "70%"], "Win": ["12", "2", "2"], "lose": ["8", "2", "2"]}
+{"name": "%EB%85%B8%ED%8B%B8%EC%A0%9C%EB%B0%9C%EB%B2%84%ED%94%84%EC%A2%80", "champions": ["Nautilus", "", ""], "kda": ["4.4", "2.12", "2.12"], "win_rate": ["75%", "70%", "70%"], "Win": ["15", "2", "2"], "lose": ["5", "2", "2"]}
+{"name": "htebaziie", "champions": ["Taliyah", "Nocturne", "Darius"], "kda": ["5", "4", "2.2"], "win_rate": ["100%", "50%", "50%"], "Win": ["3", "1", "1"], "lose": ["0", "1", "1"]}
+{"name": "%ED%82%B9%EC%A1%B4%EB%AC%BC%EB%A7%8C%EB%91%90", "champions": ["Aatrox", "Yasuo", "Gragas"], "kda": ["4.47", "2.09", "3.2"], "win_rate": ["67%", "50%", "100%"], "Win": ["4", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "douyu5294941", "champions": ["Warwick", "Jax", ""], "kda": ["2.64", "0.75", "2.12"], "win_rate": ["67%", "0%", "70%"], "Win": ["12", "0", "2"], "lose": ["6", "2", "2"]}
+{"name": "16%EC%82%B4%EC%9B%90%EB%94%9C%EB%9F%AC", "champions": ["Irelia", "Swain", "Taliyah"], "kda": ["3.79", "10", "5.67"], "win_rate": ["59%", "100%", "100%"], "Win": ["10", "2", "1"], "lose": ["7", "0", "0"]}
+{"name": "%EB%AF%B8%EA%B3%A4%EA%B0%9C%EB%82%98%EA%B0%88%EA%BC%AC%EB%83%90", "champions": ["Sion", "Nautilus", ""], "kda": ["2.44", "2.29", "2.12"], "win_rate": ["58%", "100%", "70%"], "Win": ["11", "1", "2"], "lose": ["8", "0", "2"]}
+{"name": "sol%EB%A1%9C%EB%9E%AD%ED%81%AC", "champions": ["Aurelion Sol", "", ""], "kda": ["2.45", "2.12", "2.12"], "win_rate": ["25%", "70%", "70%"], "Win": ["5", "2", "2"], "lose": ["15", "2", "2"]}
+{"name": "nekoneko1", "champions": ["Draven", "Ezreal", "Lucian"], "kda": ["2.42", "3.64", "4.29"], "win_rate": ["40%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["3", "2", "0"]}
+{"name": "trud", "champions": ["Twisted Fate", "Orianna", "Talon"], "kda": ["5.48", "4.92", "2.71"], "win_rate": ["78%", "60%", "67%"], "Win": ["7", "3", "2"], "lose": ["2", "2", "1"]}
+{"name": "%EC%A0%95%EC%B9%98%EC%A7%88%EA%B7%B9%ED%98%90%ED%95%A8", "champions": ["Rakan", "Morgana", "Thresh"], "kda": ["5.54", "4.13", "4.8"], "win_rate": ["78%", "67%", "50%"], "Win": ["7", "4", "1"], "lose": ["2", "2", "1"]}
+{"name": "l1sure", "champions": ["Taliyah", "Vladimir", "Trundle"], "kda": ["5.3", "1.94", "7"], "win_rate": ["100%", "33%", "100%"], "Win": ["3", "1", "2"], "lose": ["0", "2", "0"]}
+{"name": "fighttttt", "champions": ["Ahri", "Talon", "Zoe"], "kda": ["2.93", "2.84", "1.83"], "win_rate": ["75%", "25%", "50%"], "Win": ["3", "1", "2"], "lose": ["1", "3", "2"]}
+{"name": "wkfgkrhtlvdj", "champions": ["Alistar", "Shen", "Rakan"], "kda": ["4.22", "4.04", "3.73"], "win_rate": ["70%", "67%", "67%"], "Win": ["7", "4", "2"], "lose": ["3", "2", "1"]}
+{"name": "%EC%9C%A0%EB%82%B4%ED%98%84", "champions": ["Brand", "Zoe", "Jayce"], "kda": ["4", "3.25", "2.8"], "win_rate": ["25%", "67%", "67%"], "Win": ["1", "2", "2"], "lose": ["3", "1", "1"]}
+{"name": "kdmroach", "champions": ["Darius", "Jayce", "Ryze"], "kda": ["0.84", "3.63", "7.25"], "win_rate": ["0%", "67%", "100%"], "Win": ["0", "2", "2"], "lose": ["4", "1", "0"]}
+{"name": "kabigon%ED%8F%AC%EC%BC%93%EB%AA%AC", "champions": ["Nocturne", "Swain", "Ezreal"], "kda": ["2.35", "6.8", "1.69"], "win_rate": ["80%", "100%", "50%"], "Win": ["4", "4", "2"], "lose": ["1", "0", "2"]}
+{"name": "%EA%B3%B5%EA%B7%BC%EC%9D%B5%EB%AC%B4%EC%9A%94%EC%9B%90", "champions": ["Anivia", "Swain", "Ryze"], "kda": ["2.71", "2.75", "4"], "win_rate": ["41%", "50%", "0%"], "Win": ["7", "1", "0"], "lose": ["10", "1", "1"]}
+{"name": "%EC%9A%B0%EB%A5%B4%ED%94%84rider", "champions": ["Kennen", "Jayce", "Jarvan IV"], "kda": ["3.5", "1.22", "7.5"], "win_rate": ["80%", "50%", "100%"], "Win": ["4", "1", "1"], "lose": ["1", "1", "0"]}
+{"name": "woyaoqudaye", "champions": ["Kindred", "Xin Zhao", "Trundle"], "kda": ["3.39", "2.93", "4.75"], "win_rate": ["60%", "33%", "0%"], "Win": ["6", "1", "0"], "lose": ["4", "2", "2"]}
+{"name": "%EC%88%98%EC%9E%85%EB%BF%8C%EB%93%9C", "champions": ["Taliyah", "Kindred", "Lucian"], "kda": ["4.29", "2.65", "2"], "win_rate": ["71%", "75%", "67%"], "Win": ["5", "3", "2"], "lose": ["2", "1", "1"]}
+{"name": "sktt1thai", "champions": ["Aatrox", "Dr. Mundo", "Cho'Gath"], "kda": ["4.08", "6.5", "12.5"], "win_rate": ["88%", "80%", "100%"], "Win": ["7", "4", "2"], "lose": ["1", "1", "0"]}
+{"name": "%EB%BD%80%EC%98%A4%EB%BD%80%EC%98%A4", "champions": ["Karthus", "Corki", "Malphite"], "kda": ["2.84", "Perfect", "1.5"], "win_rate": ["76%", "100%", "0%"], "Win": ["13", "1", "0"], "lose": ["4", "0", "1"]}
+{"name": "jinairsohwan", "champions": ["Kennen", "Vladimir", "Gangplank"], "kda": ["2.93", "0.38", "2.86"], "win_rate": ["67%", "33%", "50%"], "Win": ["2", "1", "1"], "lose": ["1", "2", "1"]}
+{"name": "seroum", "champions": ["Camille", "Lee Sin", "Nidalee"], "kda": ["3", "5.25", "2.28"], "win_rate": ["78%", "100%", "0%"], "Win": ["7", "3", "0"], "lose": ["2", "0", "3"]}
+{"name": "whckiop", "champions": ["Taliyah", "Ryze", "Zoe"], "kda": ["6.27", "4.3", "4"], "win_rate": ["100%", "100%", "100%"], "Win": ["3", "3", "2"], "lose": ["0", "0", "0"]}
+{"name": "liillili", "champions": ["Nocturne", "Kindred", "Taliyah"], "kda": ["3", "2.79", "2.36"], "win_rate": ["50%", "25%", "50%"], "Win": ["2", "1", "2"], "lose": ["2", "3", "2"]}
+{"name": "%EC%9D%BC%EB%B0%98%EA%B2%8C%EC%9E%84%ED%95%B4%EC%84%A4%EC%9E%90", "champions": ["Fiora", "Camille", "Aatrox"], "kda": ["2.57", "2.89", "1.47"], "win_rate": ["50%", "67%", "0%"], "Win": ["3", "2", "0"], "lose": ["3", "1", "3"]}
+{"name": "kdmlubu", "champions": ["Rengar", "Camille", "Evelynn"], "kda": ["4.09", "3", "1.95"], "win_rate": ["100%", "0%", "0%"], "Win": ["3", "0", "0"], "lose": ["0", "3", "3"]}
+{"name": "amani", "champions": ["Lucian", "Yasuo", "Kai'Sa"], "kda": ["2.21", "1.52", "1.78"], "win_rate": ["67%", "60%", "33%"], "Win": ["4", "3", "1"], "lose": ["2", "2", "2"]}
+{"name": "aceerfa", "champions": ["Dr. Mundo", "Ryze", "Aatrox"], "kda": ["2.63", "1.47", "9"], "win_rate": ["50%", "67%", "100%"], "Win": ["2", "2", "2"], "lose": ["2", "1", "0"]}
+{"name": "%EB%AE%A4%EB%AF%80%EB%A6%AC%ED%88%AC%EC%8A%88", "champions": ["LeBlanc", "Orianna", "Zoe"], "kda": ["8.33", "4.43", "3.67"], "win_rate": ["100%", "100%", "50%"], "Win": ["2", "2", "1"], "lose": ["0", "0", "1"]}
+{"name": "cyeol", "champions": ["Aatrox", "Ryze", "Talon"], "kda": ["12", "2.28", "2.08"], "win_rate": ["100%", "67%", "50%"], "Win": ["3", "2", "1"], "lose": ["0", "1", "1"]}
+{"name": "%EB%BF%A1%ED%98%95", "champions": ["Camille", "Vladimir", "Nidalee"], "kda": ["3.85", "3.33", "1.85"], "win_rate": ["71%", "50%", "33%"], "Win": ["5", "2", "1"], "lose": ["2", "2", "2"]}
+{"name": "cuteboy17", "champions": ["Vladimir", "Jayce", "Darius"], "kda": ["1.57", "1.63", "1"], "win_rate": ["0%", "25%", "67%"], "Win": ["0", "1", "2"], "lose": ["5", "3", "1"]}
+{"name": "%EB%A7%A4%EC%9D%BC%EC%A1%B8%EB%A0%A4%EC%9A%94", "champions": ["Nidalee", "Camille", "Taliyah"], "kda": ["3.41", "1.22", "3"], "win_rate": ["29%", "25%", "67%"], "Win": ["2", "1", "2"], "lose": ["5", "3", "1"]}
+{"name": "nekol", "champions": ["Orianna", "Vayne", "Vladimir"], "kda": ["4.36", "1.41", "10.5"], "win_rate": ["88%", "50%", "50%"], "Win": ["7", "2", "1"], "lose": ["1", "2", "1"]}
+{"name": "geng%EB%AA%BD", "champions": ["Camille", "Poppy", "Jayce"], "kda": ["2.67", "1.6", "2.8"], "win_rate": ["50%", "33%", "100%"], "Win": ["3", "2", "2"], "lose": ["3", "4", "0"]}
+{"name": "iite", "champions": ["Rakan", "Nami", "Bard"], "kda": ["5", "7.22", "2.3"], "win_rate": ["100%", "67%", "50%"], "Win": ["8", "2", "1"], "lose": ["0", "1", "1"]}
+{"name": "paddlestar", "champions": ["Draven", "Yasuo", "Xayah"], "kda": ["2.18", "3.88", "4.11"], "win_rate": ["50%", "80%", "100%"], "Win": ["3", "4", "3"], "lose": ["3", "1", "0"]}
+{"name": "lllllllliiiilll", "champions": ["Gragas", "Pyke", "Morgana"], "kda": ["2.65", "6.71", "2.22"], "win_rate": ["50%", "75%", "50%"], "Win": ["3", "3", "1"], "lose": ["3", "1", "1"]}
+{"name": "%EC%B6%98%EB%B4%89%EB%B0%95", "champions": ["Kled", "Rumble", "Darius"], "kda": ["7.33", "3.44", "1.91"], "win_rate": ["50%", "100%", "50%"], "Win": ["1", "2", "1"], "lose": ["1", "0", "1"]}
+{"name": "%EB%8F%BC%EC%A7%80%EB%8F%BC%EC%A7%80%EB%A8%B8%EB%A6%AC", "champions": ["Darius", "Gragas", "Camille"], "kda": ["1.19", "2.07", "1.94"], "win_rate": ["33%", "67%", "67%"], "Win": ["2", "2", "2"], "lose": ["4", "1", "1"]}
+{"name": "excuse", "champions": ["Malphite", "Morgana", "Alistar"], "kda": ["2.25", "3.19", "2.48"], "win_rate": ["29%", "80%", "50%"], "Win": ["2", "4", "2"], "lose": ["5", "1", "2"]}
+{"name": "dwgnuguri", "champions": ["Kled", "Ryze", "Camille"], "kda": ["2.57", "1.92", "2.75"], "win_rate": ["67%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "bullybully", "champions": ["Camille", "Gangplank", "Kled"], "kda": ["2.13", "1.73", "0.86"], "win_rate": ["50%", "0%", "0%"], "Win": ["3", "0", "0"], "lose": ["3", "2", "2"]}
+{"name": "daydayupup", "champions": ["Kennen", "Gangplank", "Darius"], "kda": ["2.38", "2.75", "1.9"], "win_rate": ["60%", "67%", "100%"], "Win": ["3", "2", "3"], "lose": ["2", "1", "0"]}
+{"name": "gabrielcro", "champions": ["Gragas", "Taliyah", "Camille"], "kda": ["3.16", "4.9", "6.5"], "win_rate": ["60%", "67%", "50%"], "Win": ["3", "2", "1"], "lose": ["2", "1", "1"]}
+{"name": "ggamza", "champions": ["Poppy", "Rumble", "Gragas"], "kda": ["2.52", "3.46", "3.29"], "win_rate": ["40%", "50%", "50%"], "Win": ["2", "2", "2"], "lose": ["3", "2", "2"]}
+{"name": "thgink9", "champions": ["Orianna", "Aatrox", "Galio"], "kda": ["3.48", "3", "Perfect"], "win_rate": ["40%", "33%", "100%"], "Win": ["2", "1", "1"], "lose": ["3", "2", "0"]}
+{"name": "%EB%B6%80%ED%9A%8C%EC%9E%A5%EC%99%9C%EA%B7%B8%EB%9F%B4%EA%B9%8C", "champions": ["Pyke", "Orianna", "Taliyah"], "kda": ["3.47", "3.5", "2.58"], "win_rate": ["63%", "75%", "100%"], "Win": ["5", "3", "2"], "lose": ["3", "1", "0"]}
+{"name": "yiwancibeishang", "champions": ["Aatrox", "Dr. Mundo", "Lee Sin"], "kda": ["3.83", "1.9", "1.83"], "win_rate": ["83%", "50%", "100%"], "Win": ["5", "1", "2"], "lose": ["1", "1", "0"]}
+{"name": "%EA%B7%A4%EC%88%98%ED%98%B8%EC%9E%90%EB%A7%8C%EA%B8%B0", "champions": ["Gangplank", "Renekton", "Urgot"], "kda": ["3.37", "3", "2.5"], "win_rate": ["63%", "100%", "0%"], "Win": ["10", "1", "0"], "lose": ["6", "0", "1"]}
+{"name": "aweakman", "champions": ["Rakan", "Alistar", "Morgana"], "kda": ["2.77", "3.33", "4.86"], "win_rate": ["56%", "60%", "100%"], "Win": ["5", "3", "2"], "lose": ["4", "2", "0"]}
+{"name": "fridakahlo", "champions": ["Talon", "Jayce", "Ekko"], "kda": ["3.81", "1.11", "1.33"], "win_rate": ["80%", "25%", "0%"], "Win": ["4", "1", "0"], "lose": ["1", "3", "3"]}
+{"name": "%EC%8B%9C%EB%A7%88%EC%8B%9C%EB%A7%88%ED%95%98%EB%82%98%EC%BD%94", "champions": ["Akali", "Morgana", "Alistar"], "kda": ["3.46", "3.36", "3.25"], "win_rate": ["70%", "50%", "67%"], "Win": ["7", "2", "2"], "lose": ["3", "2", "1"]}
+{"name": "apkcover", "champions": ["Ryze", "Yasuo", "Zoe"], "kda": ["3.8", "4.29", "3.08"], "win_rate": ["75%", "100%", "80%"], "Win": ["6", "5", "4"], "lose": ["2", "0", "1"]}
+{"name": "2188", "champions": ["Shen", "Galio", "Dr. Mundo"], "kda": ["4.22", "2.4", "2.69"], "win_rate": ["67%", "75%", "100%"], "Win": ["4", "3", "3"], "lose": ["2", "1", "0"]}
+{"name": "jaggrace", "champions": ["Orianna", "LeBlanc", "Aatrox"], "kda": ["3.88", "24", "3.25"], "win_rate": ["100%", "100%", "50%"], "Win": ["4", "2", "1"], "lose": ["0", "0", "1"]}
+{"name": "%EB%8B%A4%EA%B1%B0%EC%A7%93%EB%A7%90", "champions": ["Aatrox", "Gragas", "Camille"], "kda": ["2.76", "2.65", "2.3"], "win_rate": ["100%", "50%", "50%"], "Win": ["5", "2", "2"], "lose": ["0", "2", "2"]}
+{"name": "%EC%B2%9C%EC%B2%9C%ED%9E%88%EC%98%AC%EB%9D%BC%EA%B0%90", "champions": ["Pyke", "Fiddlesticks", "Shen"], "kda": ["2.83", "3.08", "2.54"], "win_rate": ["33%", "50%", "50%"], "Win": ["1", "1", "1"], "lose": ["2", "1", "1"]}
+{"name": "pesk", "champions": ["Urgot", "Sion", "Cho'Gath"], "kda": ["4.05", "8.14", "0.5"], "win_rate": ["57%", "100%", "50%"], "Win": ["8", "3", "1"], "lose": ["6", "0", "1"]}
+{"name": "yuchenge", "champions": ["Illaoi", "Gangplank", "Nasus"], "kda": ["1.52", "1.86", "6"], "win_rate": ["50%", "50%", "50%"], "Win": ["3", "2", "1"], "lose": ["3", "2", "1"]}
+{"name": "cherrycherry", "champions": ["Vladimir", "Jayce", "Gangplank"], "kda": ["3.09", "2.75", "3"], "win_rate": ["56%", "0%", "100%"], "Win": ["9", "0", "1"], "lose": ["7", "2", "0"]}
+{"name": "billys", "champions": ["Lulu", "Ryze", "Galio"], "kda": ["6.5", "3.33", "2.38"], "win_rate": ["71%", "100%", "67%"], "Win": ["5", "3", "2"], "lose": ["2", "0", "1"]}
+{"name": "%ED%95%A0%EC%95%84%EB%B8%8C%EA%B0%80%EC%A3%BC%EC%9D%B8%EA%B3%B5", "champions": ["Orianna", "Yasuo", "Lucian"], "kda": ["4.2", "1.56", "2.43"], "win_rate": ["75%", "50%", "67%"], "Win": ["3", "2", "2"], "lose": ["1", "2", "1"]}
+{"name": "%EC%96%91%EC%9E%90%EB%A6%AC%EC%86%8C%EB%85%84", "champions": ["Swain", "Alistar", "Gragas"], "kda": ["4.67", "4.7", "3.33"], "win_rate": ["50%", "100%", "50%"], "Win": ["2", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "cyberbully", "champions": ["Kindred", "Nocturne", "Taliyah"], "kda": ["1.38", "2.55", "3"], "win_rate": ["33%", "40%", "100%"], "Win": ["2", "2", "3"], "lose": ["4", "3", "0"]}
+{"name": "independenceday1", "champions": ["Kai'Sa", "Pyke", "Irelia"], "kda": ["2.32", "1.57", "1.56"], "win_rate": ["56%", "75%", "0%"], "Win": ["5", "3", "0"], "lose": ["4", "1", "2"]}
+{"name": "%EB%B6%81%EC%AA%BD%EC%9D%98%EA%B4%B4%EB%AC%BC", "champions": ["Darius", "Gangplank", "Camille"], "kda": ["1.47", "3.9", "1.79"], "win_rate": ["50%", "100%", "33%"], "Win": ["2", "3", "1"], "lose": ["2", "0", "2"]}
+{"name": "jiangyouping", "champions": ["Nidalee", "Graves", "Taliyah"], "kda": ["2.87", "2.44", "1.71"], "win_rate": ["56%", "50%", "0%"], "Win": ["9", "1", "0"], "lose": ["7", "1", "1"]}
+{"name": "%EA%B9%80%EA%B5%AD%EC%96%B4", "champions": ["Morgana", "Gragas", "Pyke"], "kda": ["3.44", "2.54", "2.69"], "win_rate": ["67%", "33%", "0%"], "Win": ["2", "1", "0"], "lose": ["1", "2", "2"]}
+{"name": "%EB%B4%84%EC%97%90%EB%8A%94%EC%AD%88%EA%BE%B8%EB%AF%B8", "champions": ["Gangplank", "Pyke", "Gragas"], "kda": ["2.18", "4.1", "1.81"], "win_rate": ["50%", "40%", "33%"], "Win": ["4", "2", "1"], "lose": ["4", "3", "2"]}
+{"name": "jagumti", "champions": ["Taliyah", "Gragas", "Pyke"], "kda": ["3", "3.16", "6.33"], "win_rate": ["75%", "33%", "50%"], "Win": ["3", "1", "1"], "lose": ["1", "2", "1"]}
+{"name": "%EA%B7%80%EC%97%AC%EC%9A%B4%EC%95%88%EC%A7%80%EC%98%81", "champions": ["Taliyah", "Morgana", "Gragas"], "kda": ["4.5", "3.2", "1.69"], "win_rate": ["67%", "67%", "67%"], "Win": ["2", "2", "2"], "lose": ["1", "1", "1"]}
+{"name": "%EB%AA%85%EA%B5%AC%EB%A6%AC%EB%B2%84%EB%93%9C", "champions": ["Jayce", "Talon", "Zoe"], "kda": ["4.56", "3.38", "2.42"], "win_rate": ["100%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["0", "1", "2"]}
+{"name": "tarzan2", "champions": ["Taliyah", "Camille", "Kindred"], "kda": ["2.82", "2.75", "6.67"], "win_rate": ["33%", "67%", "100%"], "Win": ["1", "2", "2"], "lose": ["2", "1", "0"]}
+{"name": "und2rdog", "champions": ["Orianna", "Aatrox", "Anivia"], "kda": ["3.12", "3.04", "8"], "win_rate": ["70%", "67%", "100%"], "Win": ["7", "4", "1"], "lose": ["3", "2", "0"]}
+{"name": "%EC%BA%90%EB%A6%AC%EC%9A%A4", "champions": ["Kled", "Pyke", "Aatrox"], "kda": ["0.87", "6.8", "5.43"], "win_rate": ["33%", "100%", "100%"], "Win": ["1", "2", "2"], "lose": ["2", "0", "0"]}
+{"name": "kzrascal", "champions": ["Ryze", "Darius", "Gragas"], "kda": ["1.61", "1.71", "2.3"], "win_rate": ["50%", "67%", "50%"], "Win": ["2", "2", "1"], "lose": ["2", "1", "1"]}
+{"name": "lextalionis", "champions": ["Pyke", "Morgana", "Alistar"], "kda": ["2.72", "3.55", "3"], "win_rate": ["20%", "50%", "50%"], "Win": ["1", "2", "2"], "lose": ["4", "2", "2"]}
+{"name": "autumnch", "champions": ["Kindred", "Lucian", "Xin Zhao"], "kda": ["3.57", "2.18", "2.75"], "win_rate": ["50%", "25%", "67%"], "Win": ["3", "1", "2"], "lose": ["3", "3", "1"]}
+{"name": "%EC%A0%95%EC%83%81%EC%A0%81%EC%9D%B8%EC%8B%AC%EC%9E%A5", "champions": ["Jax", "Kassadin", "Kennen"], "kda": ["1.89", "3.33", "1.5"], "win_rate": ["61%", "100%", "0%"], "Win": ["11", "1", "0"], "lose": ["7", "0", "1"]}
+{"name": "860", "champions": ["Fiddlesticks", "Karma", "Morgana"], "kda": ["2.08", "1.94", "7.6"], "win_rate": ["50%", "20%", "67%"], "Win": ["4", "1", "2"], "lose": ["4", "4", "1"]}
+{"name": "kzpeanut", "champions": ["Kindred", "Vladimir", "Lee Sin"], "kda": ["2.92", "2.29", "4.67"], "win_rate": ["60%", "50%", "100%"], "Win": ["3", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "gakkiqq", "champions": ["Gragas", "Kindred", "Camille"], "kda": ["4.07", "2.67", "1.89"], "win_rate": ["100%", "67%", "67%"], "Win": ["3", "2", "2"], "lose": ["0", "1", "1"]}
+{"name": "%EC%9E%91%EC%9D%80%EB%B0%A9%EC%9D%84%EC%B1%84%EC%9A%B0%EB%8B%A4", "champions": ["Lulu", "Bard", "Poppy"], "kda": ["3.88", "14.5", "4.71"], "win_rate": ["50%", "100%", "100%"], "Win": ["5", "2", "2"], "lose": ["5", "0", "0"]}
+{"name": "shtumid", "champions": ["Irelia", "Yasuo", "Aatrox"], "kda": ["3.07", "1.68", "8.33"], "win_rate": ["50%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["2", "2", "0"]}
+{"name": "%EC%A0%95%EC%8B%A0%EB%B3%91%EC%9E%88%EC%9D%8C%EC%A3%BC%EC%9D%98", "champions": ["Kai'Sa", "Camille", "Irelia"], "kda": ["8.6", "2.33", "4"], "win_rate": ["100%", "33%", "50%"], "Win": ["3", "1", "1"], "lose": ["0", "2", "1"]}
+{"name": "%EC%84%BC%EC%84%BCs2", "champions": ["Yasuo", "Taliyah", "Nidalee"], "kda": ["1.63", "4.4", "3.36"], "win_rate": ["50%", "100%", "0%"], "Win": ["2", "2", "0"], "lose": ["2", "0", "2"]}
+{"name": "%EC%9D%B4%EB%9D%BC%EC%98%A8%EC%82%AC%EC%83%9D%ED%8C%AC", "champions": ["Zed", "Talon", "Lee Sin"], "kda": ["3.28", "1.83", "1.67"], "win_rate": ["58%", "50%", "0%"], "Win": ["7", "1", "0"], "lose": ["5", "1", "2"]}
+{"name": "%EB%82%98%EC%97%90%EA%B2%8C%EA%B8%B0%ED%9A%8C%EB%A5%BC", "champions": ["Zoe", "LeBlanc", "Syndra"], "kda": ["3.81", "3.67", "2.47"], "win_rate": ["43%", "75%", "100%"], "Win": ["3", "3", "3"], "lose": ["4", "1", "0"]}
+{"name": "%ED%95%99%EC%8B%9D%EB%A8%B9%EC%9D%84%EB%82%98%EC%9D%B4", "champions": ["Ezreal", "Orianna", "Swain"], "kda": ["3.83", "6.75", "3.7"], "win_rate": ["67%", "100%", "50%"], "Win": ["4", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "%EC%95%84%EC%BF%A0%EC%95%84%EB%9E%91%EA%BB%98", "champions": ["Kassadin", "Talon", "Twisted Fate"], "kda": ["2.42", "3.61", "2.52"], "win_rate": ["43%", "83%", "60%"], "Win": ["3", "5", "3"], "lose": ["4", "1", "2"]}
+{"name": "%ED%98%BC%EC%9E%90%EB%86%80%EA%B8%B0%EC%A0%84%EB%AC%B8", "champions": ["Kindred", "Ryze", "Camille"], "kda": ["2.56", "1.53", "2"], "win_rate": ["50%", "0%", "50%"], "Win": ["3", "0", "1"], "lose": ["3", "3", "1"]}
+{"name": "%EC%B4%88%EB%B3%B4%ED%98%81%EB%AA%85", "champions": ["Lucian", "Vladimir", "Ezreal"], "kda": ["2.89", "4.06", "2.73"], "win_rate": ["67%", "83%", "67%"], "Win": ["6", "5", "2"], "lose": ["3", "1", "1"]}
+{"name": "%EB%82%A8%EB%8F%99%ED%98%84", "champions": ["Pyke", "Rakan", "Alistar"], "kda": ["4.39", "2.71", "1.76"], "win_rate": ["60%", "50%", "33%"], "Win": ["3", "2", "1"], "lose": ["2", "2", "2"]}
+{"name": "%EB%A7%88%EB%A7%88%EB%8F%88%EC%9B%8C%EB%A6%AC", "champions": ["Yasuo", "Jayce", "Swain"], "kda": ["2.72", "2.24", "2.24"], "win_rate": ["67%", "0%", "33%"], "Win": ["2", "0", "1"], "lose": ["1", "3", "2"]}
+{"name": "hideonbush", "champions": ["Swain", "Irelia", "Aatrox"], "kda": ["4.9", "2.75", "2.71"], "win_rate": ["67%", "33%", "33%"], "Win": ["2", "1", "1"], "lose": ["1", "2", "2"]}
+{"name": "%EB%BD%80%ED%97%88%EB%8B%88", "champions": ["Xayah", "Ezreal", "Kai'Sa"], "kda": ["3.37", "2.13", "2.08"], "win_rate": ["80%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["1", "1", "2"]}
+{"name": "equality72521", "champions": ["Kled", "Darius", "Gnar"], "kda": ["5", "1.73", "5.67"], "win_rate": ["80%", "33%", "100%"], "Win": ["4", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "destiny", "champions": ["Bard", "Pyke", "Morgana"], "kda": ["2.21", "3.16", "6.6"], "win_rate": ["43%", "60%", "100%"], "Win": ["3", "3", "2"], "lose": ["4", "2", "0"]}
+{"name": "deifinu", "champions": ["Syndra", "Vladimir", "Karthus"], "kda": ["2.12", "2.22", "3.56"], "win_rate": ["60%", "25%", "50%"], "Win": ["3", "1", "1"], "lose": ["2", "3", "1"]}
+{"name": "liuxiaoyou", "champions": ["Kled", "Kennen", "Darius"], "kda": ["2.71", "3", "0.5"], "win_rate": ["53%", "50%", "0%"], "Win": ["8", "1", "0"], "lose": ["7", "1", "1"]}
+{"name": "%EC%8B%9C%EC%98%A4%EB%8F%84%EB%A9%94%EB%AF%B8%EC%9A%B0%EB%82%98", "champions": ["Karthus", "", ""], "kda": ["2.72", "2.12", "2.12"], "win_rate": ["55%", "70%", "70%"], "Win": ["11", "2", "2"], "lose": ["9", "2", "2"]}
+{"name": "rwfl", "champions": ["Kindred", "Lee Sin", "Nocturne"], "kda": ["2.42", "4.57", "8.67"], "win_rate": ["50%", "33%", "100%"], "Win": ["3", "1", "2"], "lose": ["3", "2", "0"]}
+{"name": "exiastail", "champions": ["LeBlanc", "Zoe", "Talon"], "kda": ["4.72", "2.17", "6.2"], "win_rate": ["75%", "67%", "100%"], "Win": ["6", "2", "2"], "lose": ["2", "1", "0"]}
+{"name": "afreecasummit", "champions": ["Gangplank", "Darius", "Gnar"], "kda": ["2.06", "4.5", "3.57"], "win_rate": ["25%", "100%", "100%"], "Win": ["1", "3", "2"], "lose": ["3", "0", "0"]}
+{"name": "r1kka", "champions": ["Kennen", "Galio", "Gragas"], "kda": ["3.14", "4.38", "3.33"], "win_rate": ["75%", "33%", "67%"], "Win": ["3", "1", "2"], "lose": ["1", "2", "1"]}
+{"name": "ktkingen", "champions": ["Gragas", "Quinn", "Aatrox"], "kda": ["1.69", "1.35", "2.7"], "win_rate": ["50%", "50%", "67%"], "Win": ["2", "2", "2"], "lose": ["2", "2", "1"]}
+{"name": "kkkuma", "champions": ["Taliyah", "Camille", "Jayce"], "kda": ["3.04", "2.13", "1.69"], "win_rate": ["60%", "50%", "33%"], "Win": ["3", "2", "1"], "lose": ["2", "2", "2"]}
+{"name": "%EB%AC%B4%EC%9E%90%EB%B9%84%ED%95%9C%ED%9E%98", "champions": ["Yasuo", "Galio", "Aatrox"], "kda": ["1.9", "4.07", "4.5"], "win_rate": ["60%", "67%", "100%"], "Win": ["3", "2", "2"], "lose": ["2", "1", "0"]}
+{"name": "kzgorilla", "champions": ["Morgana", "Shen", "Taliyah"], "kda": ["3.19", "4", "1.63"], "win_rate": ["63%", "33%", "33%"], "Win": ["5", "1", "1"], "lose": ["3", "2", "2"]}
+{"name": "fairygyu", "champions": ["Ryze", "Taliyah", "Nidalee"], "kda": ["2.9", "2.58", "2.58"], "win_rate": ["100%", "20%", "33%"], "Win": ["5", "1", "1"], "lose": ["0", "4", "2"]}
+{"name": "curiouspop", "champions": ["Pyke", "Rakan", "Shen"], "kda": ["6.58", "5.44", "2.71"], "win_rate": ["88%", "100%", "25%"], "Win": ["7", "5", "1"], "lose": ["1", "0", "3"]}
+{"name": "borntodead", "champions": ["Lee Sin", "Kindred", "Lucian"], "kda": ["4.09", "1.94", "1.67"], "win_rate": ["67%", "40%", "33%"], "Win": ["6", "2", "1"], "lose": ["3", "3", "2"]}
+{"name": "zichenqaq", "champions": ["Talon", "Irelia", "Zoe"], "kda": ["2.57", "2.83", "2.81"], "win_rate": ["33%", "100%", "100%"], "Win": ["2", "3", "3"], "lose": ["4", "0", "0"]}
+{"name": "steel9", "champions": ["LeBlanc", "Zed", "Orianna"], "kda": ["4.93", "3", "2.4"], "win_rate": ["70%", "50%", "100%"], "Win": ["7", "1", "2"], "lose": ["3", "1", "0"]}
+{"name": "%EB%84%88%EC%97%86%EC%9D%B4%EB%8F%84", "champions": ["Shen", "Pyke", "Braum"], "kda": ["6", "3.38", "3.13"], "win_rate": ["50%", "67%", "33%"], "Win": ["2", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%EC%A7%AC%EB%BD%95%EC%A7%9C%EC%9E%A5%ED%83%95%EC%88%98%EC%9C%A1", "champions": ["Camille", "Nocturne", "Sejuani"], "kda": ["3.68", "6.43", "5.09"], "win_rate": ["50%", "67%", "67%"], "Win": ["2", "2", "2"], "lose": ["2", "1", "1"]}
+{"name": "%EB%8F%8C%EC%9E%94%EC%B9%98%EB%95%8C%EB%8F%84%EB%9E%80%EC%9E%A1%EC%9D%8C", "champions": ["Darius", "Camille", "Kennen"], "kda": ["1.35", "1.87", "2.22"], "win_rate": ["38%", "67%", "50%"], "Win": ["3", "2", "1"], "lose": ["5", "1", "1"]}
+{"name": "kkkuri", "champions": ["Gragas", "Pyke", "Alistar"], "kda": ["1.86", "1.56", "4"], "win_rate": ["50%", "25%", "0%"], "Win": ["4", "1", "0"], "lose": ["4", "3", "1"]}
+{"name": "%EC%A2%85%ED%95%99%EC%9C%99", "champions": ["Nidalee", "Camille", "Jinx"], "kda": ["4.29", "3.29", "1.76"], "win_rate": ["73%", "33%", "0%"], "Win": ["8", "1", "0"], "lose": ["3", "2", "2"]}
+{"name": "kcirt2", "champions": ["Taliyah", "Pyke", "Kindred"], "kda": ["4.7", "4.63", "2.7"], "win_rate": ["100%", "100%", "50%"], "Win": ["5", "2", "1"], "lose": ["0", "0", "1"]}
+{"name": "giorie", "champions": ["Ezreal", "Ryze", "Vladimir"], "kda": ["4.06", "1.85", "3.56"], "win_rate": ["71%", "0%", "100%"], "Win": ["5", "0", "2"], "lose": ["2", "3", "0"]}
+{"name": "hlekuzan", "champions": ["Lissandra", "Zoe", "Aatrox"], "kda": ["4.22", "2.65", "1.57"], "win_rate": ["80%", "33%", "50%"], "Win": ["4", "1", "1"], "lose": ["1", "2", "1"]}
+{"name": "hugefans", "champions": ["Gragas", "Camille", "Kindred"], "kda": ["1.56", "3.82", "2.4"], "win_rate": ["0%", "100%", "67%"], "Win": ["0", "3", "2"], "lose": ["4", "0", "1"]}
+{"name": "%EC%8B%AC%EC%8B%AC%ED%92%80%EC%9D%B4%EB%82%A8%EC%8B%A0", "champions": ["Rakan", "Gragas", "Vel'Koz"], "kda": ["4.12", "5.73", "1.52"], "win_rate": ["60%", "75%", "25%"], "Win": ["3", "3", "1"], "lose": ["2", "1", "3"]}
+{"name": "%EC%82%AC%EB%9E%91%ED%95%B4%EB%82%98%EC%9D%98%EB%9D%BC%EC%B9%B8", "champions": ["Nidalee", "Lucian", ""], "kda": ["4.52", "1.29", "2.12"], "win_rate": ["74%", "0%", "70%"], "Win": ["14", "0", "2"], "lose": ["5", "1", "2"]}
+{"name": "kur1ko", "champions": ["Kled", "Quinn", "Aatrox"], "kda": ["1.73", "3", "1"], "win_rate": ["57%", "67%", "0%"], "Win": ["4", "2", "0"], "lose": ["3", "1", "3"]}
+{"name": "669aries", "champions": ["Fiora", "Lucian", "Yasuo"], "kda": ["2.74", "2.79", "1.56"], "win_rate": ["67%", "100%", "0%"], "Win": ["6", "2", "0"], "lose": ["3", "0", "2"]}
+{"name": "tarzanfan", "champions": ["Nocturne", "Taliyah", "Gragas"], "kda": ["5.06", "3.07", "5.38"], "win_rate": ["67%", "67%", "67%"], "Win": ["4", "4", "2"], "lose": ["2", "2", "1"]}
+{"name": "%ED%8D%BC%EA%B7%B8%EA%B0%9C%EC%A1%B8%EA%B7%80", "champions": ["Darius", "Camille", "Swain"], "kda": ["2.96", "3.5", "4"], "win_rate": ["67%", "100%", "67%"], "Win": ["4", "4", "2"], "lose": ["2", "0", "1"]}
+{"name": "idohan", "champions": ["Fiddlesticks", "Alistar", "Rakan"], "kda": ["2", "2.65", "3.8"], "win_rate": ["27%", "60%", "50%"], "Win": ["3", "3", "1"], "lose": ["8", "2", "1"]}
+{"name": "%EC%88%98%EB%84%9D", "champions": ["Ezreal", "Morgana", "Vladimir"], "kda": ["2.33", "1.84", "0.95"], "win_rate": ["60%", "40%", "25%"], "Win": ["3", "2", "1"], "lose": ["2", "3", "3"]}
+{"name": "%EB%85%B8%EB%9E%80%EB%AC%BC%EA%B3%A0%EA%B8%B0%EC%9D%B8%ED%98%95", "champions": ["Ezreal", "Lucian", "Kai'Sa"], "kda": ["2.15", "2.69", "2.38"], "win_rate": ["43%", "75%", "67%"], "Win": ["3", "3", "2"], "lose": ["4", "1", "1"]}
+{"name": "lovejiaobao", "champions": ["Lee Sin", "Pantheon", "Karthus"], "kda": ["3.55", "3.4", "2.25"], "win_rate": ["44%", "100%", "0%"], "Win": ["7", "1", "0"], "lose": ["9", "0", "1"]}
+{"name": "%EC%84%B8%EB%B8%90%ED%8B%B4%ED%95%98%EC%9D%B4%EB%94%98", "champions": ["Morgana", "Rakan", "Tahm Kench"], "kda": ["3.05", "1.32", "3.82"], "win_rate": ["75%", "0%", "33%"], "Win": ["3", "0", "1"], "lose": ["1", "4", "2"]}
+{"name": "%EC%82%B4%EA%B8%B0%EC%8B%9C%EB%9F%AC%EC%9A%94", "champions": ["Taliyah", "Kindred", "Nocturne"], "kda": ["2.21", "2.33", "7.2"], "win_rate": ["50%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["2", "2", "0"]}
+{"name": "%EC%88%A0%EB%8B%B4%EB%B0%B0%EB%8A%94%EC%A0%88%EB%8C%80%EC%95%88%ED%95%B4", "champions": ["LeBlanc", "Kled", "Dr. Mundo"], "kda": ["3.31", "3.27", "1.91"], "win_rate": ["75%", "25%", "67%"], "Win": ["3", "1", "2"], "lose": ["1", "3", "1"]}
+{"name": "%EB%84%88%EB%8A%94%EB%82%A0%EA%B9%8C%EC%95%BC%EC%A7%80%EA%B5%B3%EC%9D%B4", "champions": ["Jayce", "Irelia", "Orianna"], "kda": ["3.43", "3.06", "3.25"], "win_rate": ["67%", "67%", "50%"], "Win": ["2", "2", "1"], "lose": ["1", "1", "1"]}
+{"name": "foy", "champions": ["Kindred", "Taliyah", "Cassiopeia"], "kda": ["2.16", "2.26", "2.05"], "win_rate": ["40%", "25%", "75%"], "Win": ["2", "1", "3"], "lose": ["3", "3", "1"]}
+{"name": "xiaoshousijuan", "champions": ["LeBlanc", "Zoe", "Ryze"], "kda": ["2.02", "3.78", "9"], "win_rate": ["18%", "25%", "100%"], "Win": ["2", "1", "1"], "lose": ["9", "3", "0"]}
+{"name": "justbepatient", "champions": ["Kindred", "Zac", "Nocturne"], "kda": ["4.03", "Perfect", "5.4"], "win_rate": ["56%", "100%", "100%"], "Win": ["5", "1", "1"], "lose": ["4", "0", "0"]}
+{"name": "afreecaspirit", "champions": ["Kindred", "Evelynn", "Gragas"], "kda": ["3.53", "3.42", "2.75"], "win_rate": ["60%", "80%", "50%"], "Win": ["3", "4", "1"], "lose": ["2", "1", "1"]}
+{"name": "gengcorejj", "champions": ["Rakan", "Pyke", "Shen"], "kda": ["4.06", "2.38", "4.2"], "win_rate": ["80%", "50%", "33%"], "Win": ["4", "2", "1"], "lose": ["1", "2", "2"]}
+{"name": "%EC%B9%B4%ED%8E%98%EB%B2%A0%EB%84%A4%EC%84%A4%ED%83%95%EB%8F%84%EB%91%91", "champions": ["Yasuo", "Jhin", "LeBlanc"], "kda": ["2.25", "4", "1.14"], "win_rate": ["56%", "0%", "0%"], "Win": ["9", "0", "0"], "lose": ["7", "1", "1"]}
+{"name": "lazyson", "champions": ["Corki", "Zoe", "Cassiopeia"], "kda": ["1.83", "4.9", "6.75"], "win_rate": ["50%", "100%", "100%"], "Win": ["2", "3", "2"], "lose": ["2", "0", "0"]}
+{"name": "%ED%95%B4%EC%82%B0%EB%AC%BCshangdan", "champions": ["Kled", "Kennen", "Jayce"], "kda": ["3.7", "3.43", "3.43"], "win_rate": ["50%", "50%", "100%"], "Win": ["5", "1", "1"], "lose": ["5", "1", "0"]}
+{"name": "mad%EC%95%84%EC%9D%B8%EC%8A%88%ED%83%80%EC%9D%B8", "champions": ["Kled", "Camille", "Darius"], "kda": ["8.2", "1.73", "1.4"], "win_rate": ["100%", "67%", "100%"], "Win": ["3", "2", "3"], "lose": ["0", "1", "0"]}
+{"name": "%EB%B9%99%EB%8F%8C%EC%95%84%ED%8A%95%EA%B2%A8%EC%84%9C", "champions": ["Alistar", "Rakan", "Pyke"], "kda": ["3.32", "2.23", "2.29"], "win_rate": ["70%", "50%", "0%"], "Win": ["7", "2", "0"], "lose": ["3", "2", "2"]}
+{"name": "%EB%AA%85jhin%EC%9D%B4", "champions": ["Xayah", "Lucian", "Caitlyn"], "kda": ["4.46", "3.33", "2.33"], "win_rate": ["57%", "50%", "0%"], "Win": ["4", "1", "0"], "lose": ["3", "1", "2"]}
+{"name": "%EC%9E%90%ED%8F%AC%EC%9E%90%EA%B8%B0%ED%95%98%EB%8B%A4", "champions": ["Camille", "Gragas", "Fiora"], "kda": ["4.9", "2.4", "4"], "win_rate": ["100%", "33%", "50%"], "Win": ["3", "1", "1"], "lose": ["0", "2", "1"]}
+{"name": "%EC%84%B1%EB%B3%B4%EA%B3%A0%EA%B6%8C%ED%9D%AC%EC%9B%90", "champions": ["Urgot", "Swain", "Morgana"], "kda": ["2.48", "2.15", "4.36"], "win_rate": ["60%", "50%", "100%"], "Win": ["3", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "noyuinobabymetal", "champions": ["Swain", "Alistar", "Rakan"], "kda": ["5.55", "3.46", "2.29"], "win_rate": ["78%", "67%", "0%"], "Win": ["7", "2", "0"], "lose": ["2", "1", "2"]}
+{"name": "%EC%A1%B0lusi", "champions": ["Lucian", "Kai'Sa", "Xayah"], "kda": ["3.4", "2.08", "0.79"], "win_rate": ["60%", "100%", "0%"], "Win": ["3", "3", "0"], "lose": ["2", "0", "2"]}
+{"name": "%EC%99%B8%EC%B3%90%EC%A3%BC%EC%9C%A0%EC%86%8C%EA%B0%93%EB%9D%BC%EC%B9%B4", "champions": ["Soraka", "Morgana", "Poppy"], "kda": ["2.43", "Perfect", "1.2"], "win_rate": ["33%", "0%", "0%"], "Win": ["6", "0", "0"], "lose": ["12", "1", "1"]}
+{"name": "wnsnight", "champions": ["Yasuo", "Kled", "Vladimir"], "kda": ["3.57", "5.25", "4.75"], "win_rate": ["78%", "100%", "50%"], "Win": ["7", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "happyhappyboy", "champions": ["Gangplank", "Singed", "Xin Zhao"], "kda": ["2.69", "5.27", "3.63"], "win_rate": ["50%", "100%", "100%"], "Win": ["4", "3", "2"], "lose": ["4", "0", "0"]}
+{"name": "%EC%95%84%ED%85%8C%EB%82%98%EC%B0%A1", "champions": ["LeBlanc", "Orianna", "Vladimir"], "kda": ["4.92", "8.17", "2.5"], "win_rate": ["78%", "67%", "50%"], "Win": ["7", "2", "1"], "lose": ["2", "1", "1"]}
+{"name": "nef9", "champions": ["Vladimir", "Zoe", "Swain"], "kda": ["3.06", "2.29", "1.88"], "win_rate": ["71%", "67%", "33%"], "Win": ["5", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%EC%A2%8B%EC%9D%80%EB%82%A0", "champions": ["Taliyah", "Kindred", "Camille"], "kda": ["4.18", "1.84", "3.6"], "win_rate": ["57%", "25%", "50%"], "Win": ["4", "1", "1"], "lose": ["3", "3", "1"]}
+{"name": "%EB%A9%98%ED%83%88%EC%9E%A1%EC%9E%90%EC%9C%BC%EC%8C%B0%EC%9C%BC%EC%8C%B0", "champions": ["Shaco", "Taliyah", "Kindred"], "kda": ["3.46", "3.63", "2.7"], "win_rate": ["50%", "86%", "100%"], "Win": ["4", "6", "2"], "lose": ["4", "1", "0"]}
+{"name": "zhonggu0niubi", "champions": ["Pyke", "Rakan", "Alistar"], "kda": ["3.37", "2.5", "Perfect"], "win_rate": ["50%", "33%", "100%"], "Win": ["7", "1", "1"], "lose": ["7", "2", "0"]}
+{"name": "seeuag", "champions": ["Gragas", "Kindred", "Taliyah"], "kda": ["3.1", "2.62", "3.75"], "win_rate": ["75%", "75%", "50%"], "Win": ["3", "3", "1"], "lose": ["1", "1", "1"]}
+{"name": "beproudofme", "champions": ["Orianna", "Aatrox", "Vel'Koz"], "kda": ["2.55", "2.89", "3.06"], "win_rate": ["17%", "50%", "33%"], "Win": ["1", "2", "1"], "lose": ["5", "2", "2"]}
+{"name": "fwswordart", "champions": ["Shen", "Tahm Kench", "Rakan"], "kda": ["5.59", "2.35", "1.75"], "win_rate": ["86%", "75%", "0%"], "Win": ["12", "3", "0"], "lose": ["2", "1", "1"]}
+{"name": "hlemightybear", "champions": ["Kindred", "Taliyah", "Nocturne"], "kda": ["3.87", "3.09", "2.8"], "win_rate": ["80%", "40%", "50%"], "Win": ["4", "2", "1"], "lose": ["1", "3", "1"]}
+{"name": "%EC%84%9E%EA%B3%A0%EC%84%9E%EA%B3%A0%EB%8F%8C%EB%A6%AC%EA%BC%AC", "champions": ["Vladimir", "Orianna", "Ezreal"], "kda": ["2.29", "1.48", "5"], "win_rate": ["33%", "0%", "100%"], "Win": ["1", "0", "2"], "lose": ["2", "3", "0"]}
+{"name": "%EC%AB%84%EA%B9%83%ED%95%9C%EC%9A%B0%EB%8F%99%EC%82%AC%EB%A6%AC", "champions": ["Vladimir", "Rakan", "Orianna"], "kda": ["4.76", "8.5", "2.08"], "win_rate": ["75%", "100%", "50%"], "Win": ["6", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "%EB%8B%A8%EA%B5%B0%EC%9D%98%EC%B2%AD%EC%B6%98%EB%B6%80%EC%9E%AC", "champions": ["Swain", "Zoe", "Taliyah"], "kda": ["3.41", "3.4", "2.25"], "win_rate": ["75%", "100%", "50%"], "Win": ["3", "3", "1"], "lose": ["1", "0", "1"]}
+{"name": "wmir", "champions": ["Ryze", "Morgana", "Evelynn"], "kda": ["3.93", "2.58", "2.57"], "win_rate": ["69%", "0%", "0%"], "Win": ["11", "0", "0"], "lose": ["5", "2", "1"]}
+{"name": "ljljljlj", "champions": ["Swain", "Vladimir", "Morgana"], "kda": ["5.21", "3", "3.83"], "win_rate": ["67%", "33%", "100%"], "Win": ["4", "1", "2"], "lose": ["2", "2", "0"]}
+{"name": "%EC%B2%B8%ED%95%98%EC%98%A4", "champions": ["Galio", "Orianna", "Irelia"], "kda": ["3.56", "2.08", "0.71"], "win_rate": ["60%", "33%", "0%"], "Win": ["6", "1", "0"], "lose": ["4", "2", "2"]}
+{"name": "%EC%9A%B0%EC%9C%A0%ED%8C%A5%EB%B9%99%EC%88%98", "champions": ["Taliyah", "Kindred", "Rek'Sai"], "kda": ["1.86", "2.07", "2.58"], "win_rate": ["43%", "20%", "50%"], "Win": ["3", "1", "1"], "lose": ["4", "4", "1"]}
+{"name": "kzkhan", "champions": ["Gragas", "Camille", "Kennen"], "kda": ["2.39", "3.91", "1.86"], "win_rate": ["25%", "33%", "50%"], "Win": ["2", "1", "1"], "lose": ["6", "2", "1"]}
+{"name": "ivileye", "champions": ["Graves", "Camille", "Trundle"], "kda": ["5.17", "3.29", "2.64"], "win_rate": ["50%", "75%", "67%"], "Win": ["2", "3", "2"], "lose": ["2", "1", "1"]}
+{"name": "%EA%B8%88%EB%98%A5%EC%99%81%EC%99%81", "champions": ["Renekton", "", ""], "kda": ["1.53", "2.12", "2.12"], "win_rate": ["35%", "70%", "70%"], "Win": ["7", "2", "2"], "lose": ["13", "2", "2"]}
+{"name": "%EB%95%8C%EB%A6%B0%EA%B3%B3%EB%98%90%EB%95%8C%EB%A6%BC", "champions": ["Zoe", "Jayce", "Ryze"], "kda": ["3.83", "3", "4.8"], "win_rate": ["60%", "50%", "100%"], "Win": ["3", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "2%EB%8D%B0%EC%8A%A4%EB%AF%B8%EB%A7%8C", "champions": ["Gangplank", "Camille", "Kled"], "kda": ["2.38", "1.25", "11"], "win_rate": ["33%", "33%", "100%"], "Win": ["1", "1", "2"], "lose": ["2", "2", "0"]}
+{"name": "peray", "champions": ["Ezreal", "Vladimir", "Ryze"], "kda": ["2.24", "2.45", "2"], "win_rate": ["57%", "33%", "50%"], "Win": ["4", "2", "1"], "lose": ["3", "4", "1"]}
+{"name": "xibaa", "champions": ["Rakan", "Fiddlesticks", "Pyke"], "kda": ["3.13", "2.68", "2.69"], "win_rate": ["83%", "60%", "67%"], "Win": ["5", "3", "2"], "lose": ["1", "2", "1"]}
+{"name": "caixukun1", "champions": ["Kindred", "Xayah", "Camille"], "kda": ["2.53", "3.79", "1.66"], "win_rate": ["57%", "80%", "33%"], "Win": ["4", "4", "1"], "lose": ["3", "1", "2"]}
+{"name": "%ED%97%88%EC%B0%8C%EA%B0%B1", "champions": ["Lee Sin", "Braum", "Dr. Mundo"], "kda": ["3.26", "1.29", "1.38"], "win_rate": ["64%", "33%", "0%"], "Win": ["9", "1", "0"], "lose": ["5", "2", "2"]}
+{"name": "aetcal", "champions": ["Pyke", "Vladimir", "Gangplank"], "kda": ["2.75", "5", "2.67"], "win_rate": ["50%", "50%", "50%"], "Win": ["2", "1", "1"], "lose": ["2", "1", "1"]}
+{"name": "%EC%97%BD%EB%B6%81%EC%9D%B4", "champions": ["Nidalee", "Kindred", "Taliyah"], "kda": ["6.77", "2.04", "2.86"], "win_rate": ["90%", "0%", "50%"], "Win": ["9", "0", "1"], "lose": ["1", "3", "1"]}
+{"name": "morgan5358", "champions": ["Darius", "Camille", "Dr. Mundo"], "kda": ["2.04", "2.5", "4"], "win_rate": ["40%", "67%", "50%"], "Win": ["2", "2", "1"], "lose": ["3", "1", "1"]}
+{"name": "%EB%AC%B4%EC%A7%88%EB%9F%89", "champions": ["Morgana", "Lucian", "Braum"], "kda": ["4.06", "4.17", "0.73"], "win_rate": ["63%", "100%", "0%"], "Win": ["5", "4", "0"], "lose": ["3", "0", "2"]}
+{"name": "xinmo", "champions": ["Pyke", "Shen", "Rakan"], "kda": ["3.56", "8.8", "6.4"], "win_rate": ["50%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["3", "0", "2"]}
+{"name": "nomoredisturb", "champions": ["Shen", "Pyke", "Gragas"], "kda": ["2.48", "2.13", "3.71"], "win_rate": ["33%", "17%", "50%"], "Win": ["2", "1", "1"], "lose": ["4", "5", "1"]}
+{"name": "handciap", "champions": ["Kindred", "Nocturne", "Graves"], "kda": ["2.26", "3", "3.5"], "win_rate": ["33%", "33%", "100%"], "Win": ["3", "1", "2"], "lose": ["6", "2", "0"]}
+{"name": "%EB%82%98%EB%8F%84%EC%98%81%ED%98%BC%EC%97%90%EA%B6%81%EC%8D%BC%EC%96%B4", "champions": ["Ezreal", "Jinx", "Varus"], "kda": ["2.83", "2.6", "1.69"], "win_rate": ["54%", "67%", "0%"], "Win": ["7", "4", "0"], "lose": ["6", "2", "1"]}
+{"name": "%EC%95%84%EB%9D%BC%EA%B0%80%ED%82%A4%EC%9C%A0%EC%9D%B4", "champions": ["Kindred", "Taliyah", "Trundle"], "kda": ["4.89", "1.62", "8.33"], "win_rate": ["67%", "50%", "100%"], "Win": ["4", "2", "2"], "lose": ["2", "2", "0"]}
+{"name": "%EC%BD%94%EA%B5%AC%EC%82%AC%EC%84%B8%EC%B9%B4", "champions": ["Yasuo", "Talon", "Ekko"], "kda": ["3.55", "2.73", "2.45"], "win_rate": ["67%", "50%", "50%"], "Win": ["2", "1", "1"], "lose": ["1", "1", "1"]}
+{"name": "%EC%98%B9%EC%95%8C%EC%98%B9%EC%A3%BC%EB%8B%A4", "champions": ["Rek'Sai", "Xin Zhao", "Camille"], "kda": ["5.14", "2.2", "1.69"], "win_rate": ["100%", "60%", "0%"], "Win": ["5", "3", "0"], "lose": ["0", "2", "4"]}
+{"name": "no%EB%B8%8C%EB%9E%98%EC%9D%B8", "champions": ["Aurelion Sol", "", ""], "kda": ["3.22", "2.12", "2.12"], "win_rate": ["55%", "70%", "70%"], "Win": ["11", "2", "2"], "lose": ["9", "2", "2"]}
+{"name": "%ED%83%9C%EC%9D%84%EC%B2%9C%EC%83%81%EC%9B%90%EA%B5%B0", "champions": ["Kindred", "Nocturne", "Karma"], "kda": ["2.28", "5.25", "3.44"], "win_rate": ["50%", "100%", "100%"], "Win": ["3", "2", "2"], "lose": ["3", "0", "0"]}
+{"name": "%ED%94%8C%EB%A6%AC%EB%A6%AC", "champions": ["Talon", "Camille", "Irelia"], "kda": ["3.07", "3.27", "2"], "win_rate": ["38%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["5", "1", "2"]}
+{"name": "%ED%94%BC%EC%9E%90%ED%8C%8C%EC%8A%A4%ED%83%80%EB%8A%94", "champions": ["Pyke", "Morgana", "Ezreal"], "kda": ["2.03", "4.47", "2.63"], "win_rate": ["50%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["3", "0", "2"]}
+{"name": "patriklindberg", "champions": ["Kennen", "Pyke", "Rakan"], "kda": ["3.67", "2.75", "34"], "win_rate": ["67%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "sktt1le0", "champions": ["Lucian", "Ezreal", "Xayah"], "kda": ["1.33", "2.89", "5.33"], "win_rate": ["40%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["3", "2", "0"]}
+{"name": "sd%EA%B1%B4%EB%8B%B4%EC%BA%A1%EC%8A%90%ED%8C%8C%EC%9D%B4", "champions": ["Gangplank", "Camille", "Gnar"], "kda": ["3.11", "2.64", "1.77"], "win_rate": ["80%", "33%", "50%"], "Win": ["4", "1", "1"], "lose": ["1", "2", "1"]}
+{"name": "we77", "champions": ["Rakan", "Trundle", "Pyke"], "kda": ["3.26", "3.36", "3.78"], "win_rate": ["50%", "67%", "50%"], "Win": ["4", "2", "1"], "lose": ["4", "1", "1"]}
+{"name": "kdmx", "champions": ["Rakan", "Shen", "Tahm Kench"], "kda": ["4.24", "5.85", "2.27"], "win_rate": ["67%", "75%", "75%"], "Win": ["4", "3", "3"], "lose": ["2", "1", "1"]}
+{"name": "ioners", "champions": ["Blitzcrank", "Pyke", "Ezreal"], "kda": ["5", "3.86", "2.79"], "win_rate": ["67%", "33%", "33%"], "Win": ["2", "1", "1"], "lose": ["1", "2", "2"]}
+{"name": "gaopei", "champions": ["Orianna", "Irelia", "Yasuo"], "kda": ["2.72", "2.91", "2.2"], "win_rate": ["67%", "50%", "100%"], "Win": ["6", "1", "2"], "lose": ["3", "1", "0"]}
+{"name": "%EC%9D%98%EC%A3%BC", "champions": ["Xayah", "Ezreal", "Swain"], "kda": ["2.45", "2.74", "3.47"], "win_rate": ["43%", "60%", "50%"], "Win": ["3", "3", "2"], "lose": ["4", "2", "2"]}
+{"name": "lplnoobadqaq", "champions": ["Dr. Mundo", "Lucian", "Galio"], "kda": ["0.97", "2.12", "2.9"], "win_rate": ["57%", "60%", "50%"], "Win": ["4", "3", "1"], "lose": ["3", "2", "1"]}
+{"name": "meiyoudalong", "champions": ["Taliyah", "Gragas", "Camille"], "kda": ["2.68", "4", "3.78"], "win_rate": ["43%", "50%", "67%"], "Win": ["3", "2", "2"], "lose": ["4", "2", "1"]}
+{"name": "dddasher", "champions": ["Lucian", "Zoe", "Ryze"], "kda": ["5.31", "4.71", "3.55"], "win_rate": ["75%", "50%", "75%"], "Win": ["3", "2", "3"], "lose": ["1", "2", "1"]}
+{"name": "%EB%82%98%EB%8A%94%EA%B0%80%ED%95%B4%EC%9E%90%EB%8B%A4", "champions": ["Nidalee", "Taliyah", "Lee Sin"], "kda": ["4.85", "3.08", "5.4"], "win_rate": ["83%", "75%", "100%"], "Win": ["5", "3", "2"], "lose": ["1", "1", "0"]}
+{"name": "%EC%A7%84%EC%97%90%EC%96%B4%EC%B9%B4%EC%B9%B4%EC%98%A4", "champions": ["Taliyah", "Kindred", "Nidalee"], "kda": ["3.5", "2.82", "3.78"], "win_rate": ["60%", "67%", "100%"], "Win": ["3", "2", "2"], "lose": ["2", "1", "0"]}
+{"name": "beyourse1f", "champions": ["Galio", "Renekton", "Lissandra"], "kda": ["3.36", "4.33", "2.4"], "win_rate": ["67%", "100%", "50%"], "Win": ["6", "2", "1"], "lose": ["3", "0", "1"]}
+{"name": "%EB%85%B8%EB%A0%A5%EC%A4%91%EC%9D%B8%EB%A0%88%EB%B8%94%EC%9D%B4", "champions": ["Rakan", "Shen", "Alistar"], "kda": ["5.68", "6.3", "3.22"], "win_rate": ["83%", "60%", "50%"], "Win": ["5", "3", "2"], "lose": ["1", "2", "2"]}
+{"name": "californialife", "champions": ["Camille", "Swain", "Darius"], "kda": ["4", "4.5", "2.44"], "win_rate": ["80%", "50%", "50%"], "Win": ["4", "1", "1"], "lose": ["1", "1", "1"]}
+{"name": "aopida", "champions": ["Pyke", "Ezreal", "Alistar"], "kda": ["4.92", "2.7", "2.22"], "win_rate": ["67%", "33%", "50%"], "Win": ["6", "1", "1"], "lose": ["3", "2", "1"]}
+{"name": "%EA%B2%80%EC%9D%80%EB%A8%B8%EB%A6%AC%EC%82%AC%EB%82%98%EC%9D%B4", "champions": ["Ryze", "Zoe", "Swain"], "kda": ["1.63", "2.07", "2.29"], "win_rate": ["25%", "33%", "50%"], "Win": ["1", "1", "1"], "lose": ["3", "2", "1"]}
+{"name": "lleave", "champions": ["Irelia", "Lucian", "Ezreal"], "kda": ["3.24", "4.29", "9.6"], "win_rate": ["50%", "100%", "100%"], "Win": ["2", "3", "2"], "lose": ["2", "0", "0"]}
+{"name": "dubiad", "champions": ["Kai'Sa", "Vladimir", "Camille"], "kda": ["3.29", "2.9", "2.71"], "win_rate": ["80%", "75%", "67%"], "Win": ["8", "3", "2"], "lose": ["2", "1", "1"]}
+{"name": "%EB%B0%B1%EC%83%89%EB%A7%90%EC%B2%98%EB%9F%BC", "champions": ["Yasuo", "Ryze", "Zoe"], "kda": ["2.35", "1.57", "1.42"], "win_rate": ["67%", "33%", "50%"], "Win": ["8", "1", "1"], "lose": ["4", "2", "1"]}
+{"name": "%EC%9D%B4%EC%B0%A8%EA%B0%80%EC%8B%9D%EA%B8%B0%EC%A0%84%EC%97%90", "champions": ["Taliyah", "Sejuani", "Aatrox"], "kda": ["7.22", "5.58", "4.17"], "win_rate": ["75%", "75%", "75%"], "Win": ["3", "3", "3"], "lose": ["1", "1", "1"]}
+{"name": "%EC%A1%B8%EB%A6%B0%EA%B0%80%EB%B3%B8%EB%8D%B0", "champions": ["Xayah", "Vladimir", "Lucian"], "kda": ["4.67", "2.53", "2.19"], "win_rate": ["80%", "33%", "0%"], "Win": ["4", "1", "0"], "lose": ["1", "2", "3"]}
+{"name": "hfghkyu", "champions": ["Yasuo", "Aatrox", "Zed"], "kda": ["3.31", "4.07", "10"], "win_rate": ["78%", "100%", "100%"], "Win": ["7", "3", "2"], "lose": ["2", "0", "0"]}
+{"name": "%EB%AC%B4%EC%84%9C%EC%9A%B4%EC%9B%90%EC%88%AD%EC%9D%B4", "champions": ["Taliyah", "Kindred", "Camille"], "kda": ["3.37", "2.23", "1.35"], "win_rate": ["50%", "50%", "0%"], "Win": ["2", "2", "0"], "lose": ["2", "2", "3"]}
+{"name": "realgankster", "champions": ["Nocturne", "Kindred", "Xin Zhao"], "kda": ["2.27", "2.8", "11"], "win_rate": ["40%", "33%", "100%"], "Win": ["2", "1", "2"], "lose": ["3", "2", "0"]}
+{"name": "%EB%85%B8%EB%A0%A5%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94%EC%82%AC%EB%9E%8C", "champions": ["Swain", "Xayah", "Lucian"], "kda": ["3.88", "2.18", "1.67"], "win_rate": ["60%", "33%", "33%"], "Win": ["3", "1", "1"], "lose": ["2", "2", "2"]}
+{"name": "%EB%8B%B4%EC%9B%90%EC%87%BC%EB%A9%94%EC%9D%B4%EC%BB%A4", "champions": ["Talon", "Yasuo", "Vladimir"], "kda": ["4.5", "3.53", "3.43"], "win_rate": ["100%", "67%", "100%"], "Win": ["3", "2", "2"], "lose": ["0", "1", "0"]}
+{"name": "apkbonnie", "champions": ["Rengar", "Nidalee", "Morgana"], "kda": ["2.87", "1.92", "2.85"], "win_rate": ["63%", "67%", "100%"], "Win": ["5", "2", "2"], "lose": ["3", "1", "0"]}
+{"name": "blackgat", "champions": ["Alistar", "Morgana", "Thresh"], "kda": ["3.13", "2.71", "2.88"], "win_rate": ["43%", "57%", "67%"], "Win": ["3", "4", "4"], "lose": ["4", "3", "2"]}
+{"name": "%EA%B0%90%EA%B7%A4%EB%A8%B9%EC%9D%84%EB%82%98%EC%9D%B4", "champions": ["Gangplank", "Aatrox", "Kled"], "kda": ["4.24", "2.35", "0.44"], "win_rate": ["83%", "60%", "0%"], "Win": ["10", "3", "0"], "lose": ["2", "2", "2"]}
+{"name": "pzzzang", "champions": ["Yasuo", "Vladimir", "Alistar"], "kda": ["2.17", "1.82", "1.31"], "win_rate": ["54%", "33%", "0%"], "Win": ["7", "1", "0"], "lose": ["6", "2", "1"]}
+{"name": "s2vely", "champions": ["Pyke", "Lucian", "Shen"], "kda": ["4.22", "3.31", "8.33"], "win_rate": ["60%", "50%", "67%"], "Win": ["6", "2", "2"], "lose": ["4", "2", "1"]}
+{"name": "jjun12", "champions": ["Xin Zhao", "Gragas", "Kindred"], "kda": ["1.7", "5.14", "2.42"], "win_rate": ["29%", "100%", "100%"], "Win": ["2", "2", "2"], "lose": ["5", "0", "0"]}
+{"name": "akumar", "champions": ["Orianna", "Syndra", "Gragas"], "kda": ["1.97", "2.37", "2.7"], "win_rate": ["50%", "75%", "100%"], "Win": ["4", "3", "2"], "lose": ["4", "1", "0"]}
+{"name": "%EB%88%84%EC%9A%B0%EC%9A%B4%EC%82%AC%EB%9E%8C", "champions": ["Zoe", "Aatrox", "Jayce"], "kda": ["2.72", "2.39", "2.56"], "win_rate": ["50%", "50%", "100%"], "Win": ["2", "2", "3"], "lose": ["2", "2", "0"]}
+{"name": "%EC%82%AC%EB%9E%8C%ED%95%9C%EC%82%AC%EB%9E%8C", "champions": ["Taliyah", "Camille", "Kindred"], "kda": ["2.72", "3.17", "6"], "win_rate": ["60%", "50%", "100%"], "Win": ["3", "2", "3"], "lose": ["2", "2", "0"]}
+{"name": "winn1ebear", "champions": ["Alistar", "Fiddlesticks", "Ezreal"], "kda": ["2.41", "1.95", "1.81"], "win_rate": ["50%", "67%", "33%"], "Win": ["2", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%ED%9E%88%EB%A1%9C%EB%B9%88", "champions": ["Taliyah", "Jhin", "Camille"], "kda": ["5", "2.24", "3.25"], "win_rate": ["83%", "50%", "67%"], "Win": ["5", "2", "2"], "lose": ["1", "2", "1"]}
+{"name": "firststart", "champions": ["Shen", "Gragas", "Rakan"], "kda": ["5.86", "5.07", "6.17"], "win_rate": ["100%", "80%", "75%"], "Win": ["5", "4", "3"], "lose": ["0", "1", "1"]}
+{"name": "%EB%89%B4%ED%8A%B8%EC%A3%BC%EB%8B%88%EC%96%B4", "champions": ["Pyke", "Shen", "Vladimir"], "kda": ["3.88", "2.88", "2.12"], "win_rate": ["14%", "50%", "33%"], "Win": ["1", "3", "1"], "lose": ["6", "3", "2"]}
+{"name": "shibuyaharuka", "champions": ["Gragas", "Poppy", "Aatrox"], "kda": ["2.63", "2.71", "4.27"], "win_rate": ["50%", "40%", "100%"], "Win": ["3", "2", "4"], "lose": ["3", "3", "0"]}
+{"name": "%EA%B6%8C%ED%9D%AC%EC%9B%90", "champions": ["Urgot", "Aatrox", "Swain"], "kda": ["3.14", "3.91", "5.88"], "win_rate": ["60%", "83%", "100%"], "Win": ["6", "5", "3"], "lose": ["4", "1", "0"]}
+{"name": "%ED%95%9C%EA%B2%A8%EB%A0%88%EC%96%B4%EB%A6%B0%EC%9D%B4", "champions": ["Sejuani", "Nocturne", "Kindred"], "kda": ["3.7", "2.43", "4.08"], "win_rate": ["40%", "60%", "75%"], "Win": ["2", "3", "3"], "lose": ["3", "2", "1"]}
+{"name": "esstroy", "champions": ["Rakan", "Morgana", "Soraka"], "kda": ["2.88", "2.24", "4.5"], "win_rate": ["60%", "40%", "50%"], "Win": ["3", "2", "1"], "lose": ["2", "3", "1"]}
+{"name": "%EA%B0%84%EC%B8%A0", "champions": ["Thresh", "Morgana", "Zyra"], "kda": ["3.5", "4.92", "2.75"], "win_rate": ["20%", "75%", "50%"], "Win": ["1", "3", "2"], "lose": ["4", "1", "2"]}
+{"name": "wholuckymore", "champions": ["Shen", "Gragas", "Tahm Kench"], "kda": ["2.86", "1.82", "3.25"], "win_rate": ["38%", "33%", "100%"], "Win": ["3", "2", "2"], "lose": ["5", "4", "0"]}
+{"name": "%ED%86%A0%EB%A5%B4%ED%8C%AC%EB%8D%94", "champions": ["Alistar", "Gragas", "Morgana"], "kda": ["4.6", "3", "Perfect"], "win_rate": ["71%", "50%", "100%"], "Win": ["10", "1", "1"], "lose": ["4", "1", "0"]}
+{"name": "%EB%93%9C%ED%95%98%EC%9E%90%EC%8B%9C%EB%A5%B4%EB%8F%84%EC%97%94", "champions": ["Graves", "Kai'Sa", "Yasuo"], "kda": ["3.47", "1.94", "1.05"], "win_rate": ["50%", "67%", "33%"], "Win": ["2", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "%EC%9C%A4%EC%86%8C%EC%99%84", "champions": ["Jayce", "Kled", "Rumble"], "kda": ["3.33", "4.6", "7.67"], "win_rate": ["100%", "67%", "50%"], "Win": ["6", "2", "1"], "lose": ["0", "1", "1"]}
+{"name": "%EA%B5%AC%EB%A6%B0%EB%82%B4%EA%B0%80%EC%8B%AC%ED%95%98%EA%B5%AC%EB%82%98", "champions": ["Vladimir", "Irelia", "LeBlanc"], "kda": ["1.56", "1.11", "3.67"], "win_rate": ["25%", "25%", "50%"], "Win": ["1", "1", "1"], "lose": ["3", "3", "1"]}
+{"name": "ymq601658101", "champions": ["Cho'Gath", "Singed", "Gangplank"], "kda": ["2.3", "2.33", "2"], "win_rate": ["42%", "75%", "0%"], "Win": ["5", "3", "0"], "lose": ["7", "1", "2"]}
+{"name": "keri4", "champions": ["Morgana", "Rakan", "Ezreal"], "kda": ["3.88", "1.65", "5.8"], "win_rate": ["60%", "25%", "100%"], "Win": ["3", "1", "2"], "lose": ["2", "3", "0"]}
+{"name": "juanovo", "champions": ["Shen", "Fiddlesticks", "Morgana"], "kda": ["2.64", "2.47", "2.73"], "win_rate": ["43%", "86%", "33%"], "Win": ["3", "6", "1"], "lose": ["4", "1", "2"]}
+{"name": "mangodog", "champions": ["Fizz", "Kassadin", "Malphite"], "kda": ["1.98", "3.23", "2.7"], "win_rate": ["36%", "67%", "50%"], "Win": ["4", "2", "1"], "lose": ["7", "1", "1"]}
+{"name": "%ED%97%A4%EB%A5%B4", "champions": ["Rakan", "Gragas", "Leona"], "kda": ["3.92", "3.36", "12"], "win_rate": ["44%", "100%", "100%"], "Win": ["4", "4", "2"], "lose": ["5", "0", "0"]}
+{"name": "lookatmy", "champions": ["Rakan", "Pyke", "Morgana"], "kda": ["3.76", "2.78", "3.64"], "win_rate": ["43%", "60%", "75%"], "Win": ["3", "3", "3"], "lose": ["4", "2", "1"]}
+{"name": "ktmia", "champions": ["Shen", "Fiddlesticks", "Nami"], "kda": ["1.94", "2.3", "2.25"], "win_rate": ["14%", "67%", "100%"], "Win": ["1", "2", "2"], "lose": ["6", "1", "0"]}
+{"name": "wyt0111", "champions": ["Rakan", "Pyke", "Gragas"], "kda": ["3.4", "5.5", "2.73"], "win_rate": ["50%", "75%", "50%"], "Win": ["3", "3", "1"], "lose": ["3", "1", "1"]}
+{"name": "ililiiiillliil", "champions": ["Trundle", "Taliyah", "Graves"], "kda": ["3.83", "3.64", "2.31"], "win_rate": ["67%", "67%", "33%"], "Win": ["2", "2", "1"], "lose": ["1", "1", "2"]}
+{"name": "%ED%94%84%EC%A0%9C%EC%A7%B1", "champions": ["Yasuo", "Irelia", "Vladimir"], "kda": ["1.86", "3.55", "5.33"], "win_rate": ["50%", "75%", "50%"], "Win": ["6", "3", "1"], "lose": ["6", "1", "1"]}
+{"name": "yulihong22", "champions": ["Rumble", "Darius", "Kennen"], "kda": ["3.8", "1.95", "3.13"], "win_rate": ["67%", "40%", "67%"], "Win": ["4", "2", "2"], "lose": ["2", "3", "1"]}
+{"name": "%EB%AA%BD%EB%AA%BD", "champions": ["Soraka", "", ""], "kda": ["4.41", "2.12", "2.12"], "win_rate": ["70%", "70%", "70%"], "Win": ["14", "2", "2"], "lose": ["6", "2", "2"]}
+{"name": "gengcuvee", "champions": ["Ryze", "Orianna", "Zoe"], "kda": ["0.86", "3.13", "1.28"], "win_rate": ["0%", "100%", "0%"], "Win": ["0", "2", "0"], "lose": ["3", "0", "2"]}
+{"name": "sorrysorrysorry", "champions": ["Irelia", "Gragas", "Darius"], "kda": ["1.05", "3.17", "3.56"], "win_rate": ["0%", "100%", "50%"], "Win": ["0", "3", "1"], "lose": ["4", "0", "1"]}
+{"name": "%EC%95%85%EB%A7%88%EA%B2%80", "champions": ["Yasuo", "Talon", "Darius"], "kda": ["3.64", "4.64", "2.75"], "win_rate": ["75%", "75%", "50%"], "Win": ["9", "3", "1"], "lose": ["3", "1", "1"]}
+{"name": "loc1234567", "champions": ["Jayce", "Dr. Mundo", "Gnar"], "kda": ["2.42", "1.58", "0.72"], "win_rate": ["71%", "33%", "33%"], "Win": ["5", "1", "1"], "lose": ["2", "2", "2"]}
+{"name": "tfbrave", "champions": ["Katarina", "LeBlanc", "Ryze"], "kda": ["4.39", "2.8", "2.5"], "win_rate": ["67%", "100%", "100%"], "Win": ["12", "1", "1"], "lose": ["6", "0", "0"]}
+{"name": "%ED%94%84%EA%B0%84%EB%A1%9C%EC%A0%88", "champions": ["Vladimir", "Gangplank", "Ryze"], "kda": ["3.1", "3.8", "2.82"], "win_rate": ["83%", "100%", "67%"], "Win": ["5", "3", "2"], "lose": ["1", "0", "1"]}
+{"name": "bbqccrazy", "champions": ["Rumble", "Gangplank", "Kled"], "kda": ["5.18", "4", "3.75"], "win_rate": ["100%", "67%", "100%"], "Win": ["5", "2", "3"], "lose": ["0", "1", "0"]}
+{"name": "upgrade%ED%95%A0%EA%B1%B0%EC%95%BC", "champions": ["Jayce", "Ryze", ""], "kda": ["4.26", "2.41", "2.12"], "win_rate": ["75%", "25%", "70%"], "Win": ["12", "1", "2"], "lose": ["4", "3", "2"]}
+{"name": "no1%EB%A3%A8%ED%94%BC", "champions": ["Nidalee", "Graves", ""], "kda": ["3.73", "3.8", "2.12"], "win_rate": ["56%", "100%", "70%"], "Win": ["10", "2", "2"], "lose": ["8", "0", "2"]}
+{"name": "twitchmurthhlol", "champions": ["Evelynn", "Hecarim", "Kha'Zix"], "kda": ["3.19", "3.19", "4.5"], "win_rate": ["75%", "25%", "100%"], "Win": ["9", "1", "1"], "lose": ["3", "3", "0"]}
+{"name": "4seidon", "champions": ["Nami", "Morgana", ""], "kda": ["3.86", "2.09", "2.12"], "win_rate": ["83%", "50%", "70%"], "Win": ["15", "1", "2"], "lose": ["3", "1", "2"]}
+{"name": "imreallysorry", "champions": ["Darius", "Jarvan IV", "Dr. Mundo"], "kda": ["2.25", "26", "4"], "win_rate": ["67%", "100%", "50%"], "Win": ["4", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "coldplayy", "champions": ["Lucian", "Tristana", "Alistar"], "kda": ["2.06", "2.39", "4.11"], "win_rate": ["20%", "25%", "67%"], "Win": ["1", "1", "2"], "lose": ["4", "3", "1"]}
+{"name": "xiaoshenkejiushu", "champions": ["Camille", "Nidalee", "Lee Sin"], "kda": ["2.37", "3.56", "3.82"], "win_rate": ["29%", "50%", "50%"], "Win": ["2", "3", "1"], "lose": ["5", "3", "1"]}
+{"name": "kdmumaru", "champions": ["Gragas", "Ezreal", "Shen"], "kda": ["3.27", "1.07", "5.55"], "win_rate": ["78%", "33%", "100%"], "Win": ["7", "1", "2"], "lose": ["2", "2", "0"]}
+{"name": "%EB%82%98%EC%B9%B4%EB%85%B8%EC%9A%94%EC%B8%A0ba", "champions": ["Gragas", "Kennen", "Lulu"], "kda": ["2.09", "2.92", "15"], "win_rate": ["38%", "75%", "100%"], "Win": ["3", "3", "1"], "lose": ["5", "1", "0"]}
+{"name": "%EC%96%91%EC%96%91%EC%95%84%EA%B8%B0", "champions": ["Graves", "Taliyah", "Trundle"], "kda": ["2.27", "3.52", "4.5"], "win_rate": ["57%", "83%", "50%"], "Win": ["4", "5", "1"], "lose": ["3", "1", "1"]}
+{"name": "mvpian", "champions": ["Aatrox", "LeBlanc", "Orianna"], "kda": ["2.17", "3", "2.25"], "win_rate": ["60%", "67%", "67%"], "Win": ["3", "2", "2"], "lose": ["2", "1", "1"]}
+{"name": "marktime", "champions": ["Quinn", "Gragas", "Kled"], "kda": ["2.03", "1.91", "3.27"], "win_rate": ["40%", "33%", "50%"], "Win": ["2", "1", "1"], "lose": ["3", "2", "1"]}
+{"name": "%ED%98%9C%EC%A7%80%EA%B8%B0%EC%97%AC%EC%9B%8C", "champions": ["Ekko", "Gragas", "Zoe"], "kda": ["3.04", "3.85", "4"], "win_rate": ["83%", "100%", "50%"], "Win": ["5", "3", "1"], "lose": ["1", "0", "1"]}
+{"name": "oyoyoy", "champions": ["Morgana", "Rakan", "Braum"], "kda": ["1.81", "5.69", "2"], "win_rate": ["50%", "80%", "0%"], "Win": ["3", "4", "0"], "lose": ["3", "1", "3"]}
+{"name": "%EC%8A%A4%EC%BD%94%EC%B9%98%EC%95%94%EC%84%B8%ED%8F%AC", "champions": ["Graves", "Gragas", "Aatrox"], "kda": ["3.45", "3.12", "2.7"], "win_rate": ["40%", "50%", "67%"], "Win": ["2", "2", "2"], "lose": ["3", "2", "1"]}
+{"name": "tenshi", "champions": ["Nocturne", "Taliyah", "Ryze"], "kda": ["2.5", "7.5", "5.2"], "win_rate": ["75%", "67%", "100%"], "Win": ["3", "2", "2"], "lose": ["1", "1", "0"]}
+{"name": "deft12345678", "champions": ["Zoe", "Orianna", "Vladimir"], "kda": ["1.88", "2.81", "0.71"], "win_rate": ["40%", "0%", "0%"], "Win": ["2", "0", "0"], "lose": ["3", "4", "2"]}
+{"name": "shiac", "champions": ["Shen", "Gangplank", "Rakan"], "kda": ["3.11", "5.25", "3"], "win_rate": ["50%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["3", "1", "2"]}
+{"name": "afrart", "champions": ["Ezreal", "Lucian", "Kai'Sa"], "kda": ["4.15", "15.67", "2.57"], "win_rate": ["43%", "100%", "100%"], "Win": ["3", "4", "2"], "lose": ["4", "0", "0"]}
+{"name": "%EC%A3%BC%EA%B8%B0%EC%A7%80%EB%A7%88%EC%82%B4%EB%A0%A4%EC%A3%A0", "champions": ["Nidalee", "Lee Sin", "Morgana"], "kda": ["4.97", "1.53", "2.75"], "win_rate": ["89%", "33%", "100%"], "Win": ["8", "1", "2"], "lose": ["1", "2", "0"]}
+{"name": "lovezxc", "champions": ["Kindred", "Graves", "Taliyah"], "kda": ["2.55", "2.67", "3.67"], "win_rate": ["60%", "67%", "50%"], "Win": ["3", "2", "1"], "lose": ["2", "1", "1"]}
+{"name": "ulrd1", "champions": ["Orianna", "Draven", "Yasuo"], "kda": ["1.93", "6.43", "1.81"], "win_rate": ["33%", "100%", "0%"], "Win": ["2", "3", "0"], "lose": ["4", "0", "2"]}
+{"name": "topggoong", "champions": ["LeBlanc", "Kled", "Swain"], "kda": ["5.06", "1.39", "3.83"], "win_rate": ["100%", "0%", "100%"], "Win": ["4", "0", "2"], "lose": ["0", "3", "0"]}
+{"name": "8981", "champions": ["Jayce", "Twisted Fate", ""], "kda": ["2.79", "2.4", "2.12"], "win_rate": ["37%", "0%", "70%"], "Win": ["7", "0", "2"], "lose": ["12", "1", "2"]}
+{"name": "%EC%96%91%EC%B9%98%ED%95%98%EA%B3%A0%EC%9E%90%EB%9D%BC", "champions": ["Vladimir", "Lucian", "Orianna"], "kda": ["5", "14", "7.67"], "win_rate": ["56%", "100%", "100%"], "Win": ["5", "1", "1"], "lose": ["4", "0", "0"]}
+{"name": "%EB%B0%80%ED%81%AC%ED%8B%B0%EB%86%8D%EC%97%85%EC%A2%85%EC%82%AC%EC%9E%90", "champions": ["Nocturne", "Rumble", "Cho'Gath"], "kda": ["2.38", "4.57", "3.5"], "win_rate": ["33%", "100%", "100%"], "Win": ["1", "2", "2"], "lose": ["2", "0", "0"]}
+{"name": "akiyam2", "champions": ["Swain", "Zoe", "Yasuo"], "kda": ["5.75", "2", "1.84"], "win_rate": ["100%", "0%", "33%"], "Win": ["5", "0", "1"], "lose": ["0", "4", "2"]}
+{"name": "gengambition", "champions": ["Camille", "Gragas", "Ezreal"], "kda": ["3.67", "2.19", "0.63"], "win_rate": ["67%", "33%", "33%"], "Win": ["2", "1", "1"], "lose": ["1", "2", "2"]}
+{"name": "goldguns%ED%95%98", "champions": ["Lucian", "LeBlanc", "Kennen"], "kda": ["5.5", "4.57", "0.5"], "win_rate": ["100%", "50%", "50%"], "Win": ["2", "1", "1"], "lose": ["0", "1", "1"]}
+{"name": "route", "champions": ["Vladimir", "Swain", "Xayah"], "kda": ["3.61", "2.38", "1.82"], "win_rate": ["67%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["2", "1", "2"]}
+{"name": "pireannn", "champions": ["Orianna", "Xerath", "Taliyah"], "kda": ["6.5", "2.5", "1.94"], "win_rate": ["67%", "0%", "50%"], "Win": ["8", "0", "1"], "lose": ["4", "2", "1"]}
+{"name": "jinairnova", "champions": ["Gragas", "Tahm Kench", "Soraka"], "kda": ["3.38", "3.33", "0.9"], "win_rate": ["57%", "67%", "0%"], "Win": ["4", "2", "0"], "lose": ["3", "1", "3"]}
+{"name": "%EB%88%88%EB%96%A0%EB%B3%B4%EB%8B%88%EB%85%B8%EB%95%85", "champions": ["Yasuo", "Aatrox", "Kled"], "kda": ["2.93", "5.2", "3.8"], "win_rate": ["80%", "50%", "67%"], "Win": ["4", "2", "2"], "lose": ["1", "2", "1"]}
+{"name": "%EC%B9%AD%EC%B0%AC%EC%9D%80%ED%95%AD%EC%83%81%EC%A7%9C%EB%A6%BF%ED%95%B4", "champions": ["Lucian", "Ashe", "Kai'Sa"], "kda": ["4.65", "4.05", "3.07"], "win_rate": ["83%", "83%", "50%"], "Win": ["5", "5", "2"], "lose": ["1", "1", "2"]}
+{"name": "tankxd", "champions": ["Lissandra", "Twisted Fate", "Dr. Mundo"], "kda": ["3.63", "2.18", "1.5"], "win_rate": ["80%", "100%", "50%"], "Win": ["8", "3", "1"], "lose": ["2", "0", "1"]}
+{"name": "%EB%A1%A4%EC%98%A4%EB%B8%8C%EB%A0%88%EC%A0%84%EB%93%9C1234", "champions": ["Morgana", "Tahm Kench", "Alistar"], "kda": ["1.92", "5.82", "4.23"], "win_rate": ["40%", "100%", "33%"], "Win": ["2", "4", "1"], "lose": ["3", "0", "2"]}
+{"name": "rainbow22", "champions": ["Ryze", "Talon", "Galio"], "kda": ["2.89", "2.5", "5.6"], "win_rate": ["67%", "67%", "100%"], "Win": ["2", "2", "2"], "lose": ["1", "1", "0"]}
+{"name": "%ED%95%98%EC%96%BC%EB%B9%88%EC%9D%98%EC%9F%9D%EC%B2%B8%EC%9D%B4%EC%95%BC", "champions": ["Gragas", "Rakan", "Shen"], "kda": ["4.62", "2.26", "3.7"], "win_rate": ["89%", "25%", "50%"], "Win": ["8", "1", "1"], "lose": ["1", "3", "1"]}
+{"name": "blgroad", "champions": ["Rakan", "Pyke", "Shen"], "kda": ["4.71", "3.82", "2.28"], "win_rate": ["50%", "60%", "0%"], "Win": ["3", "3", "0"], "lose": ["3", "2", "3"]}
+{"name": "%EB%82%9C%EC%A7%88%EC%88%98%EC%97%86%EB%8B%A4", "champions": ["Xin Zhao", "Gragas", "Camille"], "kda": ["4.79", "3.5", "2.21"], "win_rate": ["67%", "67%", "33%"], "Win": ["2", "2", "1"], "lose": ["1", "1", "2"]}
+{"name": "%EB%81%BC%EB%B6%80%EB%8B%88%EB%84%98%EB%AA%A8%EC%A1%B0%EC%95%84%EC%97%B0", "champions": ["Kai'Sa", "Ashe", "Ezreal"], "kda": ["2.14", "3.75", "1.13"], "win_rate": ["50%", "100%", "0%"], "Win": ["2", "2", "0"], "lose": ["2", "0", "2"]}
+{"name": "nabi", "champions": ["Kai'Sa", "Ezreal", "Rakan"], "kda": ["2.88", "2.1", "3.8"], "win_rate": ["40%", "50%", "50%"], "Win": ["2", "2", "1"], "lose": ["3", "2", "1"]}
+{"name": "rngvector", "champions": ["Yasuo", "Kai'Sa", "Xin Zhao"], "kda": ["1.46", "0.8", "2.73"], "win_rate": ["0%", "33%", "100%"], "Win": ["0", "1", "2"], "lose": ["4", "2", "0"]}
+{"name": "harleyquining", "champions": ["Ezreal", "Varus", "Kai'Sa"], "kda": ["4.11", "1.8", "3.57"], "win_rate": ["50%", "67%", "50%"], "Win": ["3", "2", "1"], "lose": ["3", "1", "1"]}
+{"name": "putongdeadc", "champions": ["Yasuo", "Swain", "Morgana"], "kda": ["1.67", "6.67", "4.83"], "win_rate": ["40%", "67%", "100%"], "Win": ["2", "2", "3"], "lose": ["3", "1", "0"]}
+{"name": "lehends", "champions": ["Gragas", "Soraka", "Rakan"], "kda": ["1.93", "5.6", "4.73"], "win_rate": ["29%", "100%", "50%"], "Win": ["2", "2", "1"], "lose": ["5", "0", "1"]}
+{"name": "lalunetear", "champions": ["LeBlanc", "Galio", "Orianna"], "kda": ["5.67", "1.33", "11"], "win_rate": ["71%", "50%", "100%"], "Win": ["5", "1", "1"], "lose": ["2", "1", "0"]}
+{"name": "btcsoar", "champions": ["Darius", "Camille", "Kennen"], "kda": ["2.38", "1.5", "1.25"], "win_rate": ["67%", "50%", "0%"], "Win": ["2", "1", "0"], "lose": ["1", "1", "2"]}
+{"name": "%EB%84%88%EC%99%80%EB%82%98%EC%9D%98%EC%97%B0%EA%B2%B0gori", "champions": ["Zoe", "Ryze", "Irelia"], "kda": ["1.42", "4.14", "3.4"], "win_rate": ["25%", "100%", "100%"], "Win": ["1", "2", "2"], "lose": ["3", "0", "0"]}
+{"name": "%EC%9C%A8%EC%B2%9C%EA%B3%A0%EC%B5%9C%ED%98%84%EC%9A%B0", "champions": ["Zed", "Galio", "LeBlanc"], "kda": ["3.67", "3.64", "2.06"], "win_rate": ["50%", "25%", "33%"], "Win": ["2", "1", "1"], "lose": ["2", "3", "2"]}
+{"name": "1427538696835724", "champions": ["Lucian", "Heimerdinger", "Miss Fortune"], "kda": ["2.96", "9.33", "2.83"], "win_rate": ["40%", "100%", "50%"], "Win": ["4", "3", "1"], "lose": ["6", "0", "1"]}
+{"name": "teggun", "champions": ["Gangplank", "Shen", "Gragas"], "kda": ["4.39", "9", "4.17"], "win_rate": ["67%", "100%", "50%"], "Win": ["4", "2", "1"], "lose": ["2", "0", "1"]}
+{"name": "cheongo", "champions": ["Zed", "Soraka", "Ryze"], "kda": ["8.67", "6", "1.74"], "win_rate": ["100%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["0", "0", "2"]}
+{"name": "luubaby", "champions": ["Gnar", "Kennen", "Jax"], "kda": ["2.22", "2.18", "1.5"], "win_rate": ["50%", "75%", "33%"], "Win": ["2", "3", "1"], "lose": ["2", "1", "2"]}
+{"name": "mni", "champions": ["Fiddlesticks", "Singed", "Soraka"], "kda": ["3.18", "2.07", "4"], "win_rate": ["67%", "57%", "50%"], "Win": ["6", "4", "1"], "lose": ["3", "3", "1"]}
+{"name": "%EB%AC%B4%EB%A6%8E%EC%9D%84%EB%98%90%EA%BF%87%EC%97%88%EB%84%A4", "champions": ["Zoe", "Orianna", "Swain"], "kda": ["3.64", "2.64", "1.79"], "win_rate": ["100%", "67%", "33%"], "Win": ["4", "2", "1"], "lose": ["0", "1", "2"]}
+{"name": "%EC%98%A8%EC%9E%90%EC%9D%B4%EC%A1%B1", "champions": ["Alistar", "Rakan", "Pyke"], "kda": ["3.07", "2.48", "5"], "win_rate": ["63%", "50%", "100%"], "Win": ["5", "2", "2"], "lose": ["3", "2", "0"]}
+{"name": "gym", "champions": ["Lucian", "Kai'Sa", "Morgana"], "kda": ["2.21", "2", "14"], "win_rate": ["36%", "50%", "100%"], "Win": ["4", "1", "1"], "lose": ["7", "1", "0"]}
+{"name": "mvpmaha", "champions": ["Lucian", "Brand", "Heimerdinger"], "kda": ["5.54", "Perfect", "Perfect"], "win_rate": ["92%", "100%", "100%"], "Win": ["11", "1", "1"], "lose": ["1", "0", "0"]}
+{"name": "%EC%9A%94%ED%94%8C%EB%9E%98", "champions": ["Zilean", "Talon", "Ryze"], "kda": ["2.29", "1.42", "3"], "win_rate": ["50%", "25%", "67%"], "Win": ["5", "1", "2"], "lose": ["5", "3", "1"]}
+{"name": "theencounter", "champions": ["Evelynn", "Kindred", "Dr. Mundo"], "kda": ["3", "1.38", "Perfect"], "win_rate": ["69%", "0%", "100%"], "Win": ["9", "0", "1"], "lose": ["4", "3", "0"]}
+{"name": "sktt1blossom", "champions": ["Kindred", "Nocturne", "Taliyah"], "kda": ["2.82", "1.42", "3.71"], "win_rate": ["88%", "40%", "100%"], "Win": ["7", "2", "2"], "lose": ["1", "3", "0"]}
+{"name": "ktmata", "champions": ["Taliyah", "Shen", "Gragas"], "kda": ["3.44", "7.5", "1.87"], "win_rate": ["75%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["1", "0", "2"]}
+{"name": "kiiroitor1", "champions": ["Gragas", "Kled", "Aatrox"], "kda": ["2.67", "1.7", "3.5"], "win_rate": ["60%", "25%", "50%"], "Win": ["3", "1", "1"], "lose": ["2", "3", "1"]}
+{"name": "hlelindarang", "champions": ["Jarvan IV", "Gragas", "Kennen"], "kda": ["4.71", "1.88", "1.35"], "win_rate": ["100%", "25%", "33%"], "Win": ["5", "1", "1"], "lose": ["0", "3", "2"]}
+{"name": "%EC%8A%88%EB%A0%90%EB%A6%AC%EC%95%84%EC%9D%98%EC%82%AC%EC%A0%95", "champions": ["Gragas", "Swain", "Alistar"], "kda": ["2.47", "2", "5"], "win_rate": ["50%", "50%", "100%"], "Win": ["3", "2", "3"], "lose": ["3", "2", "0"]}
+{"name": "cherish0120", "champions": ["Kai'Sa", "Lucian", "Xayah"], "kda": ["2.62", "2.27", "2.48"], "win_rate": ["60%", "75%", "33%"], "Win": ["3", "3", "1"], "lose": ["2", "1", "2"]}
+{"name": "taesang", "champions": ["Pyke", "Shen", "Morgana"], "kda": ["3.31", "4.25", "2.67"], "win_rate": ["67%", "67%", "50%"], "Win": ["8", "2", "1"], "lose": ["4", "1", "1"]}
+{"name": "levellup", "champions": ["Kindred", "Trundle", "Nidalee"], "kda": ["2.58", "7.71", "5.63"], "win_rate": ["57%", "67%", "100%"], "Win": ["4", "2", "2"], "lose": ["3", "1", "0"]}
+{"name": "%EB%82%A8%ED%8F%AC%EB%8F%99%ED%8F%AC%EB%8F%99%ED%8F%AC%EB%8F%99", "champions": ["Kled", "Poppy", "Irelia"], "kda": ["3.61", "3.44", "2"], "win_rate": ["71%", "67%", "50%"], "Win": ["5", "4", "1"], "lose": ["2", "2", "1"]}
+{"name": "%EC%9D%B4%EC%9E%AC%ED%9B%88%EB%8B%A4%EB%94%B1", "champions": ["Aatrox", "Jayce", "Gangplank"], "kda": ["2.43", "0.9", "3.2"], "win_rate": ["57%", "67%", "50%"], "Win": ["4", "2", "1"], "lose": ["3", "1", "1"]}
+{"name": "zhixun", "champions": ["Talon", "Twisted Fate", "Aatrox"], "kda": ["2.49", "1.18", "4"], "win_rate": ["46%", "0%", "0%"], "Win": ["6", "0", "0"], "lose": ["7", "2", "1"]}
+{"name": "xxfans", "champions": ["Taliyah", "Xin Zhao", "Gragas"], "kda": ["4.59", "8.67", "3.83"], "win_rate": ["83%", "100%", "50%"], "Win": ["5", "2", "1"], "lose": ["1", "0", "1"]}
+{"name": "closercloser", "champions": ["Xayah", "Jhin", "Twisted Fate"], "kda": ["5.57", "5", "8.67"], "win_rate": ["100%", "67%", "100%"], "Win": ["3", "2", "2"], "lose": ["0", "1", "0"]}
+{"name": "%EB%82%98%EC%9D%B4%EC%B0%AC%ED%9D%AC%EC%95%BC", "champions": ["Cho'Gath", "Talon", "Aatrox"], "kda": ["2.03", "2.65", "3.69"], "win_rate": ["43%", "60%", "33%"], "Win": ["3", "3", "1"], "lose": ["4", "2", "2"]}
+{"name": "mupago", "champions": ["Irelia", "Twisted Fate", "Ryze"], "kda": ["1.63", "2.5", "0.62"], "win_rate": ["20%", "75%", "0%"], "Win": ["1", "3", "0"], "lose": ["4", "1", "2"]}
+{"name": "%EB%AF%B8%EB%93%9C%ED%94%84%EB%A1%9C%EC%A7%80%EB%A7%9D%EC%9D%B8", "champions": ["Irelia", "Swain", "Zoe"], "kda": ["1.63", "4.06", "4"], "win_rate": ["40%", "50%", "100%"], "Win": ["2", "2", "4"], "lose": ["3", "2", "0"]}
+{"name": "qibaby", "champions": ["Kai'Sa", "Twitch", ""], "kda": ["3.35", "9", "2.12"], "win_rate": ["83%", "100%", "70%"], "Win": ["15", "1", "2"], "lose": ["3", "0", "2"]}
+{"name": "fwmaple", "champions": ["Ryze", "Irelia", "Aatrox"], "kda": ["3.63", "2.27", "5"], "win_rate": ["82%", "50%", "100%"], "Win": ["9", "1", "1"], "lose": ["2", "1", "0"]}
+{"name": "btconfleek", "champions": ["Xin Zhao", "Camille", "Taliyah"], "kda": ["3.67", "2.89", "3.82"], "win_rate": ["60%", "60%", "67%"], "Win": ["3", "3", "2"], "lose": ["2", "2", "1"]}
+{"name": "dorun", "champions": ["Jayce", "Kennen", "Galio"], "kda": ["1.95", "2.23", "1.2"], "win_rate": ["63%", "100%", "0%"], "Win": ["5", "2", "0"], "lose": ["3", "0", "2"]}
+{"name": "kdmedge", "champions": ["Ryze", "Zoe", "Nami"], "kda": ["2.95", "2.64", "4.75"], "win_rate": ["80%", "67%", "100%"], "Win": ["4", "2", "2"], "lose": ["1", "1", "0"]}
+{"name": "caijifuzhu", "champions": ["Pyke", "Alistar", "Fiddlesticks"], "kda": ["3.14", "6.8", "1.83"], "win_rate": ["67%", "100%", "100%"], "Win": ["8", "2", "2"], "lose": ["4", "0", "0"]}
+{"name": "dwgnuclear", "champions": ["Vladimir", "Kai'Sa", "Ashe"], "kda": ["2.75", "3", "2.5"], "win_rate": ["17%", "50%", "50%"], "Win": ["1", "2", "1"], "lose": ["5", "2", "1"]}
+{"name": "%EB%82%AE%EB%B0%A4%EB%B0%94%EA%BE%B8%EA%B3%A0%EC%8B%B6%EC%96%B4", "champions": ["Vladimir", "Ezreal", "Lucian"], "kda": ["6", "3.48", "6.5"], "win_rate": ["86%", "57%", "100%"], "Win": ["6", "4", "2"], "lose": ["1", "3", "0"]}
+{"name": "%EC%95%A0%ED%94%8C%EB%AC%B4%EB%AC%B4", "champions": ["Ekko", "Aatrox", "Jax"], "kda": ["2.29", "2", "1.21"], "win_rate": ["43%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["4", "1", "2"]}
+{"name": "pvman", "champions": ["Camille", "Nocturne", "Kindred"], "kda": ["2.14", "8.67", "3.22"], "win_rate": ["43%", "67%", "67%"], "Win": ["3", "2", "2"], "lose": ["4", "1", "1"]}
+{"name": "kzsquid", "champions": ["Darius", "Evelynn", "Soraka"], "kda": ["1.07", "36", "1.36"], "win_rate": ["33%", "100%", "50%"], "Win": ["2", "2", "1"], "lose": ["4", "0", "1"]}
+{"name": "52708102", "champions": ["Evelynn", "Xin Zhao", "Kindred"], "kda": ["2.4", "4.92", "2.17"], "win_rate": ["50%", "50%", "67%"], "Win": ["3", "2", "2"], "lose": ["3", "2", "1"]}
+{"name": "yemengxiyue", "champions": ["Kassadin", "Ekko", "Talon"], "kda": ["6.13", "2.87", "3.54"], "win_rate": ["100%", "75%", "67%"], "Win": ["4", "3", "2"], "lose": ["0", "1", "1"]}
+{"name": "kiana", "champions": ["Taliyah", "Nidalee", "Ahri"], "kda": ["2.59", "1.88", "6.33"], "win_rate": ["75%", "50%", "100%"], "Win": ["3", "1", "1"], "lose": ["1", "1", "0"]}
+{"name": "martyrs", "champions": ["Xin Zhao", "Kindred", "Nocturne"], "kda": ["1.73", "1.8", "4.13"], "win_rate": ["33%", "50%", "100%"], "Win": ["2", "2", "3"], "lose": ["4", "2", "0"]}
+{"name": "gunwu", "champions": ["Yasuo", "Aatrox", "Irelia"], "kda": ["3.15", "1.45", "1.89"], "win_rate": ["75%", "67%", "50%"], "Win": ["3", "2", "1"], "lose": ["1", "1", "1"]}
+{"name": "hlesy", "champions": ["Xayah", "Yasuo", "Karthus"], "kda": ["4.36", "1.09", "0.88"], "win_rate": ["100%", "33%", "0%"], "Win": ["4", "1", "0"], "lose": ["0", "2", "3"]}
+{"name": "jinalrteddy", "champions": ["Yasuo", "Ashe", "Ryze"], "kda": ["2.1", "2.23", "0.53"], "win_rate": ["50%", "50%", "0%"], "Win": ["4", "1", "0"], "lose": ["4", "1", "2"]}
+{"name": "destinyyoutube", "champions": ["Thresh", "Rakan", "Pyke"], "kda": ["3.6", "5.17", "2.44"], "win_rate": ["62%", "75%", "0%"], "Win": ["8", "3", "0"], "lose": ["5", "1", "1"]}
+{"name": "%EC%82%B0%EC%9C%A1%EC%82%B4%EC%9C%A1", "champions": ["Ryze", "Swain", "Jayce"], "kda": ["2.09", "2.59", "2.82"], "win_rate": ["67%", "50%", "33%"], "Win": ["4", "2", "1"], "lose": ["2", "2", "2"]}
+{"name": "irespecteveryone", "champions": ["Xin Zhao", "Taliyah", "Kindred"], "kda": ["1.93", "5.67", "2.07"], "win_rate": ["43%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["4", "1", "2"]}
+{"name": "jincanyi", "champions": ["Nidalee", "Gnar", "Lee Sin"], "kda": ["2.97", "2.9", "2.33"], "win_rate": ["50%", "75%", "50%"], "Win": ["3", "3", "1"], "lose": ["3", "1", "1"]}
+{"name": "gengruler", "champions": ["Xayah", "Ezreal", "Swain"], "kda": ["3.32", "1.69", "3.3"], "win_rate": ["83%", "50%", "100%"], "Win": ["5", "3", "2"], "lose": ["1", "3", "0"]}
+{"name": "%EB%A8%B9%EB%8A%94%EA%B2%8C%EC%A6%90%EA%B1%B0%EC%9B%8C", "champions": ["Fiddlesticks", "Rakan", "Karma"], "kda": ["2.22", "2.18", "10.67"], "win_rate": ["71%", "43%", "100%"], "Win": ["5", "3", "2"], "lose": ["2", "4", "0"]}
+{"name": "lcwwql", "champions": ["Camille", "Taliyah", "Nidalee"], "kda": ["1.93", "1.8", "5.57"], "win_rate": ["67%", "67%", "100%"], "Win": ["2", "2", "2"], "lose": ["1", "1", "0"]}
+{"name": "tt%EB%B3%B4%EB%B0%B0", "champions": ["Lucian", "Kai'Sa", "Xayah"], "kda": ["3.71", "3.29", "2.35"], "win_rate": ["50%", "33%", "67%"], "Win": ["2", "1", "2"], "lose": ["2", "2", "1"]}
+{"name": "%EC%BB%A4%ED%94%BC%EB%AC%BC%EC%A1%B0%EC%A0%88%EC%9E%A5%EC%9D%B8", "champions": ["Darius", "Kennen", "Gnar"], "kda": ["1.58", "2.86", "7.5"], "win_rate": ["67%", "25%", "100%"], "Win": ["4", "1", "2"], "lose": ["2", "3", "0"]}
+{"name": "qjyqaq", "champions": ["Camille", "Kennen", "Gangplank"], "kda": ["3.09", "1.68", "7.33"], "win_rate": ["63%", "75%", "67%"], "Win": ["5", "3", "2"], "lose": ["3", "1", "1"]}
+{"name": "%EB%9E%80%EC%9D%B4%EB%88%84%EB%82%98%EC%98%88%EB%BB%90%EC%9A%94", "champions": ["Kled", "Aatrox", "Xin Zhao"], "kda": ["3.69", "6.1", "3.31"], "win_rate": ["63%", "100%", "67%"], "Win": ["5", "3", "2"], "lose": ["3", "0", "1"]}
+{"name": "withapd", "champions": ["Camille", "Poppy", "Graves"], "kda": ["4.45", "2.91", "3.08"], "win_rate": ["50%", "25%", "33%"], "Win": ["2", "1", "1"], "lose": ["2", "3", "2"]}
+{"name": "%ED%85%94%ED%8F%AC%EB%8B%A8%EA%B2%80%EB%8F%84", "champions": ["Karthus", "Zilean", "Poppy"], "kda": ["3.08", "7.83", "2.46"], "win_rate": ["67%", "100%", "50%"], "Win": ["6", "4", "1"], "lose": ["3", "0", "1"]}
+{"name": "%EB%B0%94%EB%B3%B42", "champions": ["Lee Sin", "Jayce", "Poppy"], "kda": ["3.36", "2.94", "1.5"], "win_rate": ["67%", "100%", "0%"], "Win": ["6", "3", "0"], "lose": ["3", "0", "2"]}
+{"name": "%EB%8D%95%EA%B5%AC", "champions": ["Karthus", "Gangplank", "Viktor"], "kda": ["2.36", "5", "0"], "win_rate": ["72%", "100%", "0%"], "Win": ["13", "1", "0"], "lose": ["5", "0", "1"]}
+{"name": "sibasakiroka", "champions": ["Vladimir", "Lucian", "Swain"], "kda": ["2.73", "3.27", "3"], "win_rate": ["60%", "67%", "67%"], "Win": ["3", "2", "2"], "lose": ["2", "1", "1"]}
+{"name": "sktt1pirean", "champions": ["LeBlanc", "Zoe", "Yasuo"], "kda": ["3.36", "1.9", "5.5"], "win_rate": ["29%", "50%", "100%"], "Win": ["2", "3", "1"], "lose": ["5", "3", "0"]}
+{"name": "rankgameplayer1", "champions": ["Fiddlesticks", "Taliyah", "Graves"], "kda": ["2.5", "4.38", "6.5"], "win_rate": ["33%", "60%", "50%"], "Win": ["2", "3", "1"], "lose": ["4", "2", "1"]}
+{"name": "%EA%B5%90%EB%8F%84%EC%86%8C%EB%8F%BC%EC%A7%80", "champions": ["Lucian", "Swain", "Ryze"], "kda": ["2.13", "13", "4.5"], "win_rate": ["67%", "100%", "50%"], "Win": ["2", "2", "1"], "lose": ["1", "0", "1"]}
+{"name": "1%EC%9D%BC30%EB%B6%84", "champions": ["Gragas", "Yasuo", "Orianna"], "kda": ["2.83", "2.44", "2.38"], "win_rate": ["100%", "67%", "33%"], "Win": ["3", "2", "1"], "lose": ["0", "1", "2"]}
+{"name": "shiyue", "champions": ["Gangplank", "Malphite", ""], "kda": ["2.76", "1", "2.12"], "win_rate": ["61%", "0%", "70%"], "Win": ["11", "0", "2"], "lose": ["7", "1", "2"]}
+{"name": "btcjoker", "champions": ["Morgana", "Gragas", "Rakan"], "kda": ["2.22", "1.77", "2.38"], "win_rate": ["33%", "60%", "67%"], "Win": ["2", "3", "2"], "lose": ["4", "2", "1"]}
+{"name": "aerosmithv", "champions": ["Karthus", "Ezreal", "Blitzcrank"], "kda": ["3.2", "2.85", "3"], "win_rate": ["83%", "80%", "100%"], "Win": ["5", "4", "2"], "lose": ["1", "1", "0"]}
+{"name": "%ED%98%B8%EC%9E%87%EC%9D%B4", "champions": ["Pyke", "Rakan", "Morgana"], "kda": ["4.71", "3.13", "5"], "win_rate": ["71%", "29%", "0%"], "Win": ["5", "2", "0"], "lose": ["2", "5", "1"]}
+{"name": "%EB%82%98%EB%8A%94%EC%B6%A9%EC%8B%A4%ED%95%9C%EB%A9%8D%EB%A9%8D%EC%9D%B4", "champions": ["Rakan", "Alistar", "Pyke"], "kda": ["8", "5.5", "7.75"], "win_rate": ["100%", "67%", "100%"], "Win": ["5", "2", "2"], "lose": ["0", "1", "0"]}
+{"name": "imcutedontcome", "champions": ["Ryze", "Swain", "Lucian"], "kda": ["4.17", "Perfect", "6"], "win_rate": ["70%", "100%", "50%"], "Win": ["7", "2", "1"], "lose": ["3", "0", "1"]}
+{"name": "0813%EC%9E%85%EB%8C%80%EC%95%BC%EC%A2%80%EC%A0%80%EC%A4%98", "champions": ["Ahri", "Soraka", ""], "kda": ["3.19", "1.71", "2.12"], "win_rate": ["56%", "0%", "70%"], "Win": ["10", "0", "2"], "lose": ["8", "1", "2"]}
+{"name": "florngpinas", "champions": ["Poppy", "Urgot", "Pyke"], "kda": ["3.72", "6.6", "4"], "win_rate": ["83%", "67%", "100%"], "Win": ["10", "2", "1"], "lose": ["2", "1", "0"]}
+{"name": "douyu5294941", "champions": ["Warwick", "Jax", ""], "kda": ["2.64", "0.75", "2.12"], "win_rate": ["67%", "0%", "70%"], "Win": ["12", "0", "2"], "lose": ["6", "2", "2"]}
+{"name": "mooz9", "champions": ["Yasuo", "Irelia", "LeBlanc"], "kda": ["3.33", "2", "3"], "win_rate": ["33%", "33%", "50%"], "Win": ["1", "1", "1"], "lose": ["2", "2", "1"]}
+{"name": "maguafu", "champions": ["Pyke", "Gragas", "Rakan"], "kda": ["2.22", "5.43", "2.88"], "win_rate": ["38%", "100%", "50%"], "Win": ["3", "4", "1"], "lose": ["5", "0", "1"]}
+{"name": "%EC%9D%B4%EC%95%BC%EA%B3%B5", "champions": ["Diana", "", ""], "kda": ["2.48", "2.12", "2.12"], "win_rate": ["47%", "70%", "70%"], "Win": ["9", "2", "2"], "lose": ["10", "2", "2"]}
+{"name": "hellohowareyou", "champions": [], "kda": [], "win_rate": [], "Win": [], "lose": []}
+{"name": "%EB%AF%B8%EA%B3%A4%EA%B0%9C%EB%82%98%EA%B0%88%EA%BC%AC%EB%83%90", "champions": ["Sion", "Nautilus", ""], "kda": ["2.44", "2.29", "2.12"], "win_rate": ["58%", "100%", "70%"], "Win": ["11", "1", "2"], "lose": ["8", "0", "2"]}
+{"name": "%EC%B9%BC%EA%B3%BC%EC%B0%BD%EB%B0%A9%ED%8C%A8", "champions": ["Poppy", "Renekton", ""], "kda": ["3.7", "1.25", "2.12"], "win_rate": ["74%", "0%", "70%"], "Win": ["14", "0", "2"], "lose": ["5", "1", "2"]}
+{"name": "douyu1097151", "champions": ["Tryndamere", "", ""], "kda": ["1.63", "2.12", "2.12"], "win_rate": ["60%", "70%", "70%"], "Win": ["12", "2", "2"], "lose": ["8", "2", "2"]}
+{"name": "%EC%83%81%EA%B8%B8%EB%86%80%EC%9D%B4%EB%A5%BC%ED%95%98%EB%8B%A4", "champions": ["Kled", "Jax", "Fiora"], "kda": ["4.15", "3.13", "3"], "win_rate": ["67%", "40%", "100%"], "Win": ["4", "2", "3"], "lose": ["2", "3", "0"]}
+{"name": "sol%EB%A1%9C%EB%9E%AD%ED%81%AC", "champions": ["Aurelion Sol", "", ""], "kda": ["2.45", "2.12", "2.12"], "win_rate": ["25%", "70%", "70%"], "Win": ["5", "2", "2"], "lose": ["15", "2", "2"]}
+{"name": "wakeup0", "champions": ["Aatrox", "Jayce", "Gangplank"], "kda": ["1.86", "4.8", "1.32"], "win_rate": ["60%", "100%", "33%"], "Win": ["3", "3", "1"], "lose": ["2", "0", "2"]}
+{"name": "%EB%85%B8%ED%8B%B8%EC%A0%9C%EB%B0%9C%EB%B2%84%ED%94%84%EC%A2%80", "champions": ["Nautilus", "", ""], "kda": ["4.4", "2.12", "2.12"], "win_rate": ["75%", "70%", "70%"], "Win": ["15", "2", "2"], "lose": ["5", "2", "2"]}
+{"name": "%ED%82%A4%EB%84%A4%EC%B9%B4", "champions": ["Evelynn", "Nunu", ""], "kda": ["3.27", "10", "2.12"], "win_rate": ["61%", "100%", "70%"], "Win": ["11", "1", "2"], "lose": ["7", "0", "2"]}
+{"name": "%EC%82%AC%EB%9E%91%ED%95%B4%EB%82%98%EC%9D%98%EB%9D%BC%EC%B9%B8", "champions": ["Nidalee", "Lucian", ""], "kda": ["4.52", "1.29", "2.12"], "win_rate": ["74%", "0%", "70%"], "Win": ["14", "0", "2"], "lose": ["5", "1", "2"]}
+{"name": "%EC%8B%9C%EC%98%A4%EB%8F%84%EB%A9%94%EB%AF%B8%EC%9A%B0%EB%82%98", "champions": ["Karthus", "", ""], "kda": ["2.72", "2.12", "2.12"], "win_rate": ["55%", "70%", "70%"], "Win": ["11", "2", "2"], "lose": ["9", "2", "2"]}
+{"name": "upgrade%ED%95%A0%EA%B1%B0%EC%95%BC", "champions": ["Jayce", "Ryze", ""], "kda": ["4.26", "2.41", "2.12"], "win_rate": ["75%", "25%", "70%"], "Win": ["12", "1", "2"], "lose": ["4", "3", "2"]}
+{"name": "qibaby", "champions": ["Kai'Sa", "Twitch", ""], "kda": ["3.35", "9", "2.12"], "win_rate": ["83%", "100%", "70%"], "Win": ["15", "1", "2"], "lose": ["3", "0", "2"]}
+{"name": "%EA%B8%88%EB%98%A5%EC%99%81%EC%99%81", "champions": ["Renekton", "", ""], "kda": ["1.53", "2.12", "2.12"], "win_rate": ["35%", "70%", "70%"], "Win": ["7", "2", "2"], "lose": ["13", "2", "2"]}
+{"name": "no1%EB%A3%A8%ED%94%BC", "champions": ["Nidalee", "Graves", ""], "kda": ["3.73", "3.8", "2.12"], "win_rate": ["56%", "100%", "70%"], "Win": ["10", "2", "2"], "lose": ["8", "0", "2"]}
+{"name": "no%EB%B8%8C%EB%9E%98%EC%9D%B8", "champions": ["Aurelion Sol", "", ""], "kda": ["3.22", "2.12", "2.12"], "win_rate": ["55%", "70%", "70%"], "Win": ["11", "2", "2"], "lose": ["9", "2", "2"]}
+{"name": "4seidon", "champions": ["Nami", "Morgana", ""], "kda": ["3.86", "2.09", "2.12"], "win_rate": ["83%", "50%", "70%"], "Win": ["15", "1", "2"], "lose": ["3", "1", "2"]}
+{"name": "%EB%AA%BD%EB%AA%BD", "champions": ["Soraka", "", ""], "kda": ["4.41", "2.12", "2.12"], "win_rate": ["70%", "70%", "70%"], "Win": ["14", "2", "2"], "lose": ["6", "2", "2"]}
+{"name": "8981", "champions": ["Jayce", "", ""], "kda": ["2.84", "2.12", "2.12"], "win_rate": ["40%", "70%", "70%"], "Win": ["8", "2", "2"], "lose": ["12", "2", "2"]}
