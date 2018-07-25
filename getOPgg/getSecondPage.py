@@ -104,21 +104,25 @@ if __name__ == "__main__":
     #读取json文件返回第二级页面的url列表
     # df = pandas.read_json('hanfu_rank_500_%s.txt'%t, lines=True, encoding="utf-8")
     # urls=["http:" + i for i in list(df["info_href"])]
-
+      
     #如果下载失败或者没下载完全可以用以下方式“断点重连”
 
     #pandas读取第一级页面保存数据以及第二级保存数据
-    df = pandas.read_json(r'D:\fluent_python\load_loler\hanfu_rank_500_20180724.txt', lines=True, encoding="utf-8")
-    df_500_info = pandas.read_json(r'D:\fluent_python\load_loler\rank_500_info_20180724.txt', lines=True,encoding="utf-8")
+    df = pandas.read_json(r'hanfu_rank_500_20180724.txt', lines=True, encoding="utf-8")
+    df_500_info = pandas.read_json(r'rank_500_info_20180724.txt', lines=True,encoding="utf-8")
 
-    #读取所有第一级页面的info_href，提取name生成totalname列表，没有出现在第二级页面保存数据中的标记为unloaded，生成列表
+    #读取所有第一级页面的info_href，提取name生成totalname列表，
+    # 没有出现在第二级页面保存数据中的标记为unloaded，生成列表
     totalName=[name.split("=")[-1] for name in list(df["info_href"])]
-    unloaded_url=["http://www.op.gg/summoner/userName="+ts for ts in totalName if ts not in list(df_500_info["name"])]
+    unloaded_url=["http://www.op.gg/summoner/userName="+ts
+                  for ts in totalName
+                  if ts not in list(df_500_info["name"])]
 
     #筛选出champions数据缺失或者为空列表的数据，合并起来，组成valid_urls
-    df_lose = df_500_info.name[df_500_info[df_500_info.champions.str.get(-1)==""]]
-    df_empty=df_500_info.name[df_500_info.champions.str.len()<3]
-    df_2=list(df_lose).extend(list(df_empty))
+    df_lose_champions=df_500_info[df_500_info.champions.str.len()==3]
+    df_lose =list(df_lose_champions.name[df_lose_champions.champions.str.get(-1)==""])
+    df_empty=list(df_500_info.name[df_500_info.champions.str.len()<3])
+    df_2.extend(df_empty)
     valid_urls = ["http://www.op.gg/summoner/userName=" + i for i in df_2]
 
     #合并数据在unloaded_url列表中
@@ -127,7 +131,7 @@ if __name__ == "__main__":
 
     with Pool(5) as pool:
         pool.map(main, unloaded_url)
-
     driver.close()
+
 
 
