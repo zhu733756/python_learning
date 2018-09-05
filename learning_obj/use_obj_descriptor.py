@@ -44,3 +44,32 @@ print(p.x)
 print(p.y)
 p.x = 5
 print(p)
+
+
+class lazyproperty(object):
+
+    def __init__(self,func):
+        self.func=func
+
+    def __get__(self, instance, owner):
+        if instance is None:
+            return self
+        else:
+            value =self.func(instance)
+            setattr(instance,self.func.__name__,value)
+            return value
+
+class A(object):
+
+    def __init__(self):
+        self.count=0
+
+    @lazyproperty
+    def go(self):
+        print("gogogo")
+        return self.count
+
+a=A()
+print(a.go)
+print(a.go)
+print(A.go)
