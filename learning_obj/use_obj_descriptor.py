@@ -37,7 +37,6 @@ class Point(object):
     def __str__(self):
         return "Point({},{})".format(self.x, self.y)
 
-
 p = Point(3, 4)
 print(p)
 print(p.x)
