@@ -37,18 +37,19 @@ class Point(object):
     def __str__(self):
         return "Point({},{})".format(self.x, self.y)
 
-p = Point(3, 4)
-print(p)
-print(p.x)
-print(p.y)
-p.x = 5
-print(p)
+# p = Point(3, 4)
+# print(p)
+# print(p.x)
+# print(p.y)
+# p.x = 5
+# print(p)
 
 
 class lazyproperty(object):
 
-    def __init__(self,func):
+    def __init__(self,func,name):
         self.func=func
+        self.name=name
 
     def __get__(self, instance, owner):
         if instance is None:
@@ -64,9 +65,11 @@ class A(object):
         self.count=0
 
     @lazyproperty
-    def go(self):
+    def go(self,name=None):
         print("gogogo")
-        return self.count
+        if name is None:
+            return self.count
+        return 1
 
 a=A()
 print(a.go)
