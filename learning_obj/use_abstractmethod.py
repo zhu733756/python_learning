@@ -65,7 +65,7 @@ class Ultraman(Fighter):
                     if int(0.5 * other._hp) > 100 else 100
 
     def resume(self):
-        incr_magic=random.randint(10,20)
+        incr_magic=random.randint(10,15)
         self._magic+=incr_magic
         if self._magic>100:
             self._magic=100
@@ -123,7 +123,7 @@ def main():
             if number<2:
                 u.attack(m)
                 print("%s使用普通攻击打了%s"%(u.name,m.name))
-            elif number<5:
+            elif number<4:
                 u.huge_attack(m)
                 print("%s使用技能[巨力打击]虐了%s" % (u.name, m.name))
             else:
@@ -136,7 +136,7 @@ def main():
                 print("%s使用普通攻击打了%s"%(u.name,m.name))
             else:
                 u.huge_attack(m)
-                print("%s使用技能[巨力打击]虐了%s" % (u.name, m.name))
+                print("%s使用技能 [巨力打击] 虐了%s" % (u.name, m.name))
         for m in m_alive:
             m.attack(u)
             print("%s反击了%s"%(m.name,u.name))
@@ -151,7 +151,6 @@ def main():
             print("奥特曼胜利，剩余hp：",u.hp)
         else:
             print("小怪兽赢了！")
-
 
 main()
 
