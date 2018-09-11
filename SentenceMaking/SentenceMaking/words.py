@@ -7,19 +7,29 @@
 -------------------------------------------------
 __author__ = 'zhu733756'
 """
-import os,shelve,re,jieba
+from __future__ import division,print_function
+import os,shelve,re,jieba,shutil
 import jieba.posseg as pseg
 from collections import Counter
-import logging,sys
+import logging,sys,time,json
 import pandas as pd
-from multiprocessing import Pool
+from multiprocessing import Pool,Process
+from tqdm import tqdm
 sys.setrecursionlimit(1000000)#防止迭代超过上限报错
 
 # logger=logging.getLogger("spider.sub")
-idoims=pd.read_json(r'D:\gitdata\gitdataRes\SentenceMaking\chinese_xinhua\data\idiom.json',encoding="utf-8").loc[:,"word"]
-stopwords = "".join(map(str.strip,
-                        open(os.path.abspath("./config/stopwords.txt"),
-                        "r", encoding="utf-8").readlines()))
+class lazyproperty(object):
+
+    def __init__(self,func):
+        self.func=func
+
+    def __get__(self, instance, owner):
+        if instance is None:
+            return self
+        else:
+            value=self.func(instance)
+            setattr(instance,self.func.__name__,value)
+            return value
 
 class SentenceMaking(object):
 
@@ -28,43 +38,36 @@ class SentenceMaking(object):
 
     @classmethod
     def open_db(cls,key=None):
-        if key is None:
-            raise ValueError("Cannot find a key!")
-        with shelve.open("./data/SentenceKey/info") as f:
+        path="./SentenceKey/%s/"%key
+        if not os.path.exists(path):
+            os.mkdir(path)
+        with shelve.open(path+key) as f:
              try:
                  data=f[key]
              except:
                  data={}
-             print("last saved:", data)
-             return cls(split_keywords=data)
+        print("Total quantity of last saved(Key:%s):"%key.capitalize(), len(data))
+        return cls(split_keywords=data)
 
+    @lazyproperty
+    def idioms(self):
+        return json.dumps(list(pd.read_json(r'../chinese_xinhua/data/idiom.json',\
+                            encoding="utf-8").loc[:, "word"]))
+    @lazyproperty
+    def stopwords(self):
+        return  "".join(map(str.strip,
+                        open("./config/stopwords.txt","r",
+                             encoding="utf-8").readlines()))
 
-    def get_filter_files(self,path):
-        return [filename \
-                for filename in os.listdir(path) \
-                if re.search("(^第.*章.*)", filename)]
+    def transfer_to_string(self,mode):
+        fiter_files=[filename \
+                        for filename in os.listdir(mode) \
+                        if re.search("(^第.*章.*)", filename)]
+        for filename in fiter_files:
+            yield os.path.join(mode, filename)
 
-    def transfer_to_string(self,path="./data/天行"):
-        for filename in self.get_filter_files(path):
-            yield os.path.join(path, filename)
-
-    def make_idioms(self,path):
-        for sentence in self.get_strings(path):
-            for tag in jieba.cut("".join(sentences), cut_all=False):
-                if tag not in list(idoims):
-                    continue
-                elif tag in sentence:
-                    self.split_keywords.setdefault(tag,[]).append(sentence)
-
-    def db_close(self,key):
-        with shelve.open("./data/SentenceKey/info") as f:
-            try:
-                f[key]=self.split_keywords
-            finally:
-                f.close()
-
-    def get_total(self):
-        return len([file for file in os.listdir("./data/天行")])
+    def get_total(self,mode):
+        return len([file for file in os.listdir(mode)])
 
     @staticmethod
     def get_strings(path):
@@ -72,44 +75,75 @@ class SentenceMaking(object):
                          map(str.strip, open(path,\
                         "r", encoding="utf-8").readlines()))
 
-    def make_verb(self,path):
-        filename=os.path.split(path)[-1]
-        print("正在处理文件:%s" % filename)
+    def make_idioms(self,path):
         for sentence in self.get_strings(path):
             if sentence[0] in ('“', '”', '"', '"') or \
-                                    sentence[-1] in ('“', '”', '"', '"'):
+                            sentence[-1] in ('“', '”', '"', '"'):
+                continue
+            for tag in jieba.cut(sentence, cut_all=False):
+                if len(tag)<4:
+                    continue
+                if tag.isdigit():
+                    continue
+                if tag in json.loads(self.idioms):
+                    self.split_keywords.setdefault(tag, set()).add(sentence)
+        else:
+            todir=os.path,join(os.path.split(path)[0],finished)
+            if not os.path.exists(path):
+                os.mkdir(todir)
+            shutil.move(path,todir+"/"+os.path.split(path)[-1])
+            self.save_db(self.split_keywords,"idiom")
+
+    def make_verbs(self,path):
+        for sentence in self.get_strings(path):
+            if sentence[0] in ('“', '”', '"', '"') or \
+                     sentence[-1] in ('“', '”', '"', '"'):
                 continue
             for tag,flag in pseg.cut("".join(sentence)):
                 tag=tag.strip()
+                if not tag:
+                    continue
+                if tag.isdigit():
+                    continue
                 if flag =="v":
-                    if not tag:
-                        continue
-                    if tag.isdigit():
-                        continue
-                    if tag[0] in "不无" :
+                    if tag[0] in "不无了" :
                         continue
                     if len(tag)>=2 and tag[1] in "不上下":
                         continue
-                    if tag in stopwords:
+                    if tag in self.stopwords:
                         continue
-                    if tag in self.split_keywords and\
-                        sentence in self.split_keywords[tag]:
-                            continue
-                    self.split_keywords.setdefault(tag, []).append(sentence)
+                    self.split_keywords.setdefault(tag,set()).add(sentence)
         else:
-            print("文件(%s)处理完毕"%filename)
+            self.save_db(self.split_keywords,"verb")
+
+    @staticmethod
+    def save_db(info,key):
+        s = shelve.open("./SentenceKey/%s/%s" % (key,key))
+        try:
+            s[key] = info
+        finally:
+            s.close()
+
+def generate_key(key,mode):
+    if key not in ("verb","idiom"):
+        raise ValueError("Cannot find such key(%s)"%key)
+    instance = SentenceMaking.open_db(key)
+    total = instance.get_total(mode)
+    func_name="make_"+key+"s"
+    if hasattr(instance,func_name):
+        func=getattr(instance,func_name)
+    with Pool(5) as pool:
+        _ = [x for x in tqdm(
+                pool.imap(func=func,
+                          iterable=instance.transfer_to_string(mode)),
+                          total=total,
+                          desc="Extract Key(%s|%s)"% (os.path.split(mode)[-1],key))]
 
 if __name__ == "__main__":
 
-    # with Pool(5) as pool:
-    #     instance = SentenceMaking.open_db(key="verb")
-    #     pool.map(func=instance.make_verb,iterable=instance.transfer_to_string())
-    #     instance.db_close(key="verb")
+    generate_key("verb","./data/天行")
+    generate_key("idiom","./data/天行")
 
-    with Pool(5) as pool:
-        instance = SentenceMaking.open_db(key="idiom")
-        pool.map(func=instance.make_idioms,iterable=instance.transfer_to_string())
-        instance.db_close(key="idiom")
 
 
 

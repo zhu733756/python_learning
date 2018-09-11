@@ -9,13 +9,11 @@ __author__ = 'ZH'
 """
 from requests import RequestException
 from bs4 import BeautifulSoup
-import re,os
-import requests
-import logging
-import sys
+import re,os,requests,logging,sys,time
 import MainLoggerConfig
 from multiprocessing import Pool
-import time
+from tqdm import tqdm
+
 sys.setrecursionlimit(1000000)#防止迭代超过上限报错
 
 MainLoggerConfig.setup_logging(default_path="./logs/logs.yaml")
