@@ -18,16 +18,29 @@ __author__ = 'zhu733756'
 from __future__ import division
 from multiprocessing import Pool,freeze_support
 from tqdm import tqdm_gui,tqdm
+# class A(object):
+#
+#     def __init__(self,count):
+#         self._count=count
+#
+#     @classmethod
+#     def get_cls(cls):
+#         count=1
+#         return cls(count=count)
+#
+#     def get_num(self,num):
+#         print(self._count,num)
+#
+# import sys,time,os
+# if __name__=='__main__':
+#     # freeze_support()
+#     with Pool(5) as pool:
+#         pool.map(A.get_cls().get_num,range(1000))
 
-def get_num(num):
-    return num+1
+d={}
 
-import sys,time,os
-if __name__=='__main__':
-    # freeze_support()
-    with Pool(5) as pool:
-        _=[x for x in tqdm(pool.imap(get_num,range(101)),total=100)]
-
+if d:
+    print(1)
 
 
 

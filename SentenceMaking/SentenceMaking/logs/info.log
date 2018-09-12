@@ -1944,3 +1944,7 @@
 2018-09-10 09:52:21,059 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): www.biquge5200.cc
 2018-09-10 09:52:21,090 - root - DEBUG - Successfully downloaded a file:第五百二十四章  暗黑深渊.txt
 2018-09-10 09:52:21,090 - root - DEBUG - load a page_url:https://www.biquge5200.cc/84_84332/154488564.html
+2018-09-12 15:02:11,963 - __main__ - INFO - ProxyError, change a proxy
+2018-09-12 15:03:18,331 - __main__ - INFO - ProxyError, change a proxy
+2018-09-12 15:03:40,657 - __main__ - INFO - ProxyError, change a proxy
+2018-09-12 15:04:06,736 - __main__ - INFO - ProxyError, change a proxy
