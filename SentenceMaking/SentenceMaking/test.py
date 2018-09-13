@@ -37,10 +37,24 @@ from tqdm import tqdm_gui,tqdm
 #     with Pool(5) as pool:
 #         pool.map(A.get_cls().get_num,range(1000))
 
-d={}
+import asyncio
+from aiomultiprocess import Pool
 
-if d:
-    print(1)
-
+def html_parse(self, url):
+    '''
+    解析网页返回beautifulsoap对象
+    :param url: url
+    :return: beautifulsoap对象
+    '''
+    headers = {"user-agent": "Mozilla/5.0 (Windows NT 6.1) "
+                             "AppleWebKit/537.36 (KHTML, like Gecko)"
+                             " Chrome/63.0.3239.132 Safari/537.36"}
+    try:
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            return BeautifulSoup(response.text, "html.parser")
+    except RequestException as e:
+        print(e.args)
+    return None
 
 

@@ -12,11 +12,9 @@ from bs4 import BeautifulSoup
 import re,os,requests,logging,sys,time
 import MainLoggerConfig
 import asyncio
-from multiprocessing import Pool
 from tqdm import tqdm
-# import urllib3
+
 import aiohttp
-# urllib3.disable_warnings()
 sys.setrecursionlimit(1000000)#防止迭代超过上限报错
 
 MainLoggerConfig.setup_logging(default_path="./logs/logs.yaml")
@@ -29,9 +27,7 @@ class load_biquge(object):
     def __init__(self,mother_url):
 
         self.mother_url=mother_url#文章链接
-        self.page_str=[]
         self.path = self.get_path()
-
 
     def get_path(self):
         '''
@@ -39,7 +35,7 @@ class load_biquge(object):
         :return:
         '''
         first_page=self.html_parse(self.mother_url)
-        path=r"./data/{}/{}". \
+        path="./data/{}/{}". \
             format(first_page.find("p").string.strip().split("：")[-1],
                    first_page.find("div",{"id":"info"}).find("h1").string)
         if not os.path.exists(path):
@@ -70,18 +66,19 @@ class load_biquge(object):
         '''
         mode_page=self.html_parse(self.mother_url)
         ddList = mode_page.find_all("dd")
-        for dd in ddList:
-            if dd.find("a"):
-                yield dd.find("a").get("href")
+        return [dd.find("a").get("href") for dd in ddList if dd.find("a")]
 
-    def get_one_page(self,page_content):
+    async def get_one_page(self,page_url):
         '''
         异步获取一个章节链接，保存为txt文件
         :param page_url: 章节链接
         :return:
         '''
         # time.sleep(1)
-        text=[]
+        text = []
+        self.logger.debug("load a page_url:%s"%page_url)
+        print("下载开始")
+        page_content= await self.async_html_parse(page_url)
         if page_content:
             title = re.compile(r"\*").sub("", page_content.find("h1").string).strip()
             txt_content=page_content.find("div",id="content").stripped_strings
@@ -89,14 +86,16 @@ class load_biquge(object):
                 if re.search(r"52bqg\.com",i):
                     continue
                 text.append(i)
-            with open(os.path.join(self.path,title)+".txt","w+",encoding="utf-8") as f:
-                f.write("\n".join(text))
-            self.logger.debug("Successfully downloaded a file:%s.txt" % title)
+            else:
+                with open(os.path.join(self.path,title+".txt"),
+                          "w+",encoding="utf-8") as f:
+                    f.write("\n".join(text))
+                print("下载结束")
+                self.logger.debug("Successfully downloaded a file:%s.txt" % title)
         else:
             print("err!")
 
-    @staticmethod
-    async def async_html_parse(url,res_list):
+    async def async_html_parse(self,url):
         '''
         异步获取指定url的response
         :param url:
@@ -105,24 +104,35 @@ class load_biquge(object):
         headers = {"user-agent": "Mozilla/5.0 (Windows NT 6.1) "
                                  "AppleWebKit/537.36 (KHTML, like Gecko)"
                                  " Chrome/63.0.3239.132 Safari/537.36"}
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url,headers=headers)as response:
-                assert response.status==200
-                res_list.append(BeautifulSoup(await response.text(),"html.parser"))
-                # yield await response.text()
+        session=aiohttp.ClientSession()
+        try:
+            response=await session.get(url,headers=headers)
+            if response.status_code==200:
+                return BeautifulSoup(response.text, "html.parser")
+        except RequestException as e:
+            print(e.args)
+        return None
+
+    # async def main(self):
+    #     '''
+    #     windows不支持fork，无法用多进程协程
+    #     '''
+    #     async with aiomultiprocess.Pool(5) as pool:
+    #         result= await pool.map(func=m.get_one_page, iterable=self.get_page_url())
+    #         return result
 
 if "__main__"==__name__:
 
-    m = load_biquge('https://www.biquge5200.cc/0_844')
+    # m= load_biquge('https://www.biquge5200.cc/0_844')
+    # croutine=m.main()
+    # tasks=asyncio.ensure_future(croutine)
+    # loop=asyncio.get_event_loop()
+    # loop.run_until_complete(tasks)
 
-    res_list=[]
-    tasks=[asyncio.ensure_future(m.async_html_parse(url,res_list)) for url in list(m.get_page_url())]
+    m = load_biquge('https://www.biquge5200.cc/0_844')
+    tasks=[asyncio.ensure_future(m.get_one_page(url)) for url in m.get_page_url()]
     loop=asyncio.get_event_loop()
     loop.run_until_complete(asyncio.wait(tasks))
-    loop.close()
-
-    with Pool(5) as pool:
-       _=[x for x in tqdm(pool.map(m.get_one_page,res_list),total=len(res_list))]
 
 
 
