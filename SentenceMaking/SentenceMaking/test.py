@@ -105,3 +105,4 @@ def get_q(q):
 # print(len([file for file in os.listdir('D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\data\天蚕土豆\斗破苍穹')]))
 list=[1,2,"3"]
 print(list.pop(2))
+

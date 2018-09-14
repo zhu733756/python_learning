@@ -11,11 +11,8 @@ from requests import RequestException
 from bs4 import BeautifulSoup
 import re,os,requests,logging,sys,time,asyncio,aiohttp
 import MainLoggerConfig
-from collections import deque
 from tqdm import tqdm
-from multiprocessing import Process,freeze_support,Queue
-# from threading import Thread
-# from queue import LifoQueue
+from queue import LifoQueue
 
 sys.setrecursionlimit(1000000)#防止迭代超过上限报错
 
@@ -29,6 +26,8 @@ class load_biquge(object):
     def __init__(self,mother_url):
 
         self.mother_url=mother_url#文章链接
+        self.q=LifoQueue()
+        self.total=None
         self.path = self.get_path()
 
     def get_path(self):
@@ -61,14 +60,17 @@ class load_biquge(object):
             print(e.args)
         return None
 
-    def get_page_url(self):
+    def put_page_url(self):
         '''
         解析目标小说链接，返回章节链接
         :return: 返回章节链接
         '''
         mode_page=self.html_parse(self.mother_url)
         ddList = mode_page.find_all("dd")
-        return [dd.find("a").get("href") for dd in ddList]
+        for dd in ddList:
+            self.q.put(dd.find("a").get("href"))
+        self.total=len(self.q.queue)
+        print("total",self.total)
 
     async def async_html_parse(self,url):
         '''
@@ -82,7 +84,7 @@ class load_biquge(object):
         async with aiohttp.ClientSession() as session:
             async with session.get(url,headers=headers) as response:
                     assert response.status ==200
-                    result=await response.text()
+                    result=await response.content.decode('gb18030')
                     page_content=BeautifulSoup(result,"html.parser")
                     text=[]
                     title = re.compile(r"\*").sub("", page_content.find("h1").string).strip()
@@ -91,49 +93,33 @@ class load_biquge(object):
                         if re.search(r"52bqg\.com", i):
                             continue
                         text.append(i)
-                    with open(os.path.join(self.path, title) + ".txt", "w+", encoding="utf-8") as f:
+                    with open(os.path.join(os.path.realpath(self.path),title)+ '.txt', "w+", encoding="utf-8") as f:
                         f.write("\n".join(text))
                     self.logger.debug("Successfully downloaded a file:%s.txt" % title)
 
-    def put_q(self,q):
-        for url in self.get_page_url():
-            q.put(url)
-
-    def get_q(self,q):
-        total=len(self.get_page_url())
-        print(total)
+    def get_queue(self):
         while True:
             count = 1
             tasks = []
             while count <= 9:
-                if not q.empty():
-                    url= q.get()
+                if not self.q.empty():
+                    url= self.q.get()
                     tasks.append(asyncio.ensure_future(self.async_html_parse(url)))
                 else:
                     break
                 count +=1
             loop = asyncio.get_event_loop()
             loop.run_until_complete(asyncio.wait(tasks))
-            print("left:",total-9)
-            total-=9
-            if q.empty():
+            if self.q.empty():
                 break
-            time.sleep(5)
-
+            time.sleep(2)
+            print("left",len(self.q.queue))
+#
 if __name__ =="__main__":
-    freeze_support()
+
     m=load_biquge('https://www.biquge5200.cc/0_844')
-    q=Queue()
-    p1 = Process(target=m.put_q, args=(q,))
-    p2 = Process(target=m.get_q, args=(q,))
-    p1.start()
-    p1.join()
-    p2.start()
-    p2.join()
-
-
-
-
+    m.put_page_url()
+    m.get_queue()
 
 
 
