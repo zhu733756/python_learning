@@ -27,7 +27,7 @@ handlers:
             encoding: utf8
 loggers:
     main:
-            level: INFO
+            level: DEBUG
             handlers: [info_file_handler]
             propagate: no
 root:

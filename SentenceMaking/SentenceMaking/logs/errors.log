@@ -1,0 +1,186 @@
+2018-09-14 14:13:38,107 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:/gitdata/gitdataRes/python_learning/python_learning/SentenceMaking/SentenceMaking/spider.py:71> exception=TypeError('Constructor parameter should be str',)>
+Traceback (most recent call last):
+  File "D:/gitdata/gitdataRes/python_learning/python_learning/SentenceMaking/SentenceMaking/spider.py", line 81, in async_html_parse
+    async with session.get(url,headers=headers) as response:
+  File "D:\anaconda\lib\site-packages\aiohttp\client.py", line 783, in __aenter__
+    self._resp = await self._coro
+  File "D:\anaconda\lib\site-packages\aiohttp\client.py", line 231, in _request
+    url = URL(url)
+  File "D:\anaconda\lib\site-packages\yarl\__init__.py", line 157, in __init__
+    raise TypeError("Constructor parameter should be str")
+TypeError: Constructor parameter should be str
+2018-09-14 16:28:37,233 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,274 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,275 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,276 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,277 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,278 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,783 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,784 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,785 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,785 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,786 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,787 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:37,788 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,241 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,242 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,243 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,244 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,244 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,245 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,246 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,707 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,709 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,709 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,710 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,711 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,711 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 16:28:38,712 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:73> exception=AssertionError()>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    assert response.status ==200
+AssertionError
+2018-09-14 17:01:10,000 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished coro=<load_biquge.async_html_parse() done, defined at D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py:74> exception=TypeError('Constructor parameter should be str',)>
+Traceback (most recent call last):
+  File "D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\spider.py", line 84, in async_html_parse
+    async with session.get(url,headers=headers) as response:
+  File "D:\anaconda\lib\site-packages\aiohttp\client.py", line 783, in __aenter__
+    self._resp = await self._coro
+  File "D:\anaconda\lib\site-packages\aiohttp\client.py", line 231, in _request
+    url = URL(url)
+  File "D:\anaconda\lib\site-packages\yarl\__init__.py", line 157, in __init__
+    raise TypeError("Constructor parameter should be str")
+TypeError: Constructor parameter should be str
