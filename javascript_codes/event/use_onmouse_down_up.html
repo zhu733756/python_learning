@@ -1,0 +1,18 @@
+<html>
+<head>
+<script>
+function lighton()
+{
+document.getElementById('myimage').src="bulbon.gif";
+}
+function lightoff()
+{
+document.getElementById('myimage').src="bulboff.gif";
+}
+</script>
+</head>
+<body>
+<img id="myimage" onmousedown="lighton()" onmouseup="lightoff()" src="/demo/bulboff.gif" width="100" height="180">
+<p>点击不释放鼠标灯将一直亮着!</p>
+</body>
+</html>

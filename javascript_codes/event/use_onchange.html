@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+function myFunction()
+{
+var x=document.getElementById("fname");
+x.value=x.value.toLowerCase();//toUpperCase
+}
+</script>
+</head>
+<body>
+输入你的名字: <input type="text" id="fname" onchange="myFunction()">
+<p>当你离开输入框后，函数将被触发，将小写字母转为大写字母。</p>
+</body>
+</html>
+//onchange 事件常结合对输入字段的验证来使用。

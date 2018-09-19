@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="demo"></div>
+<script>
+    txt="<p>Browser CodeName:"+navigator.appCodeName+"</p>";
+    txt+="<p>Browser Name:"+navigator.Name+"</p>";
+    txt+="<p>Browser version:"+navigator.version+"</p>";
+    txt+="<p>Browser enabled:"+navigator.cookieEnabled+"</p>";
+    txt+="<p>Browser platform:"+navigator.platform+"</p>";
+    txt+="<p>Browser user-agent:"+navigator.userAgent+"</p>";
+    txt+="<p>Browser user-agent language:"+navigator.userLanguage+"</p>";
+    document.getElementById("demo").innerHTML=txt;
+</script>
+
+</body>
+</html>

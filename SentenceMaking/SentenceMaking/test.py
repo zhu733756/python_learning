@@ -103,6 +103,19 @@ def get_q(q):
 #
 # import os
 # print(len([file for file in os.listdir('D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\data\天蚕土豆\斗破苍穹')]))
-list=[1,2,"3"]
-print(list.pop(2))
+# list=[1,2,"3"]
+# print(list.pop(2))
 
+import win32api
+
+def on_close(sig):
+    print("close!")
+
+import time,sys
+
+for i in range(100):
+    print(i)
+    time.sleep(1)
+
+sys.exit(1)
+win32api.SetConsoleCtrlHandler(on_close,True)

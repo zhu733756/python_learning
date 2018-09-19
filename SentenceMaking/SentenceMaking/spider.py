@@ -84,7 +84,7 @@ class load_biquge(object):
         async with aiohttp.ClientSession() as session:
             async with session.get(url,headers=headers) as response:
                     assert response.status ==200
-                    result=await response.content.decode('gb18030')
+                    result=await response.text()
                     page_content=BeautifulSoup(result,"html.parser")
                     text=[]
                     title = re.compile(r"\*").sub("", page_content.find("h1").string).strip()

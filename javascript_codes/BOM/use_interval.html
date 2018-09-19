@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>A script on this page starts this clock:</p>
+<p id="demo"></p>
+<button onclick="stop()">Stop</button>
+<button onclick="run()">Run</button>
+<script>
+//    var myvar=setInterval(function(){time()},1000);
+    function time()
+    {
+        var d=new Date();
+        var t=d.toLocaleTimeString();
+        document.getElementById("demo").innerHTML=t;
+
+    }
+
+    function run() {
+        var myvar=setInterval(function(){time()},1000);
+        this.stop=stop;
+        function stop() {
+            clearInterval(myvar)
+        }
+    }
+
+    function stop() {
+        var r=new run();
+        var s=r.stop();
+    }
+</script>
+</body>
+</html>
+
+//类似：window.setTimeout("javascript 函数",毫秒数);
+//类似：window.clearTimeout("javascript 函数",毫秒数);

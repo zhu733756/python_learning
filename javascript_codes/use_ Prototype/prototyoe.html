@@ -1,0 +1,29 @@
+<!--function myFunction()-->
+<!--{-->
+<!--$("h01").insert("Hello Prototype!");-->
+<!--}-->
+<!--Event.observe(window,"load",myFunction);-->
+
+<!--Event.observe() 接受三个参数：-->
+
+<!--您希望处理的 HTML DOM 或 BOM（浏览器对象模型）对象-->
+<!--您希望处理的事件-->
+<!--您希望调用的函数-->
+
+<!DOCTYPE html>
+<html>
+<script
+src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js">
+</script>
+<script>
+function myFunction()
+{
+$("h01").writeAttribute("style","color:red").insert("Hello Prototype!");
+}
+Event.observe(window,"load",myFunction);
+</script>
+</head>
+<body>
+<h1 id="h01"></h1>
+</body>
+</html>

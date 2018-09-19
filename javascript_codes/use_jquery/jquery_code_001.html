@@ -1,0 +1,123 @@
+引入：
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+
+function myFunction()
+{
+$("#h01").html("Hello jQuery");
+}
+$(document).ready(myFunction);
+<!--上面代码的最后一行，HTML DOM 文档对象被传递到 jQuery ：$(document)。-->
+<!--当您向 jQuery 传递 DOM 对象时，jQuery 会返回以 HTML DOM 对象包装的 jQuery 对象。-->
+<!--jQuery 函数会返回新的 jQuery 对象，其中的 ready() 是一个方法。-->
+
+$('').attr()修改属性和属性值
+$('').html()修改文本
+
+#文档在完全加载（就绪）之前运行 jQuery 代码。
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+
+$(this).hide() - 隐藏当前元素
+$("p").hide() - 隐藏所有段落
+$("p.test").hide() - 隐藏所有 class="test" 的段落
+$("#test").hide() - 隐藏所有 id="test" 的元素
+
+
+<html>
+<head>
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+    $("button").click(
+        function(){
+            $("p").hide();
+        });
+});
+</script>
+</head>
+<body>
+<h2>这是一个标题</h2>
+<p>这是一个段落。</p>
+<p>这是另一个段落。</p>
+<button>点我</button>
+</body>
+</html>
+
+$("*")	选取所有元素
+$(this)	选取当前 HTML 元素
+$("p.intro") 选取所有类为intro的p元素
+$("p:first") 选取第一个 p 元素$("ul li:first")	选取第一个 ul 元素的 第一个li元素
+$("ul li:first-child")	选取每个 ul 元素的 第一个li 元素
+$("[href]")	选取带有 href 属性的元素	在线实例
+$("a[target='_blank']")	选取所有 target 属性值等于"_blank"的 a 元素
+$("a[target!='_blank']")	选取所有 target 属性值不等于"_blank"的 a 元素
+$(":button")	选取所有 type="button" 的 button元素 和 input 元素
+$("tr:even")	选取偶数位置的 tr元素
+$("tr:odd")	选取奇数位置的 tr 元素
+选择器：#表示id，.表示class
+
+
+鼠标事件 click dblclick(双击) mouseenter(当鼠标指针穿过元素时，会发生 mouseenter 事件。) mouseleave
+键盘事件 keypress keydown keyup
+表单事件	 submit change focus(焦点) blur(失去焦点)
+文档/窗口事件 load resize scroll unload
+
+toggle()=show()+hide();显示、隐藏
+fadeToggle()=fadein()+fadeout();淡入、淡出
+slideToggle()=slidein()+slideout();滑动
+
+动画：
+$("button").click(function(){
+  var div=$("div");
+  div.animate({left:'100px'},"slow");
+  div.animate({fontSize:'3em'},"slow");
+});
+
+停止动画：
+$("#stop").click(function(){
+  $("#panel").stop();
+});
+
+callback
+$("button").click(function(){
+  $("p").hide("slow",function(){
+    alert("The paragraph is now hidden");
+  });
+});
+
+chain:
+$("#p1").css("color","red").slideUp(2000).slideDown(2000);
+等同于：
+<html>
+<head>
+<script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function()
+  {
+  $("button").click(function(){
+    $("#p1").css("color","red")
+      .slideUp(2000)
+      .slideDown(2000);
+  });
+});
+</script>
+</head>
+<body>
+<p id="p1">jQuery is fun!!</p>
+<button>Click me</button>
+</body>
+</html>
+
+
+
+
+
+
+
+
