@@ -52,7 +52,7 @@
   
   .RichEditor-styleButton {
     color: rgb(15, 15, 15);
-    border: 1px solid #999;
+    /* border: 1px solid #999; */
     position: center;
     cursor: pointer;
     margin-right: 16px;
