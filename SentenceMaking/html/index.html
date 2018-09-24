@@ -14,12 +14,26 @@
     <script src="./node_modules/react/umd/react.development.js"></script>
     <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
     <script src="./node_modules/immutable/dist/immutable.js"></script>
-    <script src="./node_modules/es6-shim/es6-shim.js"></script>
+    <!-- <script src="./node_modules/es6-shim/es6-shim.js"></script> -->
+    <script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
     <script src="./node_modules/draft-js/dist/Draft.js"></script>
     <script type="text/babel">
       'use strict';
-      const {Editor, EditorState, RichUtils, getDefaultKeyBinding} = Draft;
+      const {
+          convertFromRaw,
+          convertToRaw,
+          CompositeDecorator,
+          DefaultDraftBlockRenderMap,
+          ContentState,
+          Editor,
+          EditorState,
+          Entity,
+          RichUtils,
+          getDefaultKeyBinding,
+          KeyBindingUtil,
+          Modifier
+          } = Draft;
       class RichEditorExample extends React.Component {
         constructor(props) {
           super(props);
@@ -30,6 +44,11 @@
           this.mapKeyToEditorCommand = this._mapKeyToEditorCommand.bind(this);
           this.toggleBlockType = this._toggleBlockType.bind(this);
           this.toggleInlineStyle = this._toggleInlineStyle.bind(this);
+          this.storeHandle = this._storeHandle.bind(this);
+        }
+        _storeHandle(){
+            const content = this.state.editorState.getCurrentContent();
+            JSON.stringify(convertToRaw(content))
         }
         _handleKeyCommand(command, editorState) {
           const newState = RichUtils.handleKeyCommand(editorState, command);
@@ -103,6 +122,11 @@
                   spellCheck={true}
                 />
               </div>
+              <StyleButton
+                active={true}
+                label={"POST"} 
+                onToggle={this.props.storeHandle}
+                />
             </div>
           );
         }
