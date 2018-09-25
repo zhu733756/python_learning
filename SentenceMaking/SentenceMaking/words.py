@@ -44,7 +44,7 @@ class SentenceMaking(object):
     @lazyproperty
     def idioms(self):
         return json.dumps(list(pd.read_json(
-                    r'../chinese_xinhua/data/idiom.json',\
+                    r'../data/idiom.json',\
                             encoding="utf-8").loc[:, "word"]))
     @lazyproperty
     def stopwords(self):
