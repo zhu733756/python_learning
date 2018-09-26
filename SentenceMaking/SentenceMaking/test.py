@@ -16,8 +16,8 @@ __author__ = 'zhu733756'
 
 
 from __future__ import division
-from multiprocessing import Pool,freeze_support
-from tqdm import tqdm_gui,tqdm
+
+
 # class A(object):
 #
 #     def __init__(self,count):
@@ -65,23 +65,23 @@ from tqdm import tqdm_gui,tqdm
 #
 #
 
-from multiprocessing import Queue,Process,freeze_support
-from threading import Thread
-import queue,time
 
 def put_q(q):
-    for url in range(1,100):
+    for url in range(1, 100):
         q.put(url)
-        print("put into queue:",url,"\n")
+        print("put into queue:", url, "\n")
+
 
 def get_q(q):
     while True:
         if not q.empty():
-            if q.qsize() >9:
+            if q.qsize() > 9:
                 url = q.get()
-                print("get from queue:", url,"\n")
+                print("get from queue:", url, "\n")
         else:
             break
+
+
 #
 # if __name__ == '__main__':
 #     # freeze_support()
@@ -106,16 +106,16 @@ def get_q(q):
 # list=[1,2,"3"]
 # print(list.pop(2))
 
-import win32api
 
 def on_close(sig):
     print("close!")
 
-import time,sys
+
+import time, sys
 
 for i in range(100):
     print(i)
     time.sleep(1)
 
 sys.exit(1)
-win32api.SetConsoleCtrlHandler(on_close,True)
+win32api.SetConsoleCtrlHandler(on_close, True)

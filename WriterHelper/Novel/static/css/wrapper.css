@@ -1,0 +1,40 @@
+.container {
+    width: 98%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.editorSection {
+    width: 75%;
+    float: left;
+    min-width: 600px;
+}
+
+.editorTools{
+    width: 25%;
+    float: right;
+}
+
+.pannel {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.pannelHeader {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.pannelBody {
+    padding: 15px;
+}
