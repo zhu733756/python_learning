@@ -15,12 +15,14 @@ class SearchRes(object):
     def search_idioms(self, data):
         if len(data["words"]) < 4:
             print("不符合规则！")
-        idioms=pd.read_json('../idiom.json',encoding="utf-8")
-        if data["words"] in list(idioms.loc[:, "word"]):
-            result=idioms.iloc[idioms[idioms.word==data["words"]].index,:]
-            print(json.dumps(dict(result),ensure_ascii=False))
+        idioms=pd.read_json(r'H:\python_list\python_learning\WriterHelper\Novel\idiom.json',encoding="utf-8")
+        if any(idioms.loc[:,"word"].str.contains(data["words"])):
+            result=idioms[idioms.word==data["words"]].to_dict()
+            for k, v in result.items():
+                for vi in v.values():
+                    print({k :vi})
         else:
-            print("no such idioms!")
+             print("no such idioms!")
 
     def search_novels(self, data):
 
