@@ -11,7 +11,7 @@ from django import forms
 import os
 
 key_choices=(
-    ("novel","novel"),
+    ("novels","novels"),
     ("idioms","idioms"),
 )
 

@@ -1,23 +1,20 @@
 from django.shortcuts import render
+from django.http import HttpResponse,JsonResponse
 from .forms import SearchForm
-from tools import SearchTools
+from .tools import SearchTools
+import json
 
 def search(request):
-    if request.method =="POST":
-        form=SearchForm(request.POST)
-        if form.is_valid():
-            data=form.clean()
-            func_name="search_{}".format(data["key"])
-            searchRes=SearchTools.searchRes()
-            print(func_name)
-            if hasattr(searchRes,func_name):
-                func=getattr(searchRes,func_name)
-                func(data)
-            else:
-                print("no such func!")
-    else:
-        form = SearchForm()
-        return render(request, 'SearchBase.html', {'form': form})
+    form=SearchForm()
+    return render(request,"SearchPage.html",{"form":form})
 
-
+def searchRes(request):
+    key=request.GET["key"]
+    words=request.GET["words"]
+    data={
+        "key":key,
+        "words":words
+    }
+    res=SearchTools.SearchRes(data).search()
+    return HttpResponse(res, content_type='application/json')
 

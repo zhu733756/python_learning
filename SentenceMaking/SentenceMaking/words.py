@@ -44,7 +44,7 @@ class SentenceMaking(object):
     @lazyproperty
     def idioms(self):
         return json.dumps(list(pd.read_json(
-                    r'../data/idiom.json',\
+                    '..\\data\\idiom.json',\
                             encoding="utf-8").loc[:, "word"]))
     @lazyproperty
     def stopwords(self):
@@ -116,13 +116,13 @@ class SentenceMaking(object):
             self.save_json()
 
     def save_json(self):
-        path="./Sentencekey/%s"%("-".join(self.get_auther_and_title()))
+        path=".\\Sentencekey\\%s"%("-".join(self.get_auther_and_title()))
         if not os.path.exists(path):
             os.makedirs(path)
         with open(os.path.join(path,self.key)+".json",\
                   "a+",encoding="utf-8") as f:
-            f.write(json.dumps(self.split_keywords,\
-                               ensure_ascii=False)+"\n")
+            f.write(json.dumps(self.split_keywords,
+                               ensure_ascii=False,)+"\n")
 
 def generate_key(mode,key):
     instance = SentenceMaking(mode,key)
@@ -139,8 +139,8 @@ def generate_key(mode,key):
 
 if __name__ == "__main__":
 
-    generate_key("./data/天蚕土豆/斗破苍穹","verb",)
-    generate_key("./data/天蚕土豆/斗破苍穹","idiom")
+    generate_key("./data/失落叶/天行","verb",)
+    # generate_key("./data/天蚕土豆/斗破苍穹","idiom")
 
 
 
