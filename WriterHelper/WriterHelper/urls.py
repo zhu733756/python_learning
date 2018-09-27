@@ -20,5 +20,4 @@ from Novel import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('search/', views.search,name="search"),
-    re_path('searchRes/', views.searchRes,name="search-Res"),
 ]

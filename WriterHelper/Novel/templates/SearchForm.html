@@ -1,26 +1,26 @@
-<!--<script>-->
-    <!--$.ajaxSetup({-->
-    <!--data: {csrfmiddlewaretoken: '{{ csrf_token }}' },-->
-<!--});-->
-<!--</script>-->
-<form action="/searchRes/" method='get'>
-    <!--{% csrf_token %}-->
-    {{ form }}
+<script src ="http://www.ziqiangxuetang.com/media/django/csrf.js"></script>
+<form>
+    {% csrf_token %}
+    <p>key：<input type="text" id="key"></p>
+    <p>words：<input type="text" id="words"></p>
     <input type="submit" value="提交" id="submit">
 </form>
 <div id='showform'></div>
 <script>
-    $(document).ready(function (){
-        $("#submit").click(function () {
-            var key=form.key;
-            var words=form.words;
-            $.get("{% url 'search-Res' %}",
-                {"key":key,"words":words},
-                function (ret) {
-                    $("#showform").html(ret);
-                }
-            )
-        });
+    $("#submit").click(function () {
+        $.ajax({
+            url: "/search/",
+            type:"POST",
+            data:{
+                "key":$("#key").val(),
+                "words":$("#words").val()
+            },
+            "headers":{"X-CSRFToken": $('[name="csrfmiddlewaretoken"]').val()},
+            "ContentType":"application/json",
+            success: function (data) {
+                var dataObj=JSON.parse(data);
+                $("div#showform").text(dataObj["msg"])
+        }
+        })
     })
-
 </script>

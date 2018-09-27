@@ -5,16 +5,18 @@ from .tools import SearchTools
 import json
 
 def search(request):
-    form=SearchForm()
-    return render(request,"SearchPage.html",{"form":form})
+    if request.is_ajax():
+        js_data=json.load(request.body.decode())
+        data = {
+            "key": js_data.get("key"),
+            "words": js_data.get("words"),
+        }
+        print(data)
+        res = SearchTools.SearchRes(data).search()
+        return HttpResponse(res, content_type='application/json')
+    else:
+        return render(request,"SearchPage.html")
 
-def searchRes(request):
-    key=request.GET["key"]
-    words=request.GET["words"]
-    data={
-        "key":key,
-        "words":words
-    }
-    res=SearchTools.SearchRes(data).search()
-    return HttpResponse(res, content_type='application/json')
+
+
 

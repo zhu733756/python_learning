@@ -12,8 +12,8 @@ import os,json
 
 class SearchRes(object):
 
-    idioms_path=r"D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\data\idiom.json"
-    novels_path=r"D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\Sentencekey"
+    idioms_path="H:\python_list\python_learning\SentenceMaking\data\idiom.json"
+    novels_path="H:\python_list\python_learning\SentenceMaking\SentenceMaking"
 
     def __init__(self,data=None):
         self._data=data
