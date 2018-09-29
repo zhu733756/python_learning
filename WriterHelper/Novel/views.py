@@ -2,21 +2,20 @@ from django.shortcuts import render
 from django.http import HttpResponse,JsonResponse
 from .forms import SearchForm
 from .tools import SearchTools
-import json
+from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
+
+def index(request):
+    # form=SearchForm()
+    return render(request, "SearchPage.html")
 
 def search(request):
-    if request.is_ajax():
-        js_data=json.load(request.body.decode())
-        data = {
-            "key": js_data.get("key"),
-            "words": js_data.get("words"),
-        }
-        print(data)
-        res = SearchTools.SearchRes(data).search()
-        return HttpResponse(res, content_type='application/json')
-    else:
-        return render(request,"SearchPage.html")
-
-
-
+    res={}
+    res.setdefault("words",request.POST["words"])
+    idioms = SearchTools.SearchRes(res).search_idioms()
+    novels = SearchTools.SearchRes(res).search_novels()
+    data={
+        "idioms":idioms,
+        "novels":novels,
+    }
+    return JsonResponse(data)
 

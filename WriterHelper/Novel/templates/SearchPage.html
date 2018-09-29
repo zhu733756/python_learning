@@ -3,31 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>SearchPage</title>
-    <link rel="stylesheet" href="/static/css/rich.css" />
+    <link rel="stylesheet" href="/static/css/wrapper.css" />
     <script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
 </head>
 <body>
-    <!--<div class="container">-->
-        <!--<div class="row">-->
-            <!--<div class="editorSection">-->
-                <!--<div class="pannel">-->
-                    <!--<div class="pannelHeader">head</div>-->
-                    <!--<div class="pannelBody">-->
-                        <!--<div id="target">ceshi</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="editorTools">-->
-                <!--<div class="pannel">-->
-                    <!--<div class="pannelHeader">head</div>-->
-                    <!--<div class="pannelBody">-->
-                        <!--工具栏-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <p>请选择key和words进行搜索：</p>
-    {% include "SearchForm.html" %}
+    <div class="container">
+        <div class="row">
+            <div class="editorSection">
+                <div class="pannel">
+                    <div class="pannelHeader"><h2>搜索框</h2></div>
+                    <div class="pannelBody">
+                        <div id="target">
+                            <form id="post-form">
+                                {% csrf_token %}
+                                <p><input type="text" id="words" name="words" value="不可思议"></p>
+                                <p><button type="button" id='submit'>提交</button></p>
+                                <p style="color: #D94A38;font-size: 4px">*务必输入合法有效的动词或成语</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="editorTools">
+                <div class="pannel">
+                    <div class="pannelHeader header_2"></div>
+                    <div class="pannelBody">
+                        <div id="idioms"></div>
+                        <div id="novels"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script type="text/javascript">
+    $("#submit").click(function () {
+            $.ajax({
+                url: "{% url 'search' %}",
+                type: "POST",
+                data: $("#post-form").serialize(),
+                success: function (data) {
+                    $(".header_2").html("<h2>搜索结果</h2>");
+                    $("#idioms").html("");
+                    $("#novels").html("");
+                    $("br").remove();
+                    var idioms=data["idioms"];
+                    var novels=data["novels"];
+
+                    if (idioms.constructor === String){
+                        if (idioms){
+                            var ul=$("<ul></ul>").text(idioms);
+                            $("#idioms").append(ul);
+                        }
+                    }
+                    else{
+                       $("#idioms").html("<h3>成语结果集</h3>");
+                       $.each(idioms, function(key, value){
+                           $("#idioms").append($("<h4></h4>").html(key));
+                           var ul=$("<ul></ul>");
+                           var li=ul.append($("<li></li>").text(value));
+                           $("#idioms").append(li);
+                         });
+                       $("<br>").insertAfter("#idioms");
+                    }
+                    if (novels.constructor === Array){
+                        var last_novel_name;
+                        for (var i = novels.length - 1; i >= 0; i--) {
+                            $.each(novels[i], function(key, value){
+                                $("#novels").append($("<h3></h3>").text("小说-"+key));
+                                $.each(value,function (k,v) {
+                                    for (var y = v.length - 1; y>= 0; y--){
+                                        $("#novels").append($("<span></span>").text(k));
+                                        var ul=$("<ul></ul>");
+                                        var m="novels_li_"+i.toString()+"_"+y.toString();
+                                        var li=ul.append($("<li></li>").html(v[y])
+                                            .addClass(m));
+                                        var button=$('<button onclick="click(this.tag)">' +
+                                            'Copy</button>');
+                                        $("#novels").append(li.append(button));
+                                }
+                            });
+                            last_novel_name=novels[i]["novel_info"];
+                            $("<br>").insertAfter("#novels");
+                            })
+                        }}
+                   else {
+                        var ul=$("<ul></ul>");
+                        $("#novels").append(ul.text(novels));
+                    }
+                }
+                })
+            })
+</script>
+<script>
+    function click(tag) {
+        console.log(tag);
+        var btn = document.getElementsByTagName(tag.parent("li"));
+        var clipboard = new ClipboardJS(btn);
+        clipboard.on('success', function(e) {
+            console.log(e);
+        });
+        clipboard.on('error', function(e) {
+            console.log(e);
+        });
+    }
+
+</script>
 </html>
