@@ -12,8 +12,10 @@ import os,json
 
 class SearchRes(object):
 
-    idioms_path="D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\data\idiom.json"
-    novels_path="D:\gitdata\gitdataRes\python_learning\python_learning\SentenceMaking\SentenceMaking\Sentencekey"
+    Base_Dir=os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+    idioms_path=os.path.join(Base_Dir,"SentenceMaking\data\idiom.json")
+    novels_path=os.path.join(Base_Dir,"SentenceMaking\SentenceMaking\Sentencekey")
+
 
     def __init__(self,data=None):
         self._data=data
@@ -78,4 +80,4 @@ class SearchRes(object):
         else:
             return "没有此方法！"
 
-print((SearchRes({"key":"idioms","words":""}).search()))
+# print(SearchRes({"key":"idioms","words":"不可思议"}).search())

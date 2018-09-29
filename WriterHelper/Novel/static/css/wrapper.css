@@ -12,15 +12,15 @@
 }
 
 .editorSection {
-    width: 50%;
+    width: 20%;
     float: left;
     min-width: 500px;
 }
 
 .editorTools{
-    width: 50%;
+    width: 80%;
     float: left;
-    max-width: 200px;
+    max-width: 800px;
 }
 
 .pannel {

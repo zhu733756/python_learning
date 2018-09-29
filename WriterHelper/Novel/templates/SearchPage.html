@@ -18,8 +18,8 @@
                             <form id="post-form">
                                 {% csrf_token %}
                                 <p><input type="text" id="words" name="words" value="不可思议"></p>
-                                <p><button type="button" id='submit'>提交</button></p>
                                 <p style="color: #D94A38;font-size: 4px">*务必输入合法有效的动词或成语</p>
+                                <p><button type="button" id='submit'>提交</button></p>
                             </form>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                                         var m="novels_li_"+i.toString()+"_"+y.toString();
                                         var li=ul.append($("<li></li>").html(v[y])
                                             .addClass(m));
-                                        var button=$('<button onclick="click(this.tag)">' +
+                                        var button=$('<button onclick="click(this)">' +
                                             'Copy</button>');
                                         $("#novels").append(li.append(button));
                                 }
@@ -99,7 +99,7 @@
 <script>
     function click(tag) {
         console.log(tag);
-        var btn = document.getElementsByTagName(tag.parent("li"));
+        var btn = document.getElementsByTagName(tag.parent("ul")("li"));
         var clipboard = new ClipboardJS(btn);
         clipboard.on('success', function(e) {
             console.log(e);
