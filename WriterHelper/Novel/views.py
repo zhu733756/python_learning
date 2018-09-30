@@ -5,7 +5,6 @@ from .tools import SearchTools
 from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
 
 def index(request):
-    # form=SearchForm()
     return render(request, "SearchPage.html")
 
 def search(request):
