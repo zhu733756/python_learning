@@ -1,0 +1,8 @@
+<p></p>
+<p>Ps:从库目中查询你要搜索的作者或作品</p>
+<p style="color:red">警告：为了保证正确性，请输入合法并存在的字符。</p>
+<form id="dir">
+    {% csrf_token %}
+    <p><input id="author_s" name="author_s" type="text" value="天行"></p>
+    <p><button type="button" id="search_dir">验证一下</button></p>
+</form>

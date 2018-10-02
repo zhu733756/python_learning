@@ -9,8 +9,7 @@ __author__ = 'zhu733756'
 """
 import os,re,jieba,sys
 import jieba.posseg as pseg
-from collections import Counter
-import logging,json
+import json
 import pandas as pd
 from multiprocessing import Pool
 from tqdm import tqdm
@@ -139,8 +138,8 @@ def generate_key(mode,key):
 
 if __name__ == "__main__":
 
-    generate_key("./data/失落叶/天行","verb",)
-    # generate_key("./data/天蚕土豆/斗破苍穹","idiom")
+    # generate_key("./data/失落叶/天行","verb",)
+    generate_key("./data/天蚕土豆/斗破苍穹","idiom")
 
 
 
