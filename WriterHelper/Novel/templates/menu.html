@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4 ">
+        <div class="col-md-4">
             <ul class="nav nav-pills" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link  active" data-toggle="pill" href="#db">库目</a>
@@ -63,8 +63,10 @@
 </div>
 </body>
 <script type="text/javascript">
-    $("#search_dir").click(function () {
-        $.ajax({
+    $('#search_dir').click(search_exist("#search_dir"));
+    function search_exist(selector) {
+        $(selector).click(function () {
+            $.ajax({
                 url:"{% url 'search_dir' %}",
                 type:"POST",
                 data:$("#dir").serialize(),
@@ -77,7 +79,6 @@
                         $("#dir_show").html(info);
                     }
                     else{
-                        var dl=$("<div></div>").addClass("card");
                         $.each(info,function (k,val) {
                             var div=$("<div></div>");
                             var a=$("<a></a>").attr("data-toggle","collapse").html("+");
@@ -91,14 +92,12 @@
                             $("#dir_show").append(div);
                             $("#dir_show").append(inner);
                         });
-
                     }
                 }
-
             }
-
         )
     })
+    }
 </script>
 <script type="text/javascript">
     $("#submit").click(function () {
@@ -115,39 +114,47 @@
                 var novels = data["novels"];
                 if (idioms.constructor === String) {
                     if (idioms) {
-                        var ul = $("<ul></ul>").text(idioms);
-                        $("#idioms").append(ul);
+                        var dl = $("<dl></dl>").text(idioms);
+                        $("#idioms").append(dl);
                     }
                 }
                 else {
-                    $("#idioms").html("<div class='row'><h4><b>成语结果集</b></h4></div>");
+                    $("#idioms").append("<div class='row'><h4><dl>成语结果集</dl></h4></div>");
+                    var dl = $("<dl></dl>");
                     $.each(idioms, function (key, value) {
-                        $("#idioms").append($("<h4></h4>").html(key));
-                        var ul = $("<ul></ul>");
-                        var li = ul.append($("<li></li>").text(value));
-                        $("#idioms").append(li);
+                        var dt=($("<dt></dt>").html(key));
+                        var dd = $("<dd></dd>").html(value);
+                        dl.append(dt);
+                        dl.append(dd);
                     });
+                    $("#idioms").append($("<div class='row'></div>").append(dl));
                     $("<br>").insertAfter("#idioms");
                 }
                 if (novels.constructor === Array) {
                     for (var i = novels.length - 1; i >= 0; i--) {
                         $.each(novels[i], function (key, value) {
-                            $("#novels").append($("<div class='row'><h4><b></b></h4></div>").text("小说-" + key));
+                            var h4dl=$("<h4></h4>").append($("<dl></dl>").append("小说-" + key));
+                            $("#novels").append($("<div class='row'></div>").append(h4dl));
+                            var cls_row=$("<div class='row'></div>");
+                            var dl=$("<dl></dl>");
                             $.each(value, function (k, v) {
                                 var x = Math.floor(Math.random() * 1000);
                                 for (var y = v.length - 1; y >= 0; y--) {
-                                    $("#novels").append($("<span></span>").text(k));
-                                    var ul = $("<ul></ul>");
+                                    var dt=($("<dt></dt>").text(k));
                                     var m = "novels_li_" + x.toString() + "_" + y.toString();
                                     var n = "novels_li_" + y.toString() + "_" + x.toString();
-                                    var li = ul.append($("<li></li>").html(v[y]).addClass(m));
-                                    $("#novels").append(li.append(toggle(m, n)));
+                                    var dd = $("<dd></dd>").html(v[y]).addClass(m);
+                                    dl.append(dt);
+                                    dd.append(toggle(m,n));
+                                    dl.append(dd);
+                                    cls_row.append(dl);
                                     var clipboard = new ClipboardJS("." + n.toString());
                                     clipboard.on('error', function (e) {
                                         console.log(e);
                                     });
                                 }
                             });
+                            $("#novels").append(cls_row);
                             $("<br>").insertAfter("#novels");
                         })
                     }
@@ -166,7 +173,6 @@
         return btn.on("click", function () {
             $(this).addClass(n);
         })
-
     }
 </script>
 </html>
