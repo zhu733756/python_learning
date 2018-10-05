@@ -29,32 +29,35 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <ul class="nav nav-pills" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link  active" data-toggle="pill" href="#db">库目</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#spider">添加</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#form">搜索</a>
-                </li>
-            </ul>
-
-            <div class="tab-content">
-                <div id="db" class="container-fluid tab-pane active">
-                    {% include "searchDir.html" %}
-                </div>
-                <div id="spider" class="container-fluid tab-pane fade">
-                    <h3>HOME2</h3>
-                </div>
-                <div id="form" class="container-fluid tab-pane fade">
-                    {% include "searchForm.html" %}
+        <div class="col-md-3">
+            <div class="row">
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item col-md-4">
+                        <a class="nav-link  active" data-toggle="pill" href="#db">库目</a>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <a class="nav-link" data-toggle="pill" href="#spider">添加</a>
+                    </li>
+                    <li class="nav-item col-md-4">
+                        <a class="nav-link" data-toggle="pill" href="#form">搜词</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="tab-content">
+                    <div id="db" class="container-fluid tab-pane active">
+                        {% include "searchDir.html" %}
+                    </div>
+                    <div id="spider" class="container-fluid tab-pane fade">
+                        {% include "searchSpider.html" %}
+                    </div>
+                    <div id="form" class="container-fluid tab-pane fade">
+                        {% include "searchForm.html" %}
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
             <div id="dir_show"></div>
             <div id="idioms"></div>
             <div id="novels"></div>
@@ -67,36 +70,36 @@
     function search_exist(selector) {
         $(selector).click(function () {
             $.ajax({
-                url:"{% url 'search_dir' %}",
-                type:"POST",
-                data:$("#dir").serialize(),
-                success: function (info) {
-                    console.log(typeof info);
-                    $("#dir_show").html("");
-                    $("#idioms").html("");
-                    $("#novels").html("");
-                    if (info.constructor === String){
-                        $("#dir_show").html(info);
-                    }
-                    else{
-                        $.each(info,function (k,val) {
-                            var div=$("<div></div>");
-                            var a=$("<a></a>").attr("data-toggle","collapse").html("+");
-                            var tag="collapse_"+k+"_"+val.length.toString();
-                            div.append(a.attr("href","#"+tag.toString()));
-                            div.append("&thinsp;"+k);
-                            var inner=$("<div></div>").addClass("collapse").attr("id",tag.toString());
-                            for(var e=val.length-1;e>=0;e--){
-                                inner.append("&nbsp;"+"&nbsp;"+"- "+val[e]+"<br>")
-                            }
-                            $("#dir_show").append(div);
-                            $("#dir_show").append(inner);
-                        });
+                    url: "{% url 'search_dir' %}",
+                    type: "POST",
+                    data: $("#dir").serialize(),
+                    success: function (info) {
+                        console.log(typeof info);
+                        $("#dir_show").html("");
+                        $("#idioms").html("");
+                        $("#novels").html("");
+                        if (info.constructor === String) {
+                            $("#dir_show").html(info);
+                        }
+                        else {
+                            $.each(info, function (k, val) {
+                                var div = $("<div></div>");
+                                var a = $("<a></a>").attr("data-toggle", "collapse").html("+");
+                                var tag = "collapse_" + k + "_" + val.length.toString();
+                                div.append(a.attr("href", "#" + tag.toString()));
+                                div.append("&thinsp;" + k);
+                                var inner = $("<div></div>").addClass("collapse").attr("id", tag.toString());
+                                for (var e = val.length - 1; e >= 0; e--) {
+                                    inner.append("&nbsp;" + "&nbsp;" + "- " + val[e] + "<br>")
+                                }
+                                $("#dir_show").append(div);
+                                $("#dir_show").append(inner);
+                            });
+                        }
                     }
                 }
-            }
-        )
-    })
+            )
+        })
     }
 </script>
 <script type="text/javascript">
@@ -122,7 +125,7 @@
                     $("#idioms").append("<div class='row'><h4><dl>成语结果集</dl></h4></div>");
                     var dl = $("<dl></dl>");
                     $.each(idioms, function (key, value) {
-                        var dt=($("<dt></dt>").html(key));
+                        var dt = ($("<dt></dt>").html(key));
                         var dd = $("<dd></dd>").html(value);
                         dl.append(dt);
                         dl.append(dd);
@@ -133,19 +136,19 @@
                 if (novels.constructor === Array) {
                     for (var i = novels.length - 1; i >= 0; i--) {
                         $.each(novels[i], function (key, value) {
-                            var h4dl=$("<h4></h4>").append($("<dl></dl>").append("小说-" + key));
+                            var h4dl = $("<h4></h4>").append($("<dl></dl>").append("小说-" + key));
                             $("#novels").append($("<div class='row'></div>").append(h4dl));
-                            var cls_row=$("<div class='row'></div>");
-                            var dl=$("<dl></dl>");
+                            var cls_row = $("<div class='row'></div>");
+                            var dl = $("<dl></dl>");
                             $.each(value, function (k, v) {
                                 var x = Math.floor(Math.random() * 1000);
                                 for (var y = v.length - 1; y >= 0; y--) {
-                                    var dt=($("<dt></dt>").text(k));
+                                    var dt = ($("<dt></dt>").text(k));
                                     var m = "novels_li_" + x.toString() + "_" + y.toString();
                                     var n = "novels_li_" + y.toString() + "_" + x.toString();
                                     var dd = $("<dd></dd>").html(v[y]).addClass(m);
                                     dl.append(dt);
-                                    dd.append(toggle(m,n));
+                                    dd.append(toggle(m, n));
                                     dl.append(dd);
                                     cls_row.append(dl);
                                     var clipboard = new ClipboardJS("." + n.toString());

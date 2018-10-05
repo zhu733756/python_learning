@@ -1,9 +1,9 @@
 <p></p>
-<p>Ps:从库目中查询你要搜索的作者或作品</p>
-<p style="color:red">警告：为了保证正确性，请输入合法并存在的字符。</p>
+<p>库目简介：库目可用来查询本地书籍信息。</p>
+<p style="color:red;font-size: small">警告：为了保证正确性，请输入合法并存在的字符。</p>
 <form id="dir">
     {% csrf_token %}
-    <p>选择查询作者或书籍，也可以不输入任何内容，直接搜索所有库目：</p>
+    <p>输入要查询作者或书籍，也可以直接点击搜索所有库目：</p>
     <p><input id="author_s" name="author_s" type="text" value="天行"></p>
     <p><button class="btn btn-primary" type="button" id="search_dir" >搜索库目</button></p>
 </form>
