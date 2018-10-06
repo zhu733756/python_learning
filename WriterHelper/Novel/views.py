@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from .tools import SearchTools
+from .tools import SearchTools,Crawler
 import os
 
 def index(request):
@@ -12,18 +12,18 @@ def search_dir(request):
     novels_path = SearchTools.SearchRes.find_searchKey("verb")
     idioms_path.extend(novels_path)
     author_info_path=set([os.path.dirname(path) for path in idioms_path])
-    info={}
+    info_dir={}
     if req:
         for path in author_info_path:
             author, book = os.path.split(path)[-1].split("-")[:]
             if  req in path:
-                info.setdefault(author,[]).append(book)
+                info_dir.setdefault(author,[]).append(book)
     else:
         for path in author_info_path:
             author, book = os.path.split(path)[-1].split("-")[:]
-            info.setdefault(author,[]).append(book)
-    if info:
-        return JsonResponse(info)
+            info_dir.setdefault(author,[]).append(book)
+    if info_dir:
+        return JsonResponse(info_dir)
     else:
         return JsonResponse("没有检测到可用书籍信息！",safe=False)
 
@@ -38,5 +38,24 @@ def search_form(request):
     }
     return JsonResponse(data)
 
-def spider(request):
-    pass
+def search_booklist(request):
+    book_req=request.POST.get("search_key")
+    search_spider=Crawler.BookInfoSpider()
+    if ";" or ":" not in book_req:
+        res=search_spider.split_search_key(book_req)
+        if res:
+            return JsonResponse(res)
+    if ";" in book_req:
+        book_req=book_req.replace("；",";").replace("：",":")
+        args=[arg for arg in book_req.split(";")[:] if ":" not in arg]
+        kwargs=[arg for arg in book_req.split(";")[:] if arg not in args]
+        print(args,kwargs)
+        if kwargs:
+            kwargs={item.split(":")[0]:item.split(":")[1] for item in kwargs}
+            all_res=search_spider.split_search_key(*args,**kwargs)
+            print("all:",all_res)
+            return JsonResponse(all_res,safe=False)
+        return JsonResponse(search_spider.split_search_key(*args))
+
+
+
