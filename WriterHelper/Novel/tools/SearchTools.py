@@ -16,7 +16,6 @@ class SearchRes(object):
     idioms_path=os.path.join(Base_Dir,"SentenceMaking\data\idiom.json")
     novels_path=os.path.join(Base_Dir,"SentenceMaking\SentenceMaking\Sentencekey")
 
-
     def __init__(self,data=None):
         self._data=data
 
@@ -59,16 +58,17 @@ class SearchRes(object):
         else:
             return "no such %s in novels!"%searchJsonKey
 
-    def find_searchKey(self,searchKey):
+    @staticmethod
+    def find_searchKey(searchKey):
 
         res=[]
-        for dirname in os.listdir(self.novels_path):
-            dirpath=self.novels_path+"\\"+dirname
+        for dirname in os.listdir(SearchRes.novels_path):
+            dirpath=SearchRes.novels_path+"\\"+dirname
             if os.path.isdir(dirpath):
                 for file in os.listdir(dirpath):
                     if searchKey in file:
                         res.append(
-                            self.novels_path+"\\%s"%dirname+"\\%s"%file
+                            SearchRes.novels_path+"\\%s"%dirname+"\\%s"%file
                         )
         return res
 
@@ -80,4 +80,4 @@ class SearchRes(object):
         else:
             return "没有此方法！"
 
-# print(SearchRes({"key":"idioms","words":"不可思议"}).search())
+# print(SearchRes({"key":"novels","words":"掠"}).search())

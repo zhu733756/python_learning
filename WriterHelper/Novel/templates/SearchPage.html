@@ -14,14 +14,12 @@
                 <div class="pannel">
                     <div class="pannelHeader"><h2>搜索框</h2></div>
                     <div class="pannelBody">
-                        <div id="target">
                             <form id="post-form">
                                 {% csrf_token %}
-                                <p><input type="text" id="words" name="words" value="不可思议"></p>
+                                <p><input type="text" id="words" name="words" value="掠"></p>
                                 <p style="color: #D94A38;font-size: 4px">*务必输入合法有效的动词或成语</p>
                                 <p><button type="button" id='submit'>提交</button></p>
                             </form>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -50,7 +48,6 @@
                     $("br").remove();
                     var idioms=data["idioms"];
                     var novels=data["novels"];
-
                     if (idioms.constructor === String){
                         if (idioms){
                             var ul=$("<ul></ul>").text(idioms);
@@ -68,23 +65,24 @@
                        $("<br>").insertAfter("#idioms");
                     }
                     if (novels.constructor === Array){
-                        var last_novel_name;
                         for (var i = novels.length - 1; i >= 0; i--) {
                             $.each(novels[i], function(key, value){
                                 $("#novels").append($("<h3></h3>").text("小说-"+key));
+                                var x=Math.floor(Math.random()*1000);
                                 $.each(value,function (k,v) {
-                                    for (var y = v.length - 1; y>= 0; y--){
-                                        $("#novels").append($("<span></span>").text(k));
+                                    for (var y = v.length - 1; y>= 0; y--,x--){
+                                        $("#novels").append($("<div></div>").text(k));
                                         var ul=$("<ul></ul>");
-                                        var m="novels_li_"+i.toString()+"_"+y.toString();
-                                        var li=ul.append($("<li></li>").html(v[y])
-                                            .addClass(m));
-                                        var button=$('<button onclick="click(this)">' +
-                                            'Copy</button>');
-                                        $("#novels").append(li.append(button));
+                                        var m="novels_i_"+x.toString()+"_y"+y.toString();
+                                        var n="novels_i_"+y.toString()+"_x"+x.toString();
+                                        var li=ul.append($("<li></li>").html(v[y]).addClass(m));
+                                        $("#novels").append(li.append(toggler(m,n)));
+                                        var clipboard = new ClipboardJS((".")+n.toString());
+                                        clipboard.on('error', function(e) {
+                                                            console.log(e);
+                                                        });
                                 }
                             });
-                            last_novel_name=novels[i]["novel_info"];
                             $("<br>").insertAfter("#novels");
                             })
                         }}
@@ -97,17 +95,12 @@
             })
 </script>
 <script>
-    function click(tag) {
-        console.log(tag);
-        var btn = document.getElementsByTagName(tag.parent("ul")("li"));
-        var clipboard = new ClipboardJS(btn);
-        clipboard.on('success', function(e) {
-            console.log(e);
-        });
-        clipboard.on('error', function(e) {
-            console.log(e);
-        });
+    function toggler(m,n) {
+        var button=$('<button>复制</button>').
+            attr("data-clipboard-target",(".")+m.toString());
+        return button.on("click",function () {
+                $(this).addClass(n)
+            })
     }
-
 </script>
 </html>
