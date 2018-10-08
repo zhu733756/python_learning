@@ -20,6 +20,10 @@ from Novel import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index,name="home"),
-    path('search_dir', views.search_dir,name="dir"),
     path('search/', views.search,name="search"),
+    path('search_form/', views.search_form,name="search_form"),
+    path('search_dir/', views.search_dir,name="search_dir"),
+    path('search_booklist/', views.search_booklist,name="search_booklist"),
+    path('search_crawler_status/', views.search_crawler_status,name="search_crawler_status")
 ]
+
